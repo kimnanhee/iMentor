@@ -1,0 +1,2061 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AAC_FORMAT	libhdmi/include/audio.h	/^    AAC_FORMAT,$/;"	e	enum:AudioFormat
+AC3_FORMAT	libhdmi/include/audio.h	/^    AC3_FORMAT,$/;"	e	enum:AudioFormat
+ALIGN	libhdmi/fimc_lib.c	45;"	d	file:
+ALLOC_MEM_T	libhdmi/include/s3c-cmm.h	/^} ALLOC_MEM_T;$/;"	t	typeref:struct:tagALLOC_MEM_T
+APP_data	libhdmi/include/videodev2.h	/^	char APP_data[60];      \/* Data in the JPEG APPn segment. *\/$/;"	m	struct:v4l2_jpegcompression
+APP_len	libhdmi/include/videodev2.h	/^	int  APP_len;           \/* Length of data in JPEG APPn segment *\/$/;"	m	struct:v4l2_jpegcompression
+APPn	libhdmi/include/videodev2.h	/^	int  APPn;              \/* Number of APP segment to be written,$/;"	m	struct:v4l2_jpegcompression
+AR	Makefile	/^AR      =$(CROSS_COMPILE)ar$/;"	m
+AR	libhdmi/Makefile	/^AR      =$(CROSS_COMPILE)ar$/;"	m
+ARFLAGS	Makefile	/^ARFLAGS = rv$/;"	m
+ARFLAGS	libhdmi/Makefile	/^ARFLAGS = rv$/;"	m
+ARGB16	libhdmi/include/s3c_pp.h	/^	RGB8, ARGB8, RGB16, ARGB16, RGB18, RGB24, RGB30, ARGB24,$/;"	e	enum:__anon24
+ARGB24	libhdmi/include/s3c_pp.h	/^	RGB8, ARGB8, RGB16, ARGB16, RGB18, RGB24, RGB30, ARGB24,$/;"	e	enum:__anon24
+ARGB8	libhdmi/include/s3c_pp.h	/^	RGB8, ARGB8, RGB16, ARGB16, RGB18, RGB24, RGB30, ARGB24,$/;"	e	enum:__anon24
+ATRAC_FORMAT	libhdmi/include/audio.h	/^    ATRAC_FORMAT,$/;"	e	enum:AudioFormat
+AudioFormat	libhdmi/include/audio.h	/^enum AudioFormat$/;"	g
+BASE_VIDIOC_PRIVATE	libhdmi/include/videodev2.h	1441;"	d
+BPP	libhdmi/fbapi.h	5;"	d
+CBYCRY	libhdmi/include/s3c_pp.h	/^	CRYCBY, CBYCRY, YCRYCB, YCBYCR, YUV444 \/\/ Interleave$/;"	e	enum:__anon24
+CC	Makefile	/^CC      =$(CROSS_COMPILE)gcc #--verbose$/;"	m
+CC	libhdmi/Makefile	/^CC      =$(CROSS_COMPILE)gcc #--verbose$/;"	m
+CECAllocLogicalAddress	libhdmi/libcec.c	/^int CECAllocLogicalAddress(int paddr, enum CECDeviceType devtype)$/;"	f
+CECCheckMessageMode	libhdmi/libcec.c	/^int CECCheckMessageMode(unsigned char opcode, int broadcast)$/;"	f
+CECCheckMessageSize	libhdmi/libcec.c	/^int CECCheckMessageSize(unsigned char opcode, int size)$/;"	f
+CECClose	libhdmi/libcec.c	/^int CECClose()$/;"	f
+CECDeviceType	libhdmi/libcec.h	/^enum CECDeviceType {$/;"	g
+CECIgnoreMessage	libhdmi/libcec.c	/^int CECIgnoreMessage(unsigned char opcode, unsigned char lsrc)$/;"	f
+CECOpen	libhdmi/libcec.c	/^int CECOpen()$/;"	f
+CECPrintFrame	libhdmi/libcec.c	/^void CECPrintFrame(unsigned char *buffer, unsigned int size)$/;"	f
+CECReceiveMessage	libhdmi/libcec.c	/^int CECReceiveMessage(unsigned char *buffer, int size, long timeout)$/;"	f
+CECRun	libhdmi/hdmi_api.c	/^int CECRun()$/;"	f
+CECSendMessage	libhdmi/libcec.c	/^int CECSendMessage(unsigned char *buffer, int size)$/;"	f
+CECSetLogicalAddr	libhdmi/libcec.c	/^int CECSetLogicalAddr(unsigned int laddr)$/;"	f
+CEC_DEBUG	libhdmi/libcec.c	14;"	d	file:
+CEC_DECK_CONTROL_MODE_STOP	libhdmi/libcec.h	159;"	d
+CEC_DEVICE_AUDIO	libhdmi/libcec.h	/^    CEC_DEVICE_AUDIO,$/;"	e	enum:CECDeviceType
+CEC_DEVICE_NAME	libhdmi/libcec.c	26;"	d	file:
+CEC_DEVICE_PLAYER	libhdmi/libcec.h	/^    CEC_DEVICE_PLAYER,$/;"	e	enum:CECDeviceType
+CEC_DEVICE_RECODER	libhdmi/libcec.h	/^    CEC_DEVICE_RECODER,$/;"	e	enum:CECDeviceType
+CEC_DEVICE_TUNER	libhdmi/libcec.h	/^    CEC_DEVICE_TUNER,$/;"	e	enum:CECDeviceType
+CEC_DEVICE_TV	libhdmi/libcec.h	/^    CEC_DEVICE_TV,$/;"	e	enum:CECDeviceType
+CEC_IOC_MAGIC	libhdmi/cec.h	4;"	d
+CEC_IOC_SETLADDR	libhdmi/cec.h	9;"	d
+CEC_LADDR_UNREGISTERED	libhdmi/libcec.h	16;"	d
+CEC_MAX_FRAME_SIZE	libhdmi/libcec.h	9;"	d
+CEC_MSG_BROADCAST	libhdmi/libcec.h	14;"	d
+CEC_NOT_VALID_PHYSICAL_ADDRESS	libhdmi/libcec.h	11;"	d
+CEC_OPCODE_ABORT	libhdmi/libcec.h	135;"	d
+CEC_OPCODE_ACTIVE_SOURCE	libhdmi/libcec.h	24;"	d
+CEC_OPCODE_CEC_VERSION	libhdmi/libcec.h	66;"	d
+CEC_OPCODE_CLEAR_ANALOGUE_TIMER	libhdmi/libcec.h	53;"	d
+CEC_OPCODE_CLEAR_DIGITAL_TIMER	libhdmi/libcec.h	54;"	d
+CEC_OPCODE_CLEAR_EXTERNAL_TIMER	libhdmi/libcec.h	55;"	d
+CEC_OPCODE_DECK_CONTROL	libhdmi/libcec.h	77;"	d
+CEC_OPCODE_DECK_STATUS	libhdmi/libcec.h	78;"	d
+CEC_OPCODE_DEVICE_VENDOR_ID	libhdmi/libcec.h	95;"	d
+CEC_OPCODE_FEATURE_ABORT	libhdmi/libcec.h	134;"	d
+CEC_OPCODE_GET_CEC_VERSION	libhdmi/libcec.h	67;"	d
+CEC_OPCODE_GET_DEVICE_VENDOR_ID	libhdmi/libcec.h	96;"	d
+CEC_OPCODE_GET_MENU_LANGUAGE	libhdmi/libcec.h	69;"	d
+CEC_OPCODE_GIVE_AUDIO_STATUS	libhdmi/libcec.h	140;"	d
+CEC_OPCODE_GIVE_DECK_STATUS	libhdmi/libcec.h	79;"	d
+CEC_OPCODE_GIVE_DEVICE_POWER_STATUS	libhdmi/libcec.h	128;"	d
+CEC_OPCODE_GIVE_OSD_NAME	libhdmi/libcec.h	110;"	d
+CEC_OPCODE_GIVE_PHYSICAL_ADDRESS	libhdmi/libcec.h	68;"	d
+CEC_OPCODE_GIVE_SYSTEM_AUDIO_MODE_STATUS	libhdmi/libcec.h	141;"	d
+CEC_OPCODE_GIVE_TUNER_DEVICE_STATUS	libhdmi/libcec.h	85;"	d
+CEC_OPCODE_IMAGE_VIEW_ON	libhdmi/libcec.h	25;"	d
+CEC_OPCODE_INACTIVE_SOURCE	libhdmi/libcec.h	31;"	d
+CEC_OPCODE_MENU_REQUEST	libhdmi/libcec.h	116;"	d
+CEC_OPCODE_MENU_STATUS	libhdmi/libcec.h	117;"	d
+CEC_OPCODE_PLAY	libhdmi/libcec.h	80;"	d
+CEC_OPCODE_RECORD_OFF	libhdmi/libcec.h	45;"	d
+CEC_OPCODE_RECORD_ON	libhdmi/libcec.h	46;"	d
+CEC_OPCODE_RECORD_STATUS	libhdmi/libcec.h	47;"	d
+CEC_OPCODE_RECORD_TV_SCREEN	libhdmi/libcec.h	48;"	d
+CEC_OPCODE_REPORT_AUDIO_STATUS	libhdmi/libcec.h	142;"	d
+CEC_OPCODE_REPORT_PHYSICAL_ADDRESS	libhdmi/libcec.h	71;"	d
+CEC_OPCODE_REPORT_POWER_STATUS	libhdmi/libcec.h	129;"	d
+CEC_OPCODE_REQUEST_ACTIVE_SOURCE	libhdmi/libcec.h	32;"	d
+CEC_OPCODE_ROUTING_CHANGE	libhdmi/libcec.h	33;"	d
+CEC_OPCODE_ROUTING_INFORMATION	libhdmi/libcec.h	34;"	d
+CEC_OPCODE_SELECT_ANALOGUE_SERVICE	libhdmi/libcec.h	86;"	d
+CEC_OPCODE_SELECT_DIGITAL_SERVICE	libhdmi/libcec.h	87;"	d
+CEC_OPCODE_SET_ANALOGUE_TIMER	libhdmi/libcec.h	56;"	d
+CEC_OPCODE_SET_AUDIO_RATE	libhdmi/libcec.h	150;"	d
+CEC_OPCODE_SET_DIGITAL_TIMER	libhdmi/libcec.h	57;"	d
+CEC_OPCODE_SET_EXTERNAL_TIMER	libhdmi/libcec.h	58;"	d
+CEC_OPCODE_SET_MENU_LANGUAGE	libhdmi/libcec.h	72;"	d
+CEC_OPCODE_SET_OSD_NAME	libhdmi/libcec.h	111;"	d
+CEC_OPCODE_SET_OSD_STRING	libhdmi/libcec.h	105;"	d
+CEC_OPCODE_SET_STREAM_PATH	libhdmi/libcec.h	35;"	d
+CEC_OPCODE_SET_SYSTEM_AUDIO_MODE	libhdmi/libcec.h	143;"	d
+CEC_OPCODE_SET_TIMER_PROGRAM_TITLE	libhdmi/libcec.h	59;"	d
+CEC_OPCODE_STANDBY	libhdmi/libcec.h	40;"	d
+CEC_OPCODE_SYSTEM_AUDIO_MODE_REQUEST	libhdmi/libcec.h	144;"	d
+CEC_OPCODE_SYSTEM_AUDIO_MODE_STATUS	libhdmi/libcec.h	145;"	d
+CEC_OPCODE_TEXT_VIEW_ON	libhdmi/libcec.h	26;"	d
+CEC_OPCODE_TIMER_CLEARED_STATUS	libhdmi/libcec.h	60;"	d
+CEC_OPCODE_TIMER_STATUS	libhdmi/libcec.h	61;"	d
+CEC_OPCODE_TUNER_DEVICE_STATUS	libhdmi/libcec.h	88;"	d
+CEC_OPCODE_TUNER_STEP_DECREMENT	libhdmi/libcec.h	89;"	d
+CEC_OPCODE_TUNER_STEP_INCREMENT	libhdmi/libcec.h	90;"	d
+CEC_OPCODE_USER_CONTROL_PRESSED	libhdmi/libcec.h	118;"	d
+CEC_OPCODE_USER_CONTROL_RELEASED	libhdmi/libcec.h	119;"	d
+CEC_OPCODE_VENDOR_COMMAND	libhdmi/libcec.h	97;"	d
+CEC_OPCODE_VENDOR_COMMAND_WITH_ID	libhdmi/libcec.h	98;"	d
+CEC_OPCODE_VENDOR_REMOTE_BUTTON_DOWN	libhdmi/libcec.h	99;"	d
+CEC_OPCODE_VENDOR_REMOVE_BUTTON_UP	libhdmi/libcec.h	100;"	d
+CEC_PLAY_MODE_PLAY_FORWARD	libhdmi/libcec.h	160;"	d
+CFLAGS	Makefile	/^CFLAGS= -static -Wall -O3 $/;"	m
+CFLAGS	libhdmi/Makefile	/^CFLAGS= -static -Wall -O3 $/;"	m
+CH_2	libhdmi/include/audio.h	/^    CH_2 = 2,$/;"	e	enum:ChannelNum
+CH_3	libhdmi/include/audio.h	/^    CH_3,$/;"	e	enum:ChannelNum
+CH_4	libhdmi/include/audio.h	/^    CH_4,$/;"	e	enum:ChannelNum
+CH_5	libhdmi/include/audio.h	/^    CH_5,$/;"	e	enum:ChannelNum
+CH_6	libhdmi/include/audio.h	/^    CH_6,$/;"	e	enum:ChannelNum
+CH_7	libhdmi/include/audio.h	/^    CH_7,$/;"	e	enum:ChannelNum
+CH_8	libhdmi/include/audio.h	/^    CH_8,$/;"	e	enum:ChannelNum
+CMM_ALLOC_PRAM_T	libhdmi/include/s3c-cmm.h	/^}CMM_ALLOC_PRAM_T;$/;"	t	typeref:struct:tagCMM_ALLOC_PRAM_T
+CODEC_CACHED_MEM_SIZE	libhdmi/include/s3c-cmm.h	23;"	d
+CODEC_CACHE_FLUSH_ARG	libhdmi/include/s3c-cmm.h	/^}CODEC_CACHE_FLUSH_ARG;$/;"	t	typeref:struct:tagCODEC_CACHE_FLUSH_ARG
+CODEC_GET_PHY_ADDR_ARG	libhdmi/include/s3c-cmm.h	/^}CODEC_GET_PHY_ADDR_ARG;$/;"	t	typeref:struct:tagCODEC_GET_PHY_ADDR_ARG
+CODEC_MEM_ALLOC_ARG	libhdmi/include/s3c-cmm.h	/^}CODEC_MEM_ALLOC_ARG;$/;"	t	typeref:struct:tagCODEC_MEM_ALLOC_ARG
+CODEC_MEM_CTX	libhdmi/include/s3c-cmm.h	/^}CODEC_MEM_CTX;$/;"	t	typeref:struct:tagCODEC_MEM_CTX
+CODEC_MEM_FREE_ARG	libhdmi/include/s3c-cmm.h	/^}CODEC_MEM_FREE_ARG;$/;"	t	typeref:struct:tagCODEC_MEM_FREE_ARG
+CODEC_MEM_SIZE	libhdmi/include/s3c-cmm.h	25;"	d
+CODEC_NON_CACHED_MEM_SIZE	libhdmi/include/s3c-cmm.h	24;"	d
+COM_data	libhdmi/include/videodev2.h	/^	char COM_data[60];      \/* Data in JPEG COM segment *\/$/;"	m	struct:v4l2_jpegcompression
+COM_len	libhdmi/include/videodev2.h	/^	int  COM_len;           \/* Length of data in JPEG COM segment *\/$/;"	m	struct:v4l2_jpegcompression
+COPYBIT_FORMAT_BGRA_8888	libhdmi/hdmi_api.h	/^	COPYBIT_FORMAT_BGRA_8888    = 5,$/;"	e	enum:__anon2
+COPYBIT_FORMAT_CUSTOM_CbYCr_422_I	libhdmi/hdmi_api.h	/^	COPYBIT_FORMAT_CUSTOM_CbYCr_422_I  = 0x32$/;"	e	enum:__anon2
+COPYBIT_FORMAT_CUSTOM_YCbCr_420_SP	libhdmi/hdmi_api.h	/^	COPYBIT_FORMAT_CUSTOM_YCbCr_420_SP = 0x30,$/;"	e	enum:__anon2
+COPYBIT_FORMAT_CUSTOM_YCbCr_422_I	libhdmi/hdmi_api.h	/^	COPYBIT_FORMAT_CUSTOM_YCbCr_422_I  = 0x31,$/;"	e	enum:__anon2
+COPYBIT_FORMAT_CbYCrY_420_I	libhdmi/hdmi_api.h	/^	COPYBIT_FORMAT_CbYCrY_420_I = 0x17,$/;"	e	enum:__anon2
+COPYBIT_FORMAT_CbYCrY_422_I	libhdmi/hdmi_api.h	/^	COPYBIT_FORMAT_CbYCrY_422_I = 0x16,$/;"	e	enum:__anon2
+COPYBIT_FORMAT_RGBA_4444	libhdmi/hdmi_api.h	/^	COPYBIT_FORMAT_RGBA_4444    = 7,$/;"	e	enum:__anon2
+COPYBIT_FORMAT_RGBA_5551	libhdmi/hdmi_api.h	/^	COPYBIT_FORMAT_RGBA_5551    = 6,$/;"	e	enum:__anon2
+COPYBIT_FORMAT_RGBA_8888	libhdmi/hdmi_api.h	/^	COPYBIT_FORMAT_RGBA_8888    = 1,$/;"	e	enum:__anon2
+COPYBIT_FORMAT_RGBX_8888	libhdmi/hdmi_api.h	/^	COPYBIT_FORMAT_RGBX_8888    = 2,$/;"	e	enum:__anon2
+COPYBIT_FORMAT_RGB_565	libhdmi/hdmi_api.h	/^	COPYBIT_FORMAT_RGB_565      = 4,$/;"	e	enum:__anon2
+COPYBIT_FORMAT_RGB_888	libhdmi/hdmi_api.h	/^	COPYBIT_FORMAT_RGB_888      = 3,$/;"	e	enum:__anon2
+COPYBIT_FORMAT_YCbCr_420_I	libhdmi/hdmi_api.h	/^	COPYBIT_FORMAT_YCbCr_420_I  = 0x15,$/;"	e	enum:__anon2
+COPYBIT_FORMAT_YCbCr_420_P	libhdmi/hdmi_api.h	/^	COPYBIT_FORMAT_YCbCr_420_P  = 0x13,$/;"	e	enum:__anon2
+COPYBIT_FORMAT_YCbCr_420_SP	libhdmi/hdmi_api.h	/^	COPYBIT_FORMAT_YCbCr_420_SP       = 0x21,$/;"	e	enum:__anon2
+COPYBIT_FORMAT_YCbCr_420_SP_TILED	libhdmi/hdmi_api.h	/^	COPYBIT_FORMAT_YCbCr_420_SP_TILED = 0x20,$/;"	e	enum:__anon2
+COPYBIT_FORMAT_YCbCr_422_I	libhdmi/hdmi_api.h	/^	COPYBIT_FORMAT_YCbCr_422_I  = 0x14,$/;"	e	enum:__anon2
+COPYBIT_FORMAT_YCbCr_422_P	libhdmi/hdmi_api.h	/^	COPYBIT_FORMAT_YCbCr_422_P  = 0x12,$/;"	e	enum:__anon2
+COPYBIT_FORMAT_YCbCr_422_SP	libhdmi/hdmi_api.h	/^	COPYBIT_FORMAT_YCbCr_422_SP = 0x10,$/;"	e	enum:__anon2
+COPYBIT_FORMAT_YCrCb_420_SP	libhdmi/hdmi_api.h	/^	COPYBIT_FORMAT_YCrCb_420_SP = 0x11,$/;"	e	enum:__anon2
+COPYBIT_FORMAT_YCrCb_420_SP_TILED	libhdmi/hdmi_api.h	/^	COPYBIT_FORMAT_YCrCb_420_SP_TILED = 0x22,$/;"	e	enum:__anon2
+COPYBIT_FORMAT_YCrCb_422_SP	libhdmi/hdmi_api.h	/^	COPYBIT_FORMAT_YCrCb_422_SP       = 0x23,$/;"	e	enum:__anon2
+CPP	Makefile	/^CPP		= $(CC) -E$/;"	m
+CPP	Makefile	/^CPP		= $(CROSS_COMPILE)g++$/;"	m
+CPP	libhdmi/Makefile	/^CPP		= $(CC) -E$/;"	m
+CPP	libhdmi/Makefile	/^CPP		= $(CROSS_COMPILE)g++$/;"	m
+CROSS_COMPILE	Makefile	/^CROSS_COMPILE = arm-linux-$/;"	m
+CROSS_COMPILE	libhdmi/Makefile	/^CROSS_COMPILE = arm-linux-$/;"	m
+CRYCBY	libhdmi/include/s3c_pp.h	/^	CRYCBY, CBYCRY, YCRYCB, YCBYCR, YUV444 \/\/ Interleave$/;"	e	enum:__anon24
+CUVAudioCoding	libhdmi/include/audio.h	/^enum CUVAudioCoding$/;"	g
+CUVChannelNumber	libhdmi/include/audio.h	/^enum CUVChannelNumber$/;"	g
+CUVWordLength	libhdmi/include/audio.h	/^enum CUVWordLength$/;"	g
+CUV_CH_01	libhdmi/include/audio.h	/^    CUV_CH_01,$/;"	e	enum:CUVChannelNumber
+CUV_CH_02	libhdmi/include/audio.h	/^    CUV_CH_02,$/;"	e	enum:CUVChannelNumber
+CUV_CH_03	libhdmi/include/audio.h	/^    CUV_CH_03,$/;"	e	enum:CUVChannelNumber
+CUV_CH_04	libhdmi/include/audio.h	/^    CUV_CH_04,$/;"	e	enum:CUVChannelNumber
+CUV_CH_05	libhdmi/include/audio.h	/^    CUV_CH_05,$/;"	e	enum:CUVChannelNumber
+CUV_CH_06	libhdmi/include/audio.h	/^    CUV_CH_06,$/;"	e	enum:CUVChannelNumber
+CUV_CH_07	libhdmi/include/audio.h	/^    CUV_CH_07,$/;"	e	enum:CUVChannelNumber
+CUV_CH_08	libhdmi/include/audio.h	/^    CUV_CH_08,$/;"	e	enum:CUVChannelNumber
+CUV_CH_09	libhdmi/include/audio.h	/^    CUV_CH_09,$/;"	e	enum:CUVChannelNumber
+CUV_CH_10	libhdmi/include/audio.h	/^    CUV_CH_10,$/;"	e	enum:CUVChannelNumber
+CUV_CH_11	libhdmi/include/audio.h	/^    CUV_CH_11,$/;"	e	enum:CUVChannelNumber
+CUV_CH_12	libhdmi/include/audio.h	/^    CUV_CH_12,$/;"	e	enum:CUVChannelNumber
+CUV_CH_13	libhdmi/include/audio.h	/^    CUV_CH_13,$/;"	e	enum:CUVChannelNumber
+CUV_CH_14	libhdmi/include/audio.h	/^    CUV_CH_14,$/;"	e	enum:CUVChannelNumber
+CUV_CH_15	libhdmi/include/audio.h	/^    CUV_CH_15,$/;"	e	enum:CUVChannelNumber
+CUV_CH_UNDEFINED	libhdmi/include/audio.h	/^    CUV_CH_UNDEFINED = 0,$/;"	e	enum:CUVChannelNumber
+CUV_LPCM	libhdmi/include/audio.h	/^    CUV_LPCM,$/;"	e	enum:CUVAudioCoding
+CUV_NLPCM	libhdmi/include/audio.h	/^    CUV_NLPCM$/;"	e	enum:CUVAudioCoding
+CUV_WL_20_16	libhdmi/include/audio.h	/^    CUV_WL_20_16,$/;"	e	enum:CUVWordLength
+CUV_WL_20_17	libhdmi/include/audio.h	/^    CUV_WL_20_17,$/;"	e	enum:CUVWordLength
+CUV_WL_20_18	libhdmi/include/audio.h	/^    CUV_WL_20_18,$/;"	e	enum:CUVWordLength
+CUV_WL_20_19	libhdmi/include/audio.h	/^    CUV_WL_20_19,$/;"	e	enum:CUVWordLength
+CUV_WL_20_20	libhdmi/include/audio.h	/^    CUV_WL_20_20,$/;"	e	enum:CUVWordLength
+CUV_WL_20_NOT_DEFINED	libhdmi/include/audio.h	/^    CUV_WL_20_NOT_DEFINED,$/;"	e	enum:CUVWordLength
+CUV_WL_24_20	libhdmi/include/audio.h	/^    CUV_WL_24_20,$/;"	e	enum:CUVWordLength
+CUV_WL_24_21	libhdmi/include/audio.h	/^    CUV_WL_24_21,$/;"	e	enum:CUVWordLength
+CUV_WL_24_22	libhdmi/include/audio.h	/^    CUV_WL_24_22,$/;"	e	enum:CUVWordLength
+CUV_WL_24_23	libhdmi/include/audio.h	/^    CUV_WL_24_23,$/;"	e	enum:CUVWordLength
+CUV_WL_24_24	libhdmi/include/audio.h	/^    CUV_WL_24_24,$/;"	e	enum:CUVWordLength
+CUV_WL_24_NOT_DEFINED	libhdmi/include/audio.h	/^    CUV_WL_24_NOT_DEFINED,$/;"	e	enum:CUVWordLength
+CalcChecksum	libhdmi/libedid.c	/^static int CalcChecksum(const unsigned char* const buffer, const int size)$/;"	f	file:
+ChannelNum	libhdmi/include/audio.h	/^enum ChannelNum$/;"	g
+CheckColorDepth	libhdmi/libedid.c	/^static int CheckColorDepth(const enum ColorDepth depth,const enum ColorSpace space)$/;"	f	file:
+CheckColorSpace	libhdmi/libedid.c	/^static int CheckColorSpace(const enum ColorSpace space)$/;"	f	file:
+CheckColorimetry	libhdmi/libedid.c	/^static int CheckColorimetry(const enum HDMIColorimetry color)$/;"	f	file:
+CheckHDMIMode	libhdmi/libedid.c	/^static int CheckHDMIMode(void)$/;"	f	file:
+CheckResolution	libhdmi/libedid.c	/^static int CheckResolution(const enum VideoFormat videoFormat,$/;"	f	file:
+ColorDepth	libhdmi/include/video.h	/^enum ColorDepth$/;"	g
+ColorSpace	libhdmi/include/video.h	/^enum ColorSpace$/;"	g
+DDCClose	libhdmi/libddc.c	/^int DDCClose()$/;"	f
+DDCFileAvailable	libhdmi/libddc.c	/^static int DDCFileAvailable()$/;"	f	file:
+DDCOpen	libhdmi/libddc.c	/^int DDCOpen()$/;"	f
+DDCRead	libhdmi/libddc.c	/^int DDCRead(unsigned char addr, unsigned char offset,$/;"	f
+DDCWrite	libhdmi/libddc.c	/^int DDCWrite(unsigned char addr, unsigned char offset, unsigned int size, unsigned char* buffer)$/;"	f
+DEP	Makefile	/^DEP		= $(CROSS_COMPILE)gcc$/;"	m
+DEP	libhdmi/Makefile	/^DEP		= $(CROSS_COMPILE)gcc$/;"	m
+DEV_NAME	libhdmi/libddc.c	17;"	d	file:
+DMA_ONESHOT	libhdmi/include/s3c_pp.h	/^	DMA_ONESHOT,$/;"	e	enum:__anon23
+DPRINTF	libhdmi/libedid.c	18;"	d	file:
+DPRINTF	libhdmi/libedid.c	20;"	d	file:
+DSD_FORMAT	libhdmi/include/audio.h	/^    DSD_FORMAT,$/;"	e	enum:AudioFormat
+DSD_PORT	libhdmi/include/audio.h	/^    DSD_PORT,$/;"	e	enum:HDMIAudioPort
+DST_FORMAT	libhdmi/include/audio.h	/^    DST_FORMAT,$/;"	e	enum:AudioFormat
+DTS_FORMAT	libhdmi/include/audio.h	/^    DTS_FORMAT,$/;"	e	enum:AudioFormat
+DTS_HD_FORMAT	libhdmi/include/audio.h	/^    DTS_HD_FORMAT,$/;"	e	enum:AudioFormat
+DVI	libhdmi/include/video.h	/^    DVI = 0,$/;"	e	enum:HDMIMode
+Dolby_Digital_Plus_FORMAT	libhdmi/include/audio.h	/^    Dolby_Digital_Plus_FORMAT,$/;"	e	enum:AudioFormat
+EDDCRead	libhdmi/libddc.c	/^int EDDCRead(unsigned char segpointer, unsigned char segment, unsigned char addr,$/;"	f
+EDIDAudioModeSupport	libhdmi/libedid.c	/^int EDIDAudioModeSupport(struct HDMIAudioParameter * const audio)$/;"	f
+EDIDClose	libhdmi/libedid.c	/^int EDIDClose()$/;"	f
+EDIDColorDepthSupport	libhdmi/libedid.c	/^int EDIDColorDepthSupport(struct HDMIVideoParameter * const video)$/;"	f
+EDIDColorSpaceSupport	libhdmi/libedid.c	/^int EDIDColorSpaceSupport(struct HDMIVideoParameter * const video)$/;"	f
+EDIDColorimetrySupport	libhdmi/libedid.c	/^int EDIDColorimetrySupport(struct HDMIVideoParameter * const video)$/;"	f
+EDIDGetCECPhysicalAddress	libhdmi/libedid.c	/^int EDIDGetCECPhysicalAddress(int* const outAddr)$/;"	f
+EDIDHDMIModeSupport	libhdmi/libedid.c	/^int EDIDHDMIModeSupport(struct HDMIVideoParameter * const video)$/;"	f
+EDIDOpen	libhdmi/libedid.c	/^int EDIDOpen()$/;"	f
+EDIDRead	libhdmi/libedid.c	/^int EDIDRead()$/;"	f
+EDIDReset	libhdmi/libedid.c	/^void EDIDReset()$/;"	f
+EDIDValid	libhdmi/libedid.c	/^static inline int EDIDValid(void)$/;"	f	file:
+EDIDVideoResolutionSupport	libhdmi/libedid.c	/^int EDIDVideoResolutionSupport(struct HDMIVideoParameter * const video)$/;"	f
+EDID_ADDR	libhdmi/edid.h	8;"	d
+EDID_BLOCK_MAP_EXT_TAG_VAL	libhdmi/edid.h	28;"	d
+EDID_CEC_PHYICAL_ADDR	libhdmi/edid.h	126;"	d
+EDID_COLOR_SPACE_POS	libhdmi/edid.h	82;"	d
+EDID_DATA_BLOCK_SIZE_MASK	libhdmi/edid.h	42;"	d
+EDID_DATA_BLOCK_START_POS	libhdmi/edid.h	24;"	d
+EDID_DC_30_VAL	libhdmi/edid.h	89;"	d
+EDID_DC_36_VAL	libhdmi/edid.h	88;"	d
+EDID_DC_48_VAL	libhdmi/edid.h	87;"	d
+EDID_DC_MASK	libhdmi/edid.h	93;"	d
+EDID_DC_POS	libhdmi/edid.h	92;"	d
+EDID_DC_YCBCR_VAL	libhdmi/edid.h	90;"	d
+EDID_DETAILED_TIMING_OFFSET_POS	libhdmi/edid.h	23;"	d
+EDID_DTD_BYTE_LENGTH	libhdmi/edid.h	52;"	d
+EDID_DTD_HACTIVE_POS1	libhdmi/edid.h	62;"	d
+EDID_DTD_HACTIVE_POS2	libhdmi/edid.h	63;"	d
+EDID_DTD_HACTIVE_POS2_MASK	libhdmi/edid.h	64;"	d
+EDID_DTD_HBLANK_POS1	libhdmi/edid.h	58;"	d
+EDID_DTD_HBLANK_POS2	libhdmi/edid.h	59;"	d
+EDID_DTD_HBLANK_POS2_MASK	libhdmi/edid.h	60;"	d
+EDID_DTD_INTERLACE_MASK	libhdmi/edid.h	75;"	d
+EDID_DTD_INTERLACE_POS	libhdmi/edid.h	74;"	d
+EDID_DTD_PIXELCLOCK_POS1	libhdmi/edid.h	55;"	d
+EDID_DTD_PIXELCLOCK_POS2	libhdmi/edid.h	56;"	d
+EDID_DTD_START_ADDR	libhdmi/edid.h	51;"	d
+EDID_DTD_TOTAL_LENGTH	libhdmi/edid.h	53;"	d
+EDID_DTD_VACTIVE_POS1	libhdmi/edid.h	70;"	d
+EDID_DTD_VACTIVE_POS2	libhdmi/edid.h	71;"	d
+EDID_DTD_VACTIVE_POS2_MASK	libhdmi/edid.h	72;"	d
+EDID_DTD_VBLANK_POS1	libhdmi/edid.h	66;"	d
+EDID_DTD_VBLANK_POS2	libhdmi/edid.h	67;"	d
+EDID_DTD_VBLANK_POS2_MASK	libhdmi/edid.h	68;"	d
+EDID_ET_640x480p_VAL	libhdmi/edid.h	48;"	d
+EDID_ET_POS	libhdmi/edid.h	47;"	d
+EDID_EXTENDED_COLORIMETRY_BLOCK_LEN	libhdmi/edid.h	39;"	d
+EDID_EXTENDED_COLORIMETRY_VAL	libhdmi/edid.h	38;"	d
+EDID_EXTENDED_MASK	libhdmi/edid.h	98;"	d
+EDID_EXTENDED_TAG_VAL	libhdmi/edid.h	37;"	d
+EDID_EXTENSION_NUMBER_POS	libhdmi/edid.h	19;"	d
+EDID_RESERVED_TAG_VAL	libhdmi/edid.h	35;"	d
+EDID_SAD_176KHZ_MASK	libhdmi/edid.h	114;"	d
+EDID_SAD_192KHZ_MASK	libhdmi/edid.h	113;"	d
+EDID_SAD_32KHZ_MASK	libhdmi/edid.h	119;"	d
+EDID_SAD_44KHZ_MASK	libhdmi/edid.h	118;"	d
+EDID_SAD_48KHZ_MASK	libhdmi/edid.h	117;"	d
+EDID_SAD_88KHZ_MASK	libhdmi/edid.h	116;"	d
+EDID_SAD_96KHZ_MASK	libhdmi/edid.h	115;"	d
+EDID_SAD_CHANNEL_MASK	libhdmi/edid.h	112;"	d
+EDID_SAD_CODE_MASK	libhdmi/edid.h	111;"	d
+EDID_SAD_WORD_16_MASK	libhdmi/edid.h	123;"	d
+EDID_SAD_WORD_20_MASK	libhdmi/edid.h	122;"	d
+EDID_SAD_WORD_24_MASK	libhdmi/edid.h	121;"	d
+EDID_SEGMENT_POINTER	libhdmi/edid.h	9;"	d
+EDID_SHORT_AUD_DEC_TAG_VAL	libhdmi/edid.h	30;"	d
+EDID_SHORT_VID_DEC_TAG_VAL	libhdmi/edid.h	31;"	d
+EDID_SPEAKER_ALLOCATION_TAG_VAL	libhdmi/edid.h	33;"	d
+EDID_SVD_VIC_MASK	libhdmi/edid.h	78;"	d
+EDID_TAG_CODE_MASK	libhdmi/edid.h	41;"	d
+EDID_TIMING_EXT_REV_NUMBER_POS	libhdmi/edid.h	22;"	d
+EDID_TIMING_EXT_TAG_ADDR_POS	libhdmi/edid.h	21;"	d
+EDID_TIMING_EXT_TAG_VAL	libhdmi/edid.h	27;"	d
+EDID_VESA_DTC_TAG_VAL	libhdmi/edid.h	34;"	d
+EDID_VSDB_MIN_LENGTH_VAL	libhdmi/edid.h	44;"	d
+EDID_VSDB_TAG_VAL	libhdmi/edid.h	32;"	d
+EDID_XVYCC601_MASK	libhdmi/edid.h	96;"	d
+EDID_XVYCC709_MASK	libhdmi/edid.h	97;"	d
+EDID_YCBCR422_CS_MASK	libhdmi/edid.h	84;"	d
+EDID_YCBCR444_CS_MASK	libhdmi/edid.h	83;"	d
+FALSE	libhdmi/include/sec_g2d.h	16;"	d
+FB0_NAME	libhdmi/include/s3c_lcd.h	118;"	d
+FB1_NAME	libhdmi/include/s3c_lcd.h	119;"	d
+FB2_NAME	libhdmi/include/s3c_lcd.h	120;"	d
+FB3_NAME	libhdmi/include/s3c_lcd.h	121;"	d
+FB4_NAME	libhdmi/include/s3c_lcd.h	122;"	d
+FBIO_WAITFORVSYNC	libhdmi/include/s3c_lcd.h	97;"	d
+FB_DEV	libhdmi/fbapi.h	4;"	d
+FB_DEV	test.c	20;"	d	file:
+FIFO_FREERUN	libhdmi/include/s3c_pp.h	/^	FIFO_FREERUN$/;"	e	enum:__anon23
+FIMC2_DEV_NAME	libhdmi/fimc_lib.c	43;"	d	file:
+FREE_MEM_T	libhdmi/include/s3c-cmm.h	/^}FREE_MEM_T;$/;"	t	typeref:struct:tagFREE_MEM_T
+FrameBuffer	libhdmi/fbapi.h	/^typedef struct FrameBuffer {$/;"	s
+FrameBuffer	libhdmi/fbapi.h	/^} FrameBuffer;$/;"	t	typeref:struct:FrameBuffer
+FrameBuffer	test.c	/^typedef struct FrameBuffer {$/;"	s	file:
+FrameBuffer	test.c	/^} FrameBuffer;$/;"	t	typeref:struct:FrameBuffer	file:
+G2D_ABGR_1555	libhdmi/include/sec_g2d.h	/^	G2D_ABGR_1555,$/;"	e	enum:__anon10
+G2D_ABGR_4444	libhdmi/include/sec_g2d.h	/^	G2D_ABGR_4444,$/;"	e	enum:__anon10
+G2D_ABGR_8888	libhdmi/include/sec_g2d.h	/^	G2D_ABGR_8888,$/;"	e	enum:__anon10
+G2D_ALPHA_BLENDING_MAX	libhdmi/include/sec_g2d.h	/^	G2D_ALPHA_BLENDING_MAX    = 255, \/\/ 255$/;"	e	enum:__anon4
+G2D_ALPHA_BLENDING_MIN	libhdmi/include/sec_g2d.h	/^	G2D_ALPHA_BLENDING_MIN    = 0,   \/\/ wholly transparent$/;"	e	enum:__anon4
+G2D_ALPHA_BLENDING_MODE	libhdmi/include/sec_g2d.h	/^} G2D_ALPHA_BLENDING_MODE;$/;"	t	typeref:enum:__anon4
+G2D_ALPHA_BLENDING_OPAQUE	libhdmi/include/sec_g2d.h	/^	G2D_ALPHA_BLENDING_OPAQUE = 256, \/\/ opaque$/;"	e	enum:__anon4
+G2D_ALPHA_VALUE_MAX	libhdmi/include/sec_g2d.h	33;"	d
+G2D_ARGB_1555	libhdmi/include/sec_g2d.h	/^	G2D_ARGB_1555,$/;"	e	enum:__anon10
+G2D_ARGB_4444	libhdmi/include/sec_g2d.h	/^	G2D_ARGB_4444,$/;"	e	enum:__anon10
+G2D_ARGB_8888	libhdmi/include/sec_g2d.h	/^	G2D_ARGB_8888,$/;"	e	enum:__anon10
+G2D_BGRA_4444	libhdmi/include/sec_g2d.h	/^	G2D_BGRA_4444,$/;"	e	enum:__anon10
+G2D_BGRA_5551	libhdmi/include/sec_g2d.h	/^	G2D_BGRA_5551,$/;"	e	enum:__anon10
+G2D_BGRA_8888	libhdmi/include/sec_g2d.h	/^	G2D_BGRA_8888,$/;"	e	enum:__anon10
+G2D_BGRX_4444	libhdmi/include/sec_g2d.h	/^	G2D_BGRX_4444,$/;"	e	enum:__anon10
+G2D_BGRX_5551	libhdmi/include/sec_g2d.h	/^	G2D_BGRX_5551,$/;"	e	enum:__anon10
+G2D_BGRX_8888	libhdmi/include/sec_g2d.h	/^	G2D_BGRX_8888,$/;"	e	enum:__anon10
+G2D_BLACK	libhdmi/include/sec_g2d.h	/^	G2D_BLACK = 0,$/;"	e	enum:__anon9
+G2D_BLIT	libhdmi/include/sec_g2d.h	22;"	d
+G2D_BLUE	libhdmi/include/sec_g2d.h	/^	G2D_BLUE,$/;"	e	enum:__anon9
+G2D_BLUE_SCREEN_MODE	libhdmi/include/sec_g2d.h	/^}G2D_BLUE_SCREEN_MODE;$/;"	t	typeref:enum:__anon6
+G2D_BLUE_SCREEN_NONE	libhdmi/include/sec_g2d.h	/^	G2D_BLUE_SCREEN_NONE = 0,$/;"	e	enum:__anon6
+G2D_BLUE_SCREEN_TRANSPARENT	libhdmi/include/sec_g2d.h	/^	G2D_BLUE_SCREEN_TRANSPARENT,$/;"	e	enum:__anon6
+G2D_BLUE_SCREEN_WITH_COLOR	libhdmi/include/sec_g2d.h	/^	G2D_BLUE_SCREEN_WITH_COLOR,$/;"	e	enum:__anon6
+G2D_COLOR	libhdmi/include/sec_g2d.h	/^}G2D_COLOR;$/;"	t	typeref:enum:__anon9
+G2D_COLORKEY_DST_ON	libhdmi/include/sec_g2d.h	/^	G2D_COLORKEY_DST_ON,$/;"	e	enum:__anon5
+G2D_COLORKEY_MODE	libhdmi/include/sec_g2d.h	/^}G2D_COLORKEY_MODE;$/;"	t	typeref:enum:__anon5
+G2D_COLORKEY_NONE	libhdmi/include/sec_g2d.h	/^	G2D_COLORKEY_NONE = 0,$/;"	e	enum:__anon5
+G2D_COLORKEY_SRC_DST_ON	libhdmi/include/sec_g2d.h	/^	G2D_COLORKEY_SRC_DST_ON,$/;"	e	enum:__anon5
+G2D_COLORKEY_SRC_ON	libhdmi/include/sec_g2d.h	/^	G2D_COLORKEY_SRC_ON,$/;"	e	enum:__anon5
+G2D_COLOR_SPACE	libhdmi/include/sec_g2d.h	/^}G2D_COLOR_SPACE;$/;"	t	typeref:enum:__anon10
+G2D_CYAN	libhdmi/include/sec_g2d.h	/^	G2D_CYAN,$/;"	e	enum:__anon9
+G2D_DMA_CACHE_CLEAN	libhdmi/include/sec_g2d.h	27;"	d
+G2D_DMA_CACHE_FLUSH	libhdmi/include/sec_g2d.h	28;"	d
+G2D_DMA_CACHE_INVAL	libhdmi/include/sec_g2d.h	26;"	d
+G2D_GET_MEMORY	libhdmi/include/sec_g2d.h	24;"	d
+G2D_GET_MEMORY_SIZE	libhdmi/include/sec_g2d.h	25;"	d
+G2D_GET_VERSION	libhdmi/include/sec_g2d.h	23;"	d
+G2D_GREEN	libhdmi/include/sec_g2d.h	/^	G2D_GREEN,$/;"	e	enum:__anon9
+G2D_IOCTL_MAGIC	libhdmi/include/sec_g2d.h	20;"	d
+G2D_MAGENTA	libhdmi/include/sec_g2d.h	/^	G2D_MAGENTA$/;"	e	enum:__anon9
+G2D_MAX_COLOR_SPACE	libhdmi/include/sec_g2d.h	/^	G2D_MAX_COLOR_SPACE$/;"	e	enum:__anon10
+G2D_MAX_HEIGHT	libhdmi/include/sec_g2d.h	31;"	d
+G2D_MAX_WIDTH	libhdmi/include/sec_g2d.h	30;"	d
+G2D_MINOR	libhdmi/include/sec_g2d.h	18;"	d
+G2D_PACKED_BGR_888	libhdmi/include/sec_g2d.h	/^	G2D_PACKED_BGR_888,$/;"	e	enum:__anon10
+G2D_PACKED_RGB_888	libhdmi/include/sec_g2d.h	/^	G2D_PACKED_RGB_888,$/;"	e	enum:__anon10
+G2D_RED	libhdmi/include/sec_g2d.h	/^	G2D_RED,$/;"	e	enum:__anon9
+G2D_RGBA_4444	libhdmi/include/sec_g2d.h	/^	G2D_RGBA_4444,$/;"	e	enum:__anon10
+G2D_RGBA_5551	libhdmi/include/sec_g2d.h	/^	G2D_RGBA_5551,$/;"	e	enum:__anon10
+G2D_RGBA_8888	libhdmi/include/sec_g2d.h	/^	G2D_RGBA_8888,$/;"	e	enum:__anon10
+G2D_RGBX_4444	libhdmi/include/sec_g2d.h	/^	G2D_RGBX_4444,$/;"	e	enum:__anon10
+G2D_RGBX_5551	libhdmi/include/sec_g2d.h	/^	G2D_RGBX_5551,$/;"	e	enum:__anon10
+G2D_RGBX_8888	libhdmi/include/sec_g2d.h	/^	G2D_RGBX_8888,$/;"	e	enum:__anon10
+G2D_RGB_565	libhdmi/include/sec_g2d.h	/^	G2D_RGB_565 = 0,$/;"	e	enum:__anon10
+G2D_ROP_3RD_OPRND	libhdmi/include/sec_g2d.h	/^	G2D_ROP_3RD_OPRND,$/;"	e	enum:__anon7
+G2D_ROP_DST	libhdmi/include/sec_g2d.h	/^	G2D_ROP_DST,$/;"	e	enum:__anon7
+G2D_ROP_DST_OR_3RD	libhdmi/include/sec_g2d.h	/^	G2D_ROP_DST_OR_3RD,$/;"	e	enum:__anon7
+G2D_ROP_SRC	libhdmi/include/sec_g2d.h	/^	G2D_ROP_SRC = 0,$/;"	e	enum:__anon7
+G2D_ROP_SRC_AND_3RD_OPRND	libhdmi/include/sec_g2d.h	/^	G2D_ROP_SRC_AND_3RD_OPRND,$/;"	e	enum:__anon7
+G2D_ROP_SRC_AND_DST	libhdmi/include/sec_g2d.h	/^	G2D_ROP_SRC_AND_DST,$/;"	e	enum:__anon7
+G2D_ROP_SRC_OR_3RD_OPRND	libhdmi/include/sec_g2d.h	/^	G2D_ROP_SRC_OR_3RD_OPRND,$/;"	e	enum:__anon7
+G2D_ROP_SRC_OR_DST	libhdmi/include/sec_g2d.h	/^	G2D_ROP_SRC_OR_DST,$/;"	e	enum:__anon7
+G2D_ROP_SRC_XOR_3RD_OPRND	libhdmi/include/sec_g2d.h	/^	G2D_ROP_SRC_XOR_3RD_OPRND,$/;"	e	enum:__anon7
+G2D_ROP_TYPE	libhdmi/include/sec_g2d.h	/^}G2D_ROP_TYPE;$/;"	t	typeref:enum:__anon7
+G2D_ROT_0	libhdmi/include/sec_g2d.h	/^	G2D_ROT_0 = 0,$/;"	e	enum:__anon3
+G2D_ROT_180	libhdmi/include/sec_g2d.h	/^	G2D_ROT_180,$/;"	e	enum:__anon3
+G2D_ROT_270	libhdmi/include/sec_g2d.h	/^	G2D_ROT_270,$/;"	e	enum:__anon3
+G2D_ROT_90	libhdmi/include/sec_g2d.h	/^	G2D_ROT_90,$/;"	e	enum:__anon3
+G2D_ROT_DEG	libhdmi/include/sec_g2d.h	/^} G2D_ROT_DEG;$/;"	t	typeref:enum:__anon3
+G2D_ROT_X_FLIP	libhdmi/include/sec_g2d.h	/^	G2D_ROT_X_FLIP,$/;"	e	enum:__anon3
+G2D_ROT_Y_FLIP	libhdmi/include/sec_g2d.h	/^	G2D_ROT_Y_FLIP$/;"	e	enum:__anon3
+G2D_SFR_SIZE	libhdmi/include/sec_g2d.h	13;"	d
+G2D_THIRD_OP_BG	libhdmi/include/sec_g2d.h	/^	G2D_THIRD_OP_BG$/;"	e	enum:__anon8
+G2D_THIRD_OP_FG	libhdmi/include/sec_g2d.h	/^	G2D_THIRD_OP_FG,$/;"	e	enum:__anon8
+G2D_THIRD_OP_MODE	libhdmi/include/sec_g2d.h	/^}G2D_THIRD_OP_MODE;$/;"	t	typeref:enum:__anon8
+G2D_THIRD_OP_NONE	libhdmi/include/sec_g2d.h	/^	G2D_THIRD_OP_NONE = 0,$/;"	e	enum:__anon8
+G2D_THIRD_OP_PATTERN	libhdmi/include/sec_g2d.h	/^	G2D_THIRD_OP_PATTERN,$/;"	e	enum:__anon8
+G2D_WHITE	libhdmi/include/sec_g2d.h	/^	G2D_WHITE, $/;"	e	enum:__anon9
+G2D_XBGR_1555	libhdmi/include/sec_g2d.h	/^	G2D_XBGR_1555,$/;"	e	enum:__anon10
+G2D_XBGR_4444	libhdmi/include/sec_g2d.h	/^	G2D_XBGR_4444,$/;"	e	enum:__anon10
+G2D_XBGR_8888	libhdmi/include/sec_g2d.h	/^	G2D_XBGR_8888,$/;"	e	enum:__anon10
+G2D_XRGB_1555	libhdmi/include/sec_g2d.h	/^	G2D_XRGB_1555,$/;"	e	enum:__anon10
+G2D_XRGB_4444	libhdmi/include/sec_g2d.h	/^	G2D_XRGB_4444,$/;"	e	enum:__anon10
+G2D_XRGB_8888	libhdmi/include/sec_g2d.h	/^	G2D_XRGB_8888,$/;"	e	enum:__anon10
+G2D_YELLOW	libhdmi/include/sec_g2d.h	/^	G2D_YELLOW,$/;"	e	enum:__anon9
+GRALLOC_PRIV_H_	libhdmi/include/gralloc_priv.h	18;"	d
+GetVSDBOffset	libhdmi/libedid.c	/^static int GetVSDBOffset(const int extension)$/;"	f	file:
+HDMI	libhdmi/include/video.h	/^    HDMI$/;"	e	enum:HDMIMode
+HDMIASPType	libhdmi/include/audio.h	/^enum HDMIASPType$/;"	g
+HDMIAudioParameter	libhdmi/include/audio.h	/^struct HDMIAudioParameter$/;"	s
+HDMIAudioPort	libhdmi/include/audio.h	/^enum HDMIAudioPort$/;"	g
+HDMIColorimetry	libhdmi/include/video.h	/^enum HDMIColorimetry$/;"	g
+HDMIMode	libhdmi/include/video.h	/^enum HDMIMode$/;"	g
+HDMIVideoParameter	libhdmi/include/video.h	/^struct HDMIVideoParameter {$/;"	s
+HDMI_ASP	libhdmi/include/audio.h	/^    HDMI_ASP,$/;"	e	enum:HDMIASPType
+HDMI_AUDIO_NO	libhdmi/hdmi_api.h	/^	HDMI_AUDIO_NO,$/;"	e	enum:s5p_hdmi_audio_type
+HDMI_AUDIO_PCM	libhdmi/hdmi_api.h	/^	HDMI_AUDIO_PCM$/;"	e	enum:s5p_hdmi_audio_type
+HDMI_CD_24	libhdmi/include/video.h	/^    HDMI_CD_24$/;"	e	enum:ColorDepth
+HDMI_CD_30	libhdmi/include/video.h	/^    HDMI_CD_30,$/;"	e	enum:ColorDepth
+HDMI_CD_36	libhdmi/include/video.h	/^    HDMI_CD_36,$/;"	e	enum:ColorDepth
+HDMI_COLORIMETRY_EXTENDED_xvYCC601	libhdmi/include/video.h	/^    HDMI_COLORIMETRY_EXTENDED_xvYCC601,$/;"	e	enum:HDMIColorimetry
+HDMI_COLORIMETRY_EXTENDED_xvYCC709	libhdmi/include/video.h	/^    HDMI_COLORIMETRY_EXTENDED_xvYCC709$/;"	e	enum:HDMIColorimetry
+HDMI_COLORIMETRY_ITU601	libhdmi/include/video.h	/^    HDMI_COLORIMETRY_ITU601,$/;"	e	enum:HDMIColorimetry
+HDMI_COLORIMETRY_ITU709	libhdmi/include/video.h	/^    HDMI_COLORIMETRY_ITU709,$/;"	e	enum:HDMIColorimetry
+HDMI_COLORIMETRY_NO_DATA	libhdmi/include/video.h	/^    HDMI_COLORIMETRY_NO_DATA,$/;"	e	enum:HDMIColorimetry
+HDMI_CS_RGB	libhdmi/include/video.h	/^    HDMI_CS_RGB,$/;"	e	enum:ColorSpace
+HDMI_CS_YCBCR422	libhdmi/include/video.h	/^    HDMI_CS_YCBCR422$/;"	e	enum:ColorSpace
+HDMI_CS_YCBCR444	libhdmi/include/video.h	/^    HDMI_CS_YCBCR444,$/;"	e	enum:ColorSpace
+HDMI_DSD	libhdmi/include/audio.h	/^    HDMI_DSD,$/;"	e	enum:HDMIASPType
+HDMI_DST	libhdmi/include/audio.h	/^    HDMI_DST$/;"	e	enum:HDMIASPType
+HDMI_FULL_RANGE	libhdmi/include/video.h	/^    HDMI_FULL_RANGE,$/;"	e	enum:PixelLimit
+HDMI_HBR	libhdmi/include/audio.h	/^    HDMI_HBR,$/;"	e	enum:HDMIASPType
+HDMI_HEIGHT	libhdmi/hdmi_api.c	/^unsigned int HDMI_HEIGHT = 720;$/;"	v
+HDMI_PIXEL_RATIO_16_9	libhdmi/include/video.h	/^    HDMI_PIXEL_RATIO_16_9$/;"	e	enum:PixelAspectRatio
+HDMI_PIXEL_RATIO_4_3	libhdmi/include/video.h	/^    HDMI_PIXEL_RATIO_4_3,$/;"	e	enum:PixelAspectRatio
+HDMI_RGB_LIMIT_RANGE	libhdmi/include/video.h	/^    HDMI_RGB_LIMIT_RANGE,$/;"	e	enum:PixelLimit
+HDMI_WIDTH	libhdmi/hdmi_api.c	/^unsigned int HDMI_WIDTH  = 1280;$/;"	v
+HDMI_YCBCR_LIMIT_RANGE	libhdmi/include/video.h	/^    HDMI_YCBCR_LIMIT_RANGE$/;"	e	enum:PixelLimit
+I2SBitsPerChannel	libhdmi/include/audio.h	/^enum I2SBitsPerChannel$/;"	g
+I2SClockPerFrame	libhdmi/include/audio.h	/^enum I2SClockPerFrame$/;"	g
+I2SDataFormat	libhdmi/include/audio.h	/^enum I2SDataFormat$/;"	g
+I2SParameter	libhdmi/include/audio.h	/^struct I2SParameter$/;"	s
+I2S_32FS	libhdmi/include/audio.h	/^    I2S_32FS,$/;"	e	enum:I2SClockPerFrame
+I2S_48FS	libhdmi/include/audio.h	/^    I2S_48FS,$/;"	e	enum:I2SClockPerFrame
+I2S_64FS	libhdmi/include/audio.h	/^    I2S_64FS$/;"	e	enum:I2SClockPerFrame
+I2S_BASIC	libhdmi/include/audio.h	/^    I2S_BASIC,$/;"	e	enum:I2SDataFormat
+I2S_BPC_16	libhdmi/include/audio.h	/^    I2S_BPC_16,$/;"	e	enum:I2SBitsPerChannel
+I2S_BPC_20	libhdmi/include/audio.h	/^    I2S_BPC_20,$/;"	e	enum:I2SBitsPerChannel
+I2S_BPC_24	libhdmi/include/audio.h	/^    I2S_BPC_24$/;"	e	enum:I2SBitsPerChannel
+I2S_LEFT_JUSTIFIED	libhdmi/include/audio.h	/^    I2S_LEFT_JUSTIFIED,$/;"	e	enum:I2SDataFormat
+I2S_PORT	libhdmi/include/audio.h	/^    I2S_PORT,$/;"	e	enum:HDMIAudioPort
+I2S_RIGHT_JUSTIFIED	libhdmi/include/audio.h	/^    I2S_RIGHT_JUSTIFIED$/;"	e	enum:I2SDataFormat
+INTERLACE_MODE	libhdmi/include/s3c_pp.h	/^	INTERLACE_MODE,$/;"	e	enum:__anon25
+IOCTL_CODEC_CACHE_CLEAN	libhdmi/include/s3c-cmm.h	33;"	d
+IOCTL_CODEC_CACHE_CLEAN_INVALIDATE	libhdmi/include/s3c-cmm.h	34;"	d
+IOCTL_CODEC_CACHE_FLUSH	libhdmi/include/s3c-cmm.h	29;"	d
+IOCTL_CODEC_CACHE_INVALIDATE	libhdmi/include/s3c-cmm.h	32;"	d
+IOCTL_CODEC_GET_PHY_ADDR	libhdmi/include/s3c-cmm.h	30;"	d
+IOCTL_CODEC_MEM_ALLOC	libhdmi/include/s3c-cmm.h	27;"	d
+IOCTL_CODEC_MEM_FREE	libhdmi/include/s3c-cmm.h	28;"	d
+IOCTL_CODEC_MERGE_FRAGMENTATION	libhdmi/include/s3c-cmm.h	31;"	d
+IsContainVIC	libhdmi/libedid.c	/^static int IsContainVIC(const int extension, const int VIC)$/;"	f	file:
+IsContainVideoDTD	libhdmi/libedid.c	/^static int IsContainVideoDTD(const int extension,const enum VideoFormat videoFormat)$/;"	f	file:
+IsTimingExtension	libhdmi/libedid.c	/^static int IsTimingExtension(const int extension)$/;"	f	file:
+LCD_HEIGHT	libhdmi/include/s3c_lcd.h	115;"	d
+LCD_WIDTH	libhdmi/include/s3c_lcd.h	114;"	d
+LD	Makefile	/^LD      =$(CROSS_COMPILE)ld #-m elf32arm26$/;"	m
+LD	libhdmi/Makefile	/^LD      =$(CROSS_COMPILE)ld #-m elf32arm26$/;"	m
+LIBOBJS	libhdmi/Makefile	/^LIBOBJS=$(LIBSRCS:.c=.o)$/;"	m
+LIBSRCS	libhdmi/Makefile	/^LIBSRCS = hdmi_api.c libcec.c libedid.c libddc.c$/;"	m
+LINKER	Makefile	/^LINKER  = $(CROSS_COMPILE)g++ --verbose$/;"	m
+LINKER	libhdmi/Makefile	/^LINKER  = $(CROSS_COMPILE)g++ --verbose$/;"	m
+LOCK_STATE_MAPPED	libhdmi/include/gralloc_priv.h	/^        LOCK_STATE_MAPPED    =   1<<30,$/;"	e	enum:private_handle_t::__anon30
+LOCK_STATE_READ_MASK	libhdmi/include/gralloc_priv.h	/^        LOCK_STATE_READ_MASK =   0x3FFFFFFF$/;"	e	enum:private_handle_t::__anon30
+LOCK_STATE_WRITE	libhdmi/include/gralloc_priv.h	/^        LOCK_STATE_WRITE     =   1<<31,$/;"	e	enum:private_handle_t::__anon30
+LOGD	libhdmi/fimc_lib.c	39;"	d	file:
+LOGD	libhdmi/hdmi_api.c	46;"	d	file:
+LOGD	libhdmi/libcec.c	18;"	d	file:
+LOGD	libhdmi/libddc.c	21;"	d	file:
+LOGD	libhdmi/libedid.c	15;"	d	file:
+LOGE	libhdmi/fimc_lib.c	38;"	d	file:
+LOGE	libhdmi/hdmi_api.c	45;"	d	file:
+LOGE	libhdmi/libcec.c	17;"	d	file:
+LOGE	libhdmi/libddc.c	20;"	d	file:
+LOGE	libhdmi/libedid.c	13;"	d	file:
+LOGI	libhdmi/fimc_lib.c	40;"	d	file:
+LOGI	libhdmi/libcec.c	19;"	d	file:
+LOGI	libhdmi/libedid.c	14;"	d	file:
+LOGV	libhdmi/fimc_lib.c	37;"	d	file:
+LOGV	libhdmi/hdmi_api.c	44;"	d	file:
+LOGV	libhdmi/libcec.c	16;"	d	file:
+LOGV	libhdmi/libddc.c	19;"	d	file:
+LOGV	libhdmi/libedid.c	12;"	d	file:
+LOG_TAG	libhdmi/hdmi_api.c	37;"	d	file:
+LPCM_FORMAT	libhdmi/include/audio.h	/^    LPCM_FORMAT = 1,$/;"	e	enum:AudioFormat
+LPCM_WordLen	libhdmi/include/audio.h	/^enum LPCM_WordLen$/;"	g
+MAT_FORMAT	libhdmi/include/audio.h	/^    MAT_FORMAT,$/;"	e	enum:AudioFormat
+MAX_INSTANCE_NUM	libhdmi/include/s3c-cmm.h	21;"	d
+MEM_IOCTL_MAGIC	libhdmi/include/s3c_mem.h	20;"	d
+MIN	libhdmi/include/s5p_fimc.h	20;"	d
+MP3_FORMAT	libhdmi/include/audio.h	/^    MP3_FORMAT,$/;"	e	enum:AudioFormat
+MPEG1_FORMAT	libhdmi/include/audio.h	/^    MPEG1_FORMAT,$/;"	e	enum:AudioFormat
+MPEG2_FORMAT	libhdmi/include/audio.h	/^    MPEG2_FORMAT,$/;"	e	enum:AudioFormat
+NM	Makefile	/^NM		= $(CROSS_COMPILE)nm$/;"	m
+NM	libhdmi/Makefile	/^NM		= $(CROSS_COMPILE)nm$/;"	m
+PAL1	libhdmi/include/s3c_pp.h	/^	PAL1, PAL2, PAL4, PAL8,$/;"	e	enum:__anon24
+PAL2	libhdmi/include/s3c_pp.h	/^	PAL1, PAL2, PAL4, PAL8,$/;"	e	enum:__anon24
+PAL4	libhdmi/include/s3c_pp.h	/^	PAL1, PAL2, PAL4, PAL8,$/;"	e	enum:__anon24
+PAL8	libhdmi/include/s3c_pp.h	/^	PAL1, PAL2, PAL4, PAL8,$/;"	e	enum:__anon24
+PITCH	libhdmi/fbapi.h	6;"	d
+PIXEL_FREQ_108	libhdmi/include/video.h	/^    PIXEL_FREQ_108 = 10800,$/;"	e	enum:PixelFreq
+PIXEL_FREQ_108_108	libhdmi/include/video.h	/^    PIXEL_FREQ_108_108 = 10810,$/;"	e	enum:PixelFreq
+PIXEL_FREQ_148_352	libhdmi/include/video.h	/^    PIXEL_FREQ_148_352 = 14835,$/;"	e	enum:PixelFreq
+PIXEL_FREQ_148_500	libhdmi/include/video.h	/^    PIXEL_FREQ_148_500 = 14850,$/;"	e	enum:PixelFreq
+PIXEL_FREQ_162	libhdmi/include/video.h	/^    PIXEL_FREQ_162 = 16200,$/;"	e	enum:PixelFreq
+PIXEL_FREQ_25	libhdmi/include/video.h	/^    PIXEL_FREQ_25 = 2500,$/;"	e	enum:PixelFreq
+PIXEL_FREQ_25_175	libhdmi/include/video.h	/^    PIXEL_FREQ_25_175 = 2517,$/;"	e	enum:PixelFreq
+PIXEL_FREQ_25_200	libhdmi/include/video.h	/^    PIXEL_FREQ_25_200 = 2520,$/;"	e	enum:PixelFreq
+PIXEL_FREQ_27	libhdmi/include/video.h	/^    PIXEL_FREQ_27 = 2700,$/;"	e	enum:PixelFreq
+PIXEL_FREQ_27_027	libhdmi/include/video.h	/^    PIXEL_FREQ_27_027 = 2702,$/;"	e	enum:PixelFreq
+PIXEL_FREQ_54	libhdmi/include/video.h	/^    PIXEL_FREQ_54 = 5400,$/;"	e	enum:PixelFreq
+PIXEL_FREQ_54_054	libhdmi/include/video.h	/^    PIXEL_FREQ_54_054 = 5405,$/;"	e	enum:PixelFreq
+PIXEL_FREQ_65	libhdmi/include/video.h	/^    PIXEL_FREQ_65 = 6500,$/;"	e	enum:PixelFreq
+PIXEL_FREQ_72	libhdmi/include/video.h	/^    PIXEL_FREQ_72 = 7200,$/;"	e	enum:PixelFreq
+PIXEL_FREQ_74_176	libhdmi/include/video.h	/^    PIXEL_FREQ_74_176 = 7417,$/;"	e	enum:PixelFreq
+PIXEL_FREQ_74_250	libhdmi/include/video.h	/^    PIXEL_FREQ_74_250 = 7425,$/;"	e	enum:PixelFreq
+PMEM_CACHE_INV	libhdmi/include/android_pmem_s5p.h	20;"	d
+PP_IOCTL_MAGIC	libhdmi/include/s3c_pp.h	76;"	d
+PRIV_FLAGS_FRAMEBUFFER	libhdmi/include/gralloc_priv.h	/^        PRIV_FLAGS_FRAMEBUFFER = 0x00000001,$/;"	e	enum:private_handle_t::__anon29
+PRIV_FLAGS_USES_PMEM	libhdmi/include/gralloc_priv.h	/^        PRIV_FLAGS_USES_PMEM   = 0x00000002,$/;"	e	enum:private_handle_t::__anon29
+PRIV_USAGE_LOCKED_FOR_POST	libhdmi/include/gralloc_priv.h	/^        PRIV_USAGE_LOCKED_FOR_POST = 0x80000000$/;"	e	enum:private_module_t::__anon28
+PROGRESSIVE_MODE	libhdmi/include/s3c_pp.h	/^	PROGRESSIVE_MODE$/;"	e	enum:__anon25
+PS3C_BC_ioctl_package	libhdmi/include/s3c_bc.h	/^} S3C_BC_ioctl_package, *PS3C_BC_ioctl_package;$/;"	t	typeref:struct:S3C_BC_ioctl_package_TAG
+PixelAspectRatio	libhdmi/include/video.h	/^enum PixelAspectRatio$/;"	g
+PixelClock	libhdmi/libedid.c	/^    enum PixelFreq PixelClock;$/;"	m	struct:edid_params	typeref:enum:edid_params::PixelFreq	file:
+PixelFreq	libhdmi/include/video.h	/^enum PixelFreq {$/;"	g
+PixelLimit	libhdmi/include/video.h	/^enum PixelLimit$/;"	g
+Point	libhdmi/fbapi.h	/^typedef struct Point{$/;"	s
+RANLIB	Makefile	/^RANLIB  =$(CROSS_COMPILE)ranlib$/;"	m
+RANLIB	libhdmi/Makefile	/^RANLIB  =$(CROSS_COMPILE)ranlib$/;"	m
+RGB16	libhdmi/include/s3c_pp.h	/^	RGB8, ARGB8, RGB16, ARGB16, RGB18, RGB24, RGB30, ARGB24,$/;"	e	enum:__anon24
+RGB18	libhdmi/include/s3c_pp.h	/^	RGB8, ARGB8, RGB16, ARGB16, RGB18, RGB24, RGB30, ARGB24,$/;"	e	enum:__anon24
+RGB24	libhdmi/include/s3c_pp.h	/^	RGB8, ARGB8, RGB16, ARGB16, RGB18, RGB24, RGB30, ARGB24,$/;"	e	enum:__anon24
+RGB30	libhdmi/include/s3c_pp.h	/^	RGB8, ARGB8, RGB16, ARGB16, RGB18, RGB24, RGB30, ARGB24,$/;"	e	enum:__anon24
+RGB8	libhdmi/include/s3c_pp.h	/^	RGB8, ARGB8, RGB16, ARGB16, RGB18, RGB24, RGB30, ARGB24,$/;"	e	enum:__anon24
+ReadEDIDBlock	libhdmi/libedid.c	/^static int ReadEDIDBlock(const unsigned int blockNum, unsigned char* const outBuffer)$/;"	f	file:
+Rectangle	libhdmi/fbapi.h	/^typedef struct Rectangle{$/;"	s
+S3CFB_GET_LCD_ADDR	libhdmi/include/s3c_lcd.h	106;"	d
+S3CFB_GET_LCD_HEIGHT	libhdmi/include/s3c_lcd.h	105;"	d
+S3CFB_GET_LCD_WIDTH	libhdmi/include/s3c_lcd.h	104;"	d
+S3CFB_SET_RESUME_FIFO	libhdmi/include/s3c_lcd.h	103;"	d
+S3CFB_SET_SUSPEND_FIFO	libhdmi/include/s3c_lcd.h	102;"	d
+S3CFB_SET_VSYNC_INT	libhdmi/include/s3c_lcd.h	101;"	d
+S3CFB_WIN_POSITION	libhdmi/include/s3c_lcd.h	98;"	d
+S3CFB_WIN_SET_CHROMA	libhdmi/include/s3c_lcd.h	100;"	d
+S3CFB_WIN_SET_PLANE_ALPHA	libhdmi/include/s3c_lcd.h	99;"	d
+S3C_BC_DEVICE_BUFFER_COUNT	libhdmi/include/s3c_bc.h	43;"	d
+S3C_BC_DEVICE_BUFFER_COUNT	libhdmi/include/s3c_bc_params.h	38;"	d
+S3C_BC_DEVICE_BUF_SIZE	libhdmi/include/s3c_bc.h	50;"	d
+S3C_BC_DEVICE_BUF_SIZE	libhdmi/include/s3c_bc_params.h	53;"	d
+S3C_BC_DEVICE_HEIGHT	libhdmi/include/s3c_bc.h	46;"	d
+S3C_BC_DEVICE_HEIGHT	libhdmi/include/s3c_bc_params.h	49;"	d
+S3C_BC_DEVICE_ID	libhdmi/include/s3c_bc.h	42;"	d
+S3C_BC_DEVICE_ID	libhdmi/include/s3c_bc_params.h	37;"	d
+S3C_BC_DEVICE_NAME	libhdmi/include/s3c_bc.h	40;"	d
+S3C_BC_DEVICE_NAME	libhdmi/include/s3c_bc_params.h	36;"	d
+S3C_BC_DEVICE_PHYS_ADDR_START	libhdmi/include/s3c_bc_params.h	42;"	d
+S3C_BC_DEVICE_PHYS_ADDR_START	libhdmi/include/s3c_bc_params.h	45;"	d
+S3C_BC_DEVICE_PHYS_PAGE_SIZE	libhdmi/include/s3c_bc.h	49;"	d
+S3C_BC_DEVICE_PHYS_PAGE_SIZE	libhdmi/include/s3c_bc_params.h	52;"	d
+S3C_BC_DEVICE_PIXELFORMAT	libhdmi/include/s3c_bc.h	47;"	d
+S3C_BC_DEVICE_PIXELFORMAT	libhdmi/include/s3c_bc_params.h	50;"	d
+S3C_BC_DEVICE_STRIDE	libhdmi/include/s3c_bc.h	48;"	d
+S3C_BC_DEVICE_STRIDE	libhdmi/include/s3c_bc_params.h	51;"	d
+S3C_BC_DEVICE_WIDTH	libhdmi/include/s3c_bc.h	45;"	d
+S3C_BC_DEVICE_WIDTH	libhdmi/include/s3c_bc_params.h	48;"	d
+S3C_BC_IOC_GID	libhdmi/include/s3c_bc.h	59;"	d
+S3C_BC_IOWR	libhdmi/include/s3c_bc.h	61;"	d
+S3C_BC_ioctl_get_physical_base_address	libhdmi/include/s3c_bc.h	63;"	d
+S3C_BC_ioctl_package	libhdmi/include/s3c_bc.h	/^} S3C_BC_ioctl_package, *PS3C_BC_ioctl_package;$/;"	t	typeref:struct:S3C_BC_ioctl_package_TAG
+S3C_BC_ioctl_package_TAG	libhdmi/include/s3c_bc.h	/^typedef struct S3C_BC_ioctl_package_TAG$/;"	s
+S3C_FB_GET_CURR_FB_INFO	libhdmi/include/s3c_lcd.h	109;"	d
+S3C_MEM_ALLOC	libhdmi/include/s3c_mem.h	22;"	d
+S3C_MEM_CACHEABLE_ALLOC	libhdmi/include/s3c_mem.h	28;"	d
+S3C_MEM_CACHEABLE_SHARE_ALLOC	libhdmi/include/s3c_mem.h	29;"	d
+S3C_MEM_CACHE_CLEAN	libhdmi/include/s3c_mem.h	34;"	d
+S3C_MEM_CACHE_FLUSH	libhdmi/include/s3c_mem.h	32;"	d
+S3C_MEM_CACHE_INVAL	libhdmi/include/s3c_mem.h	33;"	d
+S3C_MEM_FREE	libhdmi/include/s3c_mem.h	23;"	d
+S3C_MEM_SHARE_ALLOC	libhdmi/include/s3c_mem.h	25;"	d
+S3C_MEM_SHARE_FREE	libhdmi/include/s3c_mem.h	26;"	d
+S3C_PP_ALLOC_KMEM	libhdmi/include/s3c_pp.h	85;"	d
+S3C_PP_FREE_KMEM	libhdmi/include/s3c_pp.h	86;"	d
+S3C_PP_GET_DST_BUF_SIZE	libhdmi/include/s3c_pp.h	83;"	d
+S3C_PP_GET_RESERVED_MEM_ADDR_PHY	libhdmi/include/s3c_pp.h	88;"	d
+S3C_PP_GET_RESERVED_MEM_SIZE	libhdmi/include/s3c_pp.h	87;"	d
+S3C_PP_GET_SRC_BUF_SIZE	libhdmi/include/s3c_pp.h	80;"	d
+S3C_PP_SET_DST_BUF_ADDR_PHY	libhdmi/include/s3c_pp.h	84;"	d
+S3C_PP_SET_PARAMS	libhdmi/include/s3c_pp.h	78;"	d
+S3C_PP_SET_SRC_BUF_ADDR_PHY	libhdmi/include/s3c_pp.h	81;"	d
+S3C_PP_SET_SRC_BUF_NEXT_ADDR_PHY	libhdmi/include/s3c_pp.h	82;"	d
+S3C_PP_START	libhdmi/include/s3c_pp.h	79;"	d
+SEC_G2D_DEV_NAME	libhdmi/hdmi_api.c	48;"	d	file:
+SF_176KHZ	libhdmi/include/audio.h	/^    SF_176KHZ,$/;"	e	enum:SamplingFreq
+SF_192KHZ	libhdmi/include/audio.h	/^    SF_192KHZ$/;"	e	enum:SamplingFreq
+SF_32KHZ	libhdmi/include/audio.h	/^    SF_32KHZ = 0,$/;"	e	enum:SamplingFreq
+SF_44KHZ	libhdmi/include/audio.h	/^    SF_44KHZ,$/;"	e	enum:SamplingFreq
+SF_48KHZ	libhdmi/include/audio.h	/^    SF_48KHZ,$/;"	e	enum:SamplingFreq
+SF_88KHZ	libhdmi/include/audio.h	/^    SF_88KHZ,$/;"	e	enum:SamplingFreq
+SF_96KHZ	libhdmi/include/audio.h	/^    SF_96KHZ,$/;"	e	enum:SamplingFreq
+SHORT_AUD_DESCRIPTOR_AAC	libhdmi/edid.h	107;"	d
+SHORT_AUD_DESCRIPTOR_AC3	libhdmi/edid.h	103;"	d
+SHORT_AUD_DESCRIPTOR_ATRAC	libhdmi/edid.h	109;"	d
+SHORT_AUD_DESCRIPTOR_DTS	libhdmi/edid.h	108;"	d
+SHORT_AUD_DESCRIPTOR_LPCM	libhdmi/edid.h	102;"	d
+SHORT_AUD_DESCRIPTOR_MP3	libhdmi/edid.h	105;"	d
+SHORT_AUD_DESCRIPTOR_MPEG1	libhdmi/edid.h	104;"	d
+SHORT_AUD_DESCRIPTOR_MPEG2	libhdmi/edid.h	106;"	d
+SIZEOFBYTE	libhdmi/edid.h	17;"	d
+SIZEOFEDIDBLOCK	libhdmi/edid.h	18;"	d
+SPDIFAudioCoding	libhdmi/include/audio.h	/^enum SPDIFAudioCoding$/;"	g
+SPDIF_LPCM	libhdmi/include/audio.h	/^    SPDIF_LPCM,$/;"	e	enum:SPDIFAudioCoding
+SPDIF_NLPCM	libhdmi/include/audio.h	/^    SPDIF_NLPCM$/;"	e	enum:SPDIFAudioCoding
+SPDIF_PORT	libhdmi/include/audio.h	/^    SPDIF_PORT,$/;"	e	enum:HDMIAudioPort
+STRIP	Makefile	/^STRIP   =$(CROSS_COMPILE)strip$/;"	m
+STRIP	libhdmi/Makefile	/^STRIP   =$(CROSS_COMPILE)strip$/;"	m
+SamplingFreq	libhdmi/include/audio.h	/^enum SamplingFreq$/;"	g
+SendCECActiveSource	libhdmi/hdmi_api.c	/^void SendCECActiveSource()$/;"	f
+SendCECPowerStatusReq	libhdmi/hdmi_api.c	/^void SendCECPowerStatusReq()$/;"	f
+TRUE	libhdmi/include/sec_g2d.h	15;"	d
+TVOUT_DEV	libhdmi/hdmi_api.c	518;"	d	file:
+TVOUT_DEV_G0	libhdmi/hdmi_api.c	519;"	d	file:
+TVOUT_DEV_G1	libhdmi/hdmi_api.c	520;"	d	file:
+V4L2_AUDCAP_AVL	libhdmi/include/videodev2.h	1167;"	d
+V4L2_AUDCAP_STEREO	libhdmi/include/videodev2.h	1166;"	d
+V4L2_AUDMODE_AVL	libhdmi/include/videodev2.h	1170;"	d
+V4L2_BUF_FLAG_BFRAME	libhdmi/include/videodev2.h	517;"	d
+V4L2_BUF_FLAG_DONE	libhdmi/include/videodev2.h	514;"	d
+V4L2_BUF_FLAG_INPUT	libhdmi/include/videodev2.h	519;"	d
+V4L2_BUF_FLAG_KEYFRAME	libhdmi/include/videodev2.h	515;"	d
+V4L2_BUF_FLAG_MAPPED	libhdmi/include/videodev2.h	512;"	d
+V4L2_BUF_FLAG_PFRAME	libhdmi/include/videodev2.h	516;"	d
+V4L2_BUF_FLAG_QUEUED	libhdmi/include/videodev2.h	513;"	d
+V4L2_BUF_FLAG_TIMECODE	libhdmi/include/videodev2.h	518;"	d
+V4L2_BUF_TYPE_PRIVATE	libhdmi/include/videodev2.h	/^	V4L2_BUF_TYPE_PRIVATE              = 0x80,$/;"	e	enum:v4l2_buf_type
+V4L2_BUF_TYPE_SLICED_VBI_CAPTURE	libhdmi/include/videodev2.h	/^	V4L2_BUF_TYPE_SLICED_VBI_CAPTURE   = 6,$/;"	e	enum:v4l2_buf_type
+V4L2_BUF_TYPE_SLICED_VBI_OUTPUT	libhdmi/include/videodev2.h	/^	V4L2_BUF_TYPE_SLICED_VBI_OUTPUT    = 7,$/;"	e	enum:v4l2_buf_type
+V4L2_BUF_TYPE_VBI_CAPTURE	libhdmi/include/videodev2.h	/^	V4L2_BUF_TYPE_VBI_CAPTURE          = 4,$/;"	e	enum:v4l2_buf_type
+V4L2_BUF_TYPE_VBI_OUTPUT	libhdmi/include/videodev2.h	/^	V4L2_BUF_TYPE_VBI_OUTPUT           = 5,$/;"	e	enum:v4l2_buf_type
+V4L2_BUF_TYPE_VIDEO_CAPTURE	libhdmi/include/videodev2.h	/^	V4L2_BUF_TYPE_VIDEO_CAPTURE        = 1,$/;"	e	enum:v4l2_buf_type
+V4L2_BUF_TYPE_VIDEO_OUTPUT	libhdmi/include/videodev2.h	/^	V4L2_BUF_TYPE_VIDEO_OUTPUT         = 2,$/;"	e	enum:v4l2_buf_type
+V4L2_BUF_TYPE_VIDEO_OUTPUT_OVERLAY	libhdmi/include/videodev2.h	/^	V4L2_BUF_TYPE_VIDEO_OUTPUT_OVERLAY = 8,$/;"	e	enum:v4l2_buf_type
+V4L2_BUF_TYPE_VIDEO_OVERLAY	libhdmi/include/videodev2.h	/^	V4L2_BUF_TYPE_VIDEO_OVERLAY        = 3,$/;"	e	enum:v4l2_buf_type
+V4L2_CAP_ASYNCIO	libhdmi/include/videodev2.h	261;"	d
+V4L2_CAP_AUDIO	libhdmi/include/videodev2.h	257;"	d
+V4L2_CAP_HW_FREQ_SEEK	libhdmi/include/videodev2.h	254;"	d
+V4L2_CAP_RADIO	libhdmi/include/videodev2.h	258;"	d
+V4L2_CAP_RDS_CAPTURE	libhdmi/include/videodev2.h	252;"	d
+V4L2_CAP_READWRITE	libhdmi/include/videodev2.h	260;"	d
+V4L2_CAP_SLICED_VBI_CAPTURE	libhdmi/include/videodev2.h	250;"	d
+V4L2_CAP_SLICED_VBI_OUTPUT	libhdmi/include/videodev2.h	251;"	d
+V4L2_CAP_STREAMING	libhdmi/include/videodev2.h	262;"	d
+V4L2_CAP_TIMEPERFRAME	libhdmi/include/videodev2.h	579;"	d
+V4L2_CAP_TUNER	libhdmi/include/videodev2.h	256;"	d
+V4L2_CAP_VBI_CAPTURE	libhdmi/include/videodev2.h	248;"	d
+V4L2_CAP_VBI_OUTPUT	libhdmi/include/videodev2.h	249;"	d
+V4L2_CAP_VIDEO_CAPTURE	libhdmi/include/videodev2.h	245;"	d
+V4L2_CAP_VIDEO_OUTPUT	libhdmi/include/videodev2.h	246;"	d
+V4L2_CAP_VIDEO_OUTPUT_OVERLAY	libhdmi/include/videodev2.h	253;"	d
+V4L2_CAP_VIDEO_OVERLAY	libhdmi/include/videodev2.h	247;"	d
+V4L2_CHIP_MATCH_HOST	libhdmi/include/videodev2.h	1338;"	d
+V4L2_CHIP_MATCH_I2C_ADDR	libhdmi/include/videodev2.h	1340;"	d
+V4L2_CHIP_MATCH_I2C_DRIVER	libhdmi/include/videodev2.h	1339;"	d
+V4L2_CID_AUDIO_BALANCE	libhdmi/include/videodev2.h	840;"	d
+V4L2_CID_AUDIO_BASS	libhdmi/include/videodev2.h	841;"	d
+V4L2_CID_AUDIO_LOUDNESS	libhdmi/include/videodev2.h	844;"	d
+V4L2_CID_AUDIO_MUTE	libhdmi/include/videodev2.h	843;"	d
+V4L2_CID_AUDIO_TREBLE	libhdmi/include/videodev2.h	842;"	d
+V4L2_CID_AUDIO_VOLUME	libhdmi/include/videodev2.h	839;"	d
+V4L2_CID_AUTOGAIN	libhdmi/include/videodev2.h	853;"	d
+V4L2_CID_AUTO_WHITE_BALANCE	libhdmi/include/videodev2.h	846;"	d
+V4L2_CID_BACKLIGHT_COMPENSATION	libhdmi/include/videodev2.h	871;"	d
+V4L2_CID_BASE	libhdmi/include/videodev2.h	829;"	d
+V4L2_CID_BLACK_LEVEL	libhdmi/include/videodev2.h	845;"	d
+V4L2_CID_BLUE_BALANCE	libhdmi/include/videodev2.h	849;"	d
+V4L2_CID_BRIGHTNESS	libhdmi/include/videodev2.h	835;"	d
+V4L2_CID_CAMERA_CLASS	libhdmi/include/videodev2.h	1065;"	d
+V4L2_CID_CAMERA_CLASS_BASE	libhdmi/include/videodev2.h	1064;"	d
+V4L2_CID_CHROMA_AGC	libhdmi/include/videodev2.h	872;"	d
+V4L2_CID_COLOR_KILLER	libhdmi/include/videodev2.h	873;"	d
+V4L2_CID_CONTRAST	libhdmi/include/videodev2.h	836;"	d
+V4L2_CID_DO_WHITE_BALANCE	libhdmi/include/videodev2.h	847;"	d
+V4L2_CID_EXPOSURE	libhdmi/include/videodev2.h	852;"	d
+V4L2_CID_EXPOSURE_ABSOLUTE	libhdmi/include/videodev2.h	1074;"	d
+V4L2_CID_EXPOSURE_AUTO	libhdmi/include/videodev2.h	1067;"	d
+V4L2_CID_EXPOSURE_AUTO_PRIORITY	libhdmi/include/videodev2.h	1075;"	d
+V4L2_CID_FIMC_VERSION	libhdmi/include/s5p_fimc.h	70;"	d
+V4L2_CID_FOCUS_ABSOLUTE	libhdmi/include/videodev2.h	1085;"	d
+V4L2_CID_FOCUS_AUTO	libhdmi/include/videodev2.h	1087;"	d
+V4L2_CID_FOCUS_RELATIVE	libhdmi/include/videodev2.h	1086;"	d
+V4L2_CID_GAIN	libhdmi/include/videodev2.h	854;"	d
+V4L2_CID_GAMMA	libhdmi/include/videodev2.h	850;"	d
+V4L2_CID_HCENTER	libhdmi/include/videodev2.h	859;"	d
+V4L2_CID_HFLIP	libhdmi/include/videodev2.h	855;"	d
+V4L2_CID_HUE	libhdmi/include/videodev2.h	838;"	d
+V4L2_CID_HUE_AUTO	libhdmi/include/videodev2.h	868;"	d
+V4L2_CID_LASTP1	libhdmi/include/videodev2.h	875;"	d
+V4L2_CID_MPEG_AUDIO_CRC	libhdmi/include/videodev2.h	987;"	d
+V4L2_CID_MPEG_AUDIO_EMPHASIS	libhdmi/include/videodev2.h	981;"	d
+V4L2_CID_MPEG_AUDIO_ENCODING	libhdmi/include/videodev2.h	910;"	d
+V4L2_CID_MPEG_AUDIO_L1_BITRATE	libhdmi/include/videodev2.h	916;"	d
+V4L2_CID_MPEG_AUDIO_L2_BITRATE	libhdmi/include/videodev2.h	933;"	d
+V4L2_CID_MPEG_AUDIO_L3_BITRATE	libhdmi/include/videodev2.h	950;"	d
+V4L2_CID_MPEG_AUDIO_MODE	libhdmi/include/videodev2.h	967;"	d
+V4L2_CID_MPEG_AUDIO_MODE_EXTENSION	libhdmi/include/videodev2.h	974;"	d
+V4L2_CID_MPEG_AUDIO_MUTE	libhdmi/include/videodev2.h	992;"	d
+V4L2_CID_MPEG_AUDIO_SAMPLING_FREQ	libhdmi/include/videodev2.h	904;"	d
+V4L2_CID_MPEG_BASE	libhdmi/include/videodev2.h	878;"	d
+V4L2_CID_MPEG_CLASS	libhdmi/include/videodev2.h	879;"	d
+V4L2_CID_MPEG_CX2341X_BASE	libhdmi/include/videodev2.h	1023;"	d
+V4L2_CID_MPEG_CX2341X_STREAM_INSERT_NAV_PACKETS	libhdmi/include/videodev2.h	1061;"	d
+V4L2_CID_MPEG_CX2341X_VIDEO_CHROMA_MEDIAN_FILTER_BOTTOM	libhdmi/include/videodev2.h	1059;"	d
+V4L2_CID_MPEG_CX2341X_VIDEO_CHROMA_MEDIAN_FILTER_TOP	libhdmi/include/videodev2.h	1060;"	d
+V4L2_CID_MPEG_CX2341X_VIDEO_CHROMA_SPATIAL_FILTER_TYPE	libhdmi/include/videodev2.h	1038;"	d
+V4L2_CID_MPEG_CX2341X_VIDEO_LUMA_MEDIAN_FILTER_BOTTOM	libhdmi/include/videodev2.h	1057;"	d
+V4L2_CID_MPEG_CX2341X_VIDEO_LUMA_MEDIAN_FILTER_TOP	libhdmi/include/videodev2.h	1058;"	d
+V4L2_CID_MPEG_CX2341X_VIDEO_LUMA_SPATIAL_FILTER_TYPE	libhdmi/include/videodev2.h	1030;"	d
+V4L2_CID_MPEG_CX2341X_VIDEO_MEDIAN_FILTER_TYPE	libhdmi/include/videodev2.h	1049;"	d
+V4L2_CID_MPEG_CX2341X_VIDEO_SPATIAL_FILTER	libhdmi/include/videodev2.h	1029;"	d
+V4L2_CID_MPEG_CX2341X_VIDEO_SPATIAL_FILTER_MODE	libhdmi/include/videodev2.h	1024;"	d
+V4L2_CID_MPEG_CX2341X_VIDEO_TEMPORAL_FILTER	libhdmi/include/videodev2.h	1048;"	d
+V4L2_CID_MPEG_CX2341X_VIDEO_TEMPORAL_FILTER_MODE	libhdmi/include/videodev2.h	1043;"	d
+V4L2_CID_MPEG_STREAM_PES_ID_AUDIO	libhdmi/include/videodev2.h	895;"	d
+V4L2_CID_MPEG_STREAM_PES_ID_VIDEO	libhdmi/include/videodev2.h	896;"	d
+V4L2_CID_MPEG_STREAM_PID_AUDIO	libhdmi/include/videodev2.h	892;"	d
+V4L2_CID_MPEG_STREAM_PID_PCR	libhdmi/include/videodev2.h	894;"	d
+V4L2_CID_MPEG_STREAM_PID_PMT	libhdmi/include/videodev2.h	891;"	d
+V4L2_CID_MPEG_STREAM_PID_VIDEO	libhdmi/include/videodev2.h	893;"	d
+V4L2_CID_MPEG_STREAM_TYPE	libhdmi/include/videodev2.h	882;"	d
+V4L2_CID_MPEG_STREAM_VBI_FMT	libhdmi/include/videodev2.h	897;"	d
+V4L2_CID_MPEG_VIDEO_ASPECT	libhdmi/include/videodev2.h	1000;"	d
+V4L2_CID_MPEG_VIDEO_BITRATE	libhdmi/include/videodev2.h	1016;"	d
+V4L2_CID_MPEG_VIDEO_BITRATE_MODE	libhdmi/include/videodev2.h	1011;"	d
+V4L2_CID_MPEG_VIDEO_BITRATE_PEAK	libhdmi/include/videodev2.h	1017;"	d
+V4L2_CID_MPEG_VIDEO_B_FRAMES	libhdmi/include/videodev2.h	1007;"	d
+V4L2_CID_MPEG_VIDEO_ENCODING	libhdmi/include/videodev2.h	995;"	d
+V4L2_CID_MPEG_VIDEO_GOP_CLOSURE	libhdmi/include/videodev2.h	1009;"	d
+V4L2_CID_MPEG_VIDEO_GOP_SIZE	libhdmi/include/videodev2.h	1008;"	d
+V4L2_CID_MPEG_VIDEO_MUTE	libhdmi/include/videodev2.h	1019;"	d
+V4L2_CID_MPEG_VIDEO_MUTE_YUV	libhdmi/include/videodev2.h	1020;"	d
+V4L2_CID_MPEG_VIDEO_PULLDOWN	libhdmi/include/videodev2.h	1010;"	d
+V4L2_CID_MPEG_VIDEO_TEMPORAL_DECIMATION	libhdmi/include/videodev2.h	1018;"	d
+V4L2_CID_PADDR_CB	libhdmi/fimc_lib.c	584;"	d	file:
+V4L2_CID_PADDR_CBCR	libhdmi/fimc_lib.c	586;"	d	file:
+V4L2_CID_PADDR_CR	libhdmi/fimc_lib.c	585;"	d	file:
+V4L2_CID_PADDR_Y	libhdmi/fimc_lib.c	583;"	d	file:
+V4L2_CID_PAN_ABSOLUTE	libhdmi/include/videodev2.h	1082;"	d
+V4L2_CID_PAN_RELATIVE	libhdmi/include/videodev2.h	1077;"	d
+V4L2_CID_PAN_RESET	libhdmi/include/videodev2.h	1079;"	d
+V4L2_CID_POWER_LINE_FREQUENCY	libhdmi/include/videodev2.h	862;"	d
+V4L2_CID_POWER_LINE_FREQUENCY_50HZ	libhdmi/include/videodev2.h	/^	V4L2_CID_POWER_LINE_FREQUENCY_50HZ	= 1,$/;"	e	enum:v4l2_power_line_frequency
+V4L2_CID_POWER_LINE_FREQUENCY_60HZ	libhdmi/include/videodev2.h	/^	V4L2_CID_POWER_LINE_FREQUENCY_60HZ	= 2,$/;"	e	enum:v4l2_power_line_frequency
+V4L2_CID_POWER_LINE_FREQUENCY_DISABLED	libhdmi/include/videodev2.h	/^	V4L2_CID_POWER_LINE_FREQUENCY_DISABLED	= 0,$/;"	e	enum:v4l2_power_line_frequency
+V4L2_CID_PRIVATE_BASE	libhdmi/include/videodev2.h	832;"	d
+V4L2_CID_RED_BALANCE	libhdmi/include/videodev2.h	848;"	d
+V4L2_CID_RESERVED_MEM_BASE_ADDR	libhdmi/include/s5p_fimc.h	69;"	d
+V4L2_CID_ROTATION	libhdmi/fimc_lib.c	582;"	d	file:
+V4L2_CID_ROTATION	libhdmi/include/s5p_fimc.h	68;"	d
+V4L2_CID_SATURATION	libhdmi/include/videodev2.h	837;"	d
+V4L2_CID_SHARPNESS	libhdmi/include/videodev2.h	870;"	d
+V4L2_CID_STREAM_PAUSE	libhdmi/fimc_lib.c	587;"	d	file:
+V4L2_CID_TILT_ABSOLUTE	libhdmi/include/videodev2.h	1083;"	d
+V4L2_CID_TILT_RELATIVE	libhdmi/include/videodev2.h	1078;"	d
+V4L2_CID_TILT_RESET	libhdmi/include/videodev2.h	1080;"	d
+V4L2_CID_USER_BASE	libhdmi/include/videodev2.h	830;"	d
+V4L2_CID_USER_CLASS	libhdmi/include/videodev2.h	834;"	d
+V4L2_CID_VCENTER	libhdmi/include/videodev2.h	860;"	d
+V4L2_CID_VFLIP	libhdmi/include/videodev2.h	856;"	d
+V4L2_CID_WHITENESS	libhdmi/include/videodev2.h	851;"	d
+V4L2_CID_WHITE_BALANCE_TEMPERATURE	libhdmi/include/videodev2.h	869;"	d
+V4L2_COLORSPACE_470_SYSTEM_BG	libhdmi/include/videodev2.h	/^	V4L2_COLORSPACE_470_SYSTEM_BG = 6,$/;"	e	enum:v4l2_colorspace
+V4L2_COLORSPACE_470_SYSTEM_M	libhdmi/include/videodev2.h	/^	V4L2_COLORSPACE_470_SYSTEM_M  = 5,$/;"	e	enum:v4l2_colorspace
+V4L2_COLORSPACE_BT878	libhdmi/include/videodev2.h	/^	V4L2_COLORSPACE_BT878         = 4,$/;"	e	enum:v4l2_colorspace
+V4L2_COLORSPACE_JPEG	libhdmi/include/videodev2.h	/^	V4L2_COLORSPACE_JPEG          = 7,$/;"	e	enum:v4l2_colorspace
+V4L2_COLORSPACE_REC709	libhdmi/include/videodev2.h	/^	V4L2_COLORSPACE_REC709        = 3,$/;"	e	enum:v4l2_colorspace
+V4L2_COLORSPACE_SMPTE170M	libhdmi/include/videodev2.h	/^	V4L2_COLORSPACE_SMPTE170M     = 1,$/;"	e	enum:v4l2_colorspace
+V4L2_COLORSPACE_SMPTE240M	libhdmi/include/videodev2.h	/^	V4L2_COLORSPACE_SMPTE240M     = 2,$/;"	e	enum:v4l2_colorspace
+V4L2_COLORSPACE_SRGB	libhdmi/include/videodev2.h	/^	V4L2_COLORSPACE_SRGB          = 8,$/;"	e	enum:v4l2_colorspace
+V4L2_CTRL_CLASS_CAMERA	libhdmi/include/videodev2.h	790;"	d
+V4L2_CTRL_CLASS_MPEG	libhdmi/include/videodev2.h	789;"	d
+V4L2_CTRL_CLASS_USER	libhdmi/include/videodev2.h	788;"	d
+V4L2_CTRL_DRIVER_PRIV	libhdmi/include/videodev2.h	794;"	d
+V4L2_CTRL_FLAG_DISABLED	libhdmi/include/videodev2.h	818;"	d
+V4L2_CTRL_FLAG_GRABBED	libhdmi/include/videodev2.h	819;"	d
+V4L2_CTRL_FLAG_INACTIVE	libhdmi/include/videodev2.h	822;"	d
+V4L2_CTRL_FLAG_NEXT_CTRL	libhdmi/include/videodev2.h	826;"	d
+V4L2_CTRL_FLAG_READ_ONLY	libhdmi/include/videodev2.h	820;"	d
+V4L2_CTRL_FLAG_SLIDER	libhdmi/include/videodev2.h	823;"	d
+V4L2_CTRL_FLAG_UPDATE	libhdmi/include/videodev2.h	821;"	d
+V4L2_CTRL_ID2CLASS	libhdmi/include/videodev2.h	793;"	d
+V4L2_CTRL_ID_MASK	libhdmi/include/videodev2.h	792;"	d
+V4L2_CTRL_TYPE_BOOLEAN	libhdmi/include/videodev2.h	/^	V4L2_CTRL_TYPE_BOOLEAN	     = 2,$/;"	e	enum:v4l2_ctrl_type
+V4L2_CTRL_TYPE_BUTTON	libhdmi/include/videodev2.h	/^	V4L2_CTRL_TYPE_BUTTON	     = 4,$/;"	e	enum:v4l2_ctrl_type
+V4L2_CTRL_TYPE_CTRL_CLASS	libhdmi/include/videodev2.h	/^	V4L2_CTRL_TYPE_CTRL_CLASS    = 6,$/;"	e	enum:v4l2_ctrl_type
+V4L2_CTRL_TYPE_INTEGER	libhdmi/include/videodev2.h	/^	V4L2_CTRL_TYPE_INTEGER	     = 1,$/;"	e	enum:v4l2_ctrl_type
+V4L2_CTRL_TYPE_INTEGER64	libhdmi/include/videodev2.h	/^	V4L2_CTRL_TYPE_INTEGER64     = 5,$/;"	e	enum:v4l2_ctrl_type
+V4L2_CTRL_TYPE_MENU	libhdmi/include/videodev2.h	/^	V4L2_CTRL_TYPE_MENU	     = 3,$/;"	e	enum:v4l2_ctrl_type
+V4L2_ENC_CMD_PAUSE	libhdmi/include/videodev2.h	1210;"	d
+V4L2_ENC_CMD_RESUME	libhdmi/include/videodev2.h	1211;"	d
+V4L2_ENC_CMD_START	libhdmi/include/videodev2.h	1208;"	d
+V4L2_ENC_CMD_STOP	libhdmi/include/videodev2.h	1209;"	d
+V4L2_ENC_CMD_STOP_AT_GOP_END	libhdmi/include/videodev2.h	1214;"	d
+V4L2_ENC_IDX_ENTRIES	libhdmi/include/videodev2.h	1199;"	d
+V4L2_ENC_IDX_FRAME_B	libhdmi/include/videodev2.h	1188;"	d
+V4L2_ENC_IDX_FRAME_I	libhdmi/include/videodev2.h	1186;"	d
+V4L2_ENC_IDX_FRAME_MASK	libhdmi/include/videodev2.h	1189;"	d
+V4L2_ENC_IDX_FRAME_P	libhdmi/include/videodev2.h	1187;"	d
+V4L2_EXPOSURE_APERTURE_PRIORITY	libhdmi/include/videodev2.h	/^	V4L2_EXPOSURE_APERTURE_PRIORITY = 3$/;"	e	enum:v4l2_exposure_auto_type
+V4L2_EXPOSURE_AUTO	libhdmi/include/videodev2.h	/^	V4L2_EXPOSURE_AUTO = 0,$/;"	e	enum:v4l2_exposure_auto_type
+V4L2_EXPOSURE_MANUAL	libhdmi/include/videodev2.h	/^	V4L2_EXPOSURE_MANUAL = 1,$/;"	e	enum:v4l2_exposure_auto_type
+V4L2_EXPOSURE_SHUTTER_PRIORITY	libhdmi/include/videodev2.h	/^	V4L2_EXPOSURE_SHUTTER_PRIORITY = 2,$/;"	e	enum:v4l2_exposure_auto_type
+V4L2_FBUF_CAP_BITMAP_CLIPPING	libhdmi/include/videodev2.h	536;"	d
+V4L2_FBUF_CAP_CHROMAKEY	libhdmi/include/videodev2.h	534;"	d
+V4L2_FBUF_CAP_EXTERNOVERLAY	libhdmi/include/videodev2.h	533;"	d
+V4L2_FBUF_CAP_GLOBAL_ALPHA	libhdmi/include/videodev2.h	538;"	d
+V4L2_FBUF_CAP_LIST_CLIPPING	libhdmi/include/videodev2.h	535;"	d
+V4L2_FBUF_CAP_LOCAL_ALPHA	libhdmi/include/videodev2.h	537;"	d
+V4L2_FBUF_CAP_LOCAL_INV_ALPHA	libhdmi/include/videodev2.h	539;"	d
+V4L2_FBUF_CAP_PRE_MULTIPLY	libhdmi/include/videodev2_s5p.h	59;"	d
+V4L2_FBUF_FLAG_CHROMAKEY	libhdmi/include/videodev2.h	543;"	d
+V4L2_FBUF_FLAG_GLOBAL_ALPHA	libhdmi/include/videodev2.h	545;"	d
+V4L2_FBUF_FLAG_LOCAL_ALPHA	libhdmi/include/videodev2.h	544;"	d
+V4L2_FBUF_FLAG_LOCAL_INV_ALPHA	libhdmi/include/videodev2.h	546;"	d
+V4L2_FBUF_FLAG_OVERLAY	libhdmi/include/videodev2.h	542;"	d
+V4L2_FBUF_FLAG_PRE_MULTIPLY	libhdmi/include/videodev2_s5p.h	58;"	d
+V4L2_FBUF_FLAG_PRIMARY	libhdmi/include/videodev2.h	541;"	d
+V4L2_FIELD_ALTERNATE	libhdmi/include/videodev2.h	/^	V4L2_FIELD_ALTERNATE     = 7, \/* both fields alternating into$/;"	e	enum:v4l2_field
+V4L2_FIELD_ANY	libhdmi/include/videodev2.h	/^	V4L2_FIELD_ANY           = 0, \/* driver can choose from none,$/;"	e	enum:v4l2_field
+V4L2_FIELD_BOTTOM	libhdmi/include/videodev2.h	/^	V4L2_FIELD_BOTTOM        = 3, \/* bottom field only *\/$/;"	e	enum:v4l2_field
+V4L2_FIELD_HAS_BOTH	libhdmi/include/videodev2.h	141;"	d
+V4L2_FIELD_HAS_BOTTOM	libhdmi/include/videodev2.h	134;"	d
+V4L2_FIELD_HAS_TOP	libhdmi/include/videodev2.h	127;"	d
+V4L2_FIELD_INTERLACED	libhdmi/include/videodev2.h	/^	V4L2_FIELD_INTERLACED    = 4, \/* both fields interlaced *\/$/;"	e	enum:v4l2_field
+V4L2_FIELD_INTERLACED_BT	libhdmi/include/videodev2.h	/^	V4L2_FIELD_INTERLACED_BT = 9, \/* both fields interlaced, top field$/;"	e	enum:v4l2_field
+V4L2_FIELD_INTERLACED_TB	libhdmi/include/videodev2.h	/^	V4L2_FIELD_INTERLACED_TB = 8, \/* both fields interlaced, top field$/;"	e	enum:v4l2_field
+V4L2_FIELD_NONE	libhdmi/include/videodev2.h	/^	V4L2_FIELD_NONE          = 1, \/* this device has no fields ... *\/$/;"	e	enum:v4l2_field
+V4L2_FIELD_SEQ_BT	libhdmi/include/videodev2.h	/^	V4L2_FIELD_SEQ_BT        = 6, \/* same as above + bottom-top order *\/$/;"	e	enum:v4l2_field
+V4L2_FIELD_SEQ_TB	libhdmi/include/videodev2.h	/^	V4L2_FIELD_SEQ_TB        = 5, \/* both fields sequential into one$/;"	e	enum:v4l2_field
+V4L2_FIELD_TOP	libhdmi/include/videodev2.h	/^	V4L2_FIELD_TOP           = 2, \/* top field only *\/$/;"	e	enum:v4l2_field
+V4L2_FMT_FLAG_COMPRESSED	libhdmi/include/videodev2.h	352;"	d
+V4L2_FRMIVAL_TYPE_CONTINUOUS	libhdmi/include/videodev2.h	/^	V4L2_FRMIVAL_TYPE_CONTINUOUS	= 2,$/;"	e	enum:v4l2_frmivaltypes
+V4L2_FRMIVAL_TYPE_DISCRETE	libhdmi/include/videodev2.h	/^	V4L2_FRMIVAL_TYPE_DISCRETE	= 1,$/;"	e	enum:v4l2_frmivaltypes
+V4L2_FRMIVAL_TYPE_STEPWISE	libhdmi/include/videodev2.h	/^	V4L2_FRMIVAL_TYPE_STEPWISE	= 3,$/;"	e	enum:v4l2_frmivaltypes
+V4L2_FRMSIZE_TYPE_CONTINUOUS	libhdmi/include/videodev2.h	/^	V4L2_FRMSIZE_TYPE_CONTINUOUS	= 2,$/;"	e	enum:v4l2_frmsizetypes
+V4L2_FRMSIZE_TYPE_DISCRETE	libhdmi/include/videodev2.h	/^	V4L2_FRMSIZE_TYPE_DISCRETE	= 1,$/;"	e	enum:v4l2_frmsizetypes
+V4L2_FRMSIZE_TYPE_STEPWISE	libhdmi/include/videodev2.h	/^	V4L2_FRMSIZE_TYPE_STEPWISE	= 3,$/;"	e	enum:v4l2_frmsizetypes
+V4L2_INPUT_TYPE_CAMERA	libhdmi/include/videodev2.h	723;"	d
+V4L2_INPUT_TYPE_FIFO	libhdmi/include/videodev2_s5p.h	23;"	d
+V4L2_INPUT_TYPE_MSDMA	libhdmi/include/videodev2_s5p.h	22;"	d
+V4L2_INPUT_TYPE_TUNER	libhdmi/include/videodev2.h	722;"	d
+V4L2_IN_ST_COLOR_KILL	libhdmi/include/videodev2.h	732;"	d
+V4L2_IN_ST_MACROVISION	libhdmi/include/videodev2.h	740;"	d
+V4L2_IN_ST_NO_ACCESS	libhdmi/include/videodev2.h	741;"	d
+V4L2_IN_ST_NO_CARRIER	libhdmi/include/videodev2.h	737;"	d
+V4L2_IN_ST_NO_COLOR	libhdmi/include/videodev2.h	728;"	d
+V4L2_IN_ST_NO_EQU	libhdmi/include/videodev2.h	736;"	d
+V4L2_IN_ST_NO_H_LOCK	libhdmi/include/videodev2.h	731;"	d
+V4L2_IN_ST_NO_POWER	libhdmi/include/videodev2.h	726;"	d
+V4L2_IN_ST_NO_SIGNAL	libhdmi/include/videodev2.h	727;"	d
+V4L2_IN_ST_NO_SYNC	libhdmi/include/videodev2.h	735;"	d
+V4L2_IN_ST_VTR	libhdmi/include/videodev2.h	742;"	d
+V4L2_JPEG_MARKER_APP	libhdmi/include/videodev2.h	476;"	d
+V4L2_JPEG_MARKER_COM	libhdmi/include/videodev2.h	475;"	d
+V4L2_JPEG_MARKER_DHT	libhdmi/include/videodev2.h	472;"	d
+V4L2_JPEG_MARKER_DQT	libhdmi/include/videodev2.h	473;"	d
+V4L2_JPEG_MARKER_DRI	libhdmi/include/videodev2.h	474;"	d
+V4L2_MEMORY_MMAP	libhdmi/include/videodev2.h	/^	V4L2_MEMORY_MMAP             = 1,$/;"	e	enum:v4l2_memory
+V4L2_MEMORY_OVERLAY	libhdmi/include/videodev2.h	/^	V4L2_MEMORY_OVERLAY          = 3,$/;"	e	enum:v4l2_memory
+V4L2_MEMORY_USERPTR	libhdmi/include/videodev2.h	/^	V4L2_MEMORY_USERPTR          = 2,$/;"	e	enum:v4l2_memory
+V4L2_MODE_HIGHQUALITY	libhdmi/include/videodev2.h	578;"	d
+V4L2_MPEG_AUDIO_CRC_CRC16	libhdmi/include/videodev2.h	/^	V4L2_MPEG_AUDIO_CRC_CRC16 = 1,$/;"	e	enum:v4l2_mpeg_audio_crc
+V4L2_MPEG_AUDIO_CRC_NONE	libhdmi/include/videodev2.h	/^	V4L2_MPEG_AUDIO_CRC_NONE  = 0,$/;"	e	enum:v4l2_mpeg_audio_crc
+V4L2_MPEG_AUDIO_EMPHASIS_50_DIV_15_uS	libhdmi/include/videodev2.h	/^	V4L2_MPEG_AUDIO_EMPHASIS_50_DIV_15_uS = 1,$/;"	e	enum:v4l2_mpeg_audio_emphasis
+V4L2_MPEG_AUDIO_EMPHASIS_CCITT_J17	libhdmi/include/videodev2.h	/^	V4L2_MPEG_AUDIO_EMPHASIS_CCITT_J17    = 2,$/;"	e	enum:v4l2_mpeg_audio_emphasis
+V4L2_MPEG_AUDIO_EMPHASIS_NONE	libhdmi/include/videodev2.h	/^	V4L2_MPEG_AUDIO_EMPHASIS_NONE         = 0,$/;"	e	enum:v4l2_mpeg_audio_emphasis
+V4L2_MPEG_AUDIO_ENCODING_LAYER_1	libhdmi/include/videodev2.h	/^	V4L2_MPEG_AUDIO_ENCODING_LAYER_1 = 0,$/;"	e	enum:v4l2_mpeg_audio_encoding
+V4L2_MPEG_AUDIO_ENCODING_LAYER_2	libhdmi/include/videodev2.h	/^	V4L2_MPEG_AUDIO_ENCODING_LAYER_2 = 1,$/;"	e	enum:v4l2_mpeg_audio_encoding
+V4L2_MPEG_AUDIO_ENCODING_LAYER_3	libhdmi/include/videodev2.h	/^	V4L2_MPEG_AUDIO_ENCODING_LAYER_3 = 2,$/;"	e	enum:v4l2_mpeg_audio_encoding
+V4L2_MPEG_AUDIO_L1_BITRATE_128K	libhdmi/include/videodev2.h	/^	V4L2_MPEG_AUDIO_L1_BITRATE_128K = 3,$/;"	e	enum:v4l2_mpeg_audio_l1_bitrate
+V4L2_MPEG_AUDIO_L1_BITRATE_160K	libhdmi/include/videodev2.h	/^	V4L2_MPEG_AUDIO_L1_BITRATE_160K = 4,$/;"	e	enum:v4l2_mpeg_audio_l1_bitrate
+V4L2_MPEG_AUDIO_L1_BITRATE_192K	libhdmi/include/videodev2.h	/^	V4L2_MPEG_AUDIO_L1_BITRATE_192K = 5,$/;"	e	enum:v4l2_mpeg_audio_l1_bitrate
+V4L2_MPEG_AUDIO_L1_BITRATE_224K	libhdmi/include/videodev2.h	/^	V4L2_MPEG_AUDIO_L1_BITRATE_224K = 6,$/;"	e	enum:v4l2_mpeg_audio_l1_bitrate
+V4L2_MPEG_AUDIO_L1_BITRATE_256K	libhdmi/include/videodev2.h	/^	V4L2_MPEG_AUDIO_L1_BITRATE_256K = 7,$/;"	e	enum:v4l2_mpeg_audio_l1_bitrate
+V4L2_MPEG_AUDIO_L1_BITRATE_288K	libhdmi/include/videodev2.h	/^	V4L2_MPEG_AUDIO_L1_BITRATE_288K = 8,$/;"	e	enum:v4l2_mpeg_audio_l1_bitrate
+V4L2_MPEG_AUDIO_L1_BITRATE_320K	libhdmi/include/videodev2.h	/^	V4L2_MPEG_AUDIO_L1_BITRATE_320K = 9,$/;"	e	enum:v4l2_mpeg_audio_l1_bitrate
+V4L2_MPEG_AUDIO_L1_BITRATE_32K	libhdmi/include/videodev2.h	/^	V4L2_MPEG_AUDIO_L1_BITRATE_32K  = 0,$/;"	e	enum:v4l2_mpeg_audio_l1_bitrate
+V4L2_MPEG_AUDIO_L1_BITRATE_352K	libhdmi/include/videodev2.h	/^	V4L2_MPEG_AUDIO_L1_BITRATE_352K = 10,$/;"	e	enum:v4l2_mpeg_audio_l1_bitrate
+V4L2_MPEG_AUDIO_L1_BITRATE_384K	libhdmi/include/videodev2.h	/^	V4L2_MPEG_AUDIO_L1_BITRATE_384K = 11,$/;"	e	enum:v4l2_mpeg_audio_l1_bitrate
+V4L2_MPEG_AUDIO_L1_BITRATE_416K	libhdmi/include/videodev2.h	/^	V4L2_MPEG_AUDIO_L1_BITRATE_416K = 12,$/;"	e	enum:v4l2_mpeg_audio_l1_bitrate
+V4L2_MPEG_AUDIO_L1_BITRATE_448K	libhdmi/include/videodev2.h	/^	V4L2_MPEG_AUDIO_L1_BITRATE_448K = 13,$/;"	e	enum:v4l2_mpeg_audio_l1_bitrate
+V4L2_MPEG_AUDIO_L1_BITRATE_64K	libhdmi/include/videodev2.h	/^	V4L2_MPEG_AUDIO_L1_BITRATE_64K  = 1,$/;"	e	enum:v4l2_mpeg_audio_l1_bitrate
+V4L2_MPEG_AUDIO_L1_BITRATE_96K	libhdmi/include/videodev2.h	/^	V4L2_MPEG_AUDIO_L1_BITRATE_96K  = 2,$/;"	e	enum:v4l2_mpeg_audio_l1_bitrate
+V4L2_MPEG_AUDIO_L2_BITRATE_112K	libhdmi/include/videodev2.h	/^	V4L2_MPEG_AUDIO_L2_BITRATE_112K = 6,$/;"	e	enum:v4l2_mpeg_audio_l2_bitrate
+V4L2_MPEG_AUDIO_L2_BITRATE_128K	libhdmi/include/videodev2.h	/^	V4L2_MPEG_AUDIO_L2_BITRATE_128K = 7,$/;"	e	enum:v4l2_mpeg_audio_l2_bitrate
+V4L2_MPEG_AUDIO_L2_BITRATE_160K	libhdmi/include/videodev2.h	/^	V4L2_MPEG_AUDIO_L2_BITRATE_160K = 8,$/;"	e	enum:v4l2_mpeg_audio_l2_bitrate
+V4L2_MPEG_AUDIO_L2_BITRATE_192K	libhdmi/include/videodev2.h	/^	V4L2_MPEG_AUDIO_L2_BITRATE_192K = 9,$/;"	e	enum:v4l2_mpeg_audio_l2_bitrate
+V4L2_MPEG_AUDIO_L2_BITRATE_224K	libhdmi/include/videodev2.h	/^	V4L2_MPEG_AUDIO_L2_BITRATE_224K = 10,$/;"	e	enum:v4l2_mpeg_audio_l2_bitrate
+V4L2_MPEG_AUDIO_L2_BITRATE_256K	libhdmi/include/videodev2.h	/^	V4L2_MPEG_AUDIO_L2_BITRATE_256K = 11,$/;"	e	enum:v4l2_mpeg_audio_l2_bitrate
+V4L2_MPEG_AUDIO_L2_BITRATE_320K	libhdmi/include/videodev2.h	/^	V4L2_MPEG_AUDIO_L2_BITRATE_320K = 12,$/;"	e	enum:v4l2_mpeg_audio_l2_bitrate
+V4L2_MPEG_AUDIO_L2_BITRATE_32K	libhdmi/include/videodev2.h	/^	V4L2_MPEG_AUDIO_L2_BITRATE_32K  = 0,$/;"	e	enum:v4l2_mpeg_audio_l2_bitrate
+V4L2_MPEG_AUDIO_L2_BITRATE_384K	libhdmi/include/videodev2.h	/^	V4L2_MPEG_AUDIO_L2_BITRATE_384K = 13,$/;"	e	enum:v4l2_mpeg_audio_l2_bitrate
+V4L2_MPEG_AUDIO_L2_BITRATE_48K	libhdmi/include/videodev2.h	/^	V4L2_MPEG_AUDIO_L2_BITRATE_48K  = 1,$/;"	e	enum:v4l2_mpeg_audio_l2_bitrate
+V4L2_MPEG_AUDIO_L2_BITRATE_56K	libhdmi/include/videodev2.h	/^	V4L2_MPEG_AUDIO_L2_BITRATE_56K  = 2,$/;"	e	enum:v4l2_mpeg_audio_l2_bitrate
+V4L2_MPEG_AUDIO_L2_BITRATE_64K	libhdmi/include/videodev2.h	/^	V4L2_MPEG_AUDIO_L2_BITRATE_64K  = 3,$/;"	e	enum:v4l2_mpeg_audio_l2_bitrate
+V4L2_MPEG_AUDIO_L2_BITRATE_80K	libhdmi/include/videodev2.h	/^	V4L2_MPEG_AUDIO_L2_BITRATE_80K  = 4,$/;"	e	enum:v4l2_mpeg_audio_l2_bitrate
+V4L2_MPEG_AUDIO_L2_BITRATE_96K	libhdmi/include/videodev2.h	/^	V4L2_MPEG_AUDIO_L2_BITRATE_96K  = 5,$/;"	e	enum:v4l2_mpeg_audio_l2_bitrate
+V4L2_MPEG_AUDIO_L3_BITRATE_112K	libhdmi/include/videodev2.h	/^	V4L2_MPEG_AUDIO_L3_BITRATE_112K = 7,$/;"	e	enum:v4l2_mpeg_audio_l3_bitrate
+V4L2_MPEG_AUDIO_L3_BITRATE_128K	libhdmi/include/videodev2.h	/^	V4L2_MPEG_AUDIO_L3_BITRATE_128K = 8,$/;"	e	enum:v4l2_mpeg_audio_l3_bitrate
+V4L2_MPEG_AUDIO_L3_BITRATE_160K	libhdmi/include/videodev2.h	/^	V4L2_MPEG_AUDIO_L3_BITRATE_160K = 9,$/;"	e	enum:v4l2_mpeg_audio_l3_bitrate
+V4L2_MPEG_AUDIO_L3_BITRATE_192K	libhdmi/include/videodev2.h	/^	V4L2_MPEG_AUDIO_L3_BITRATE_192K = 10,$/;"	e	enum:v4l2_mpeg_audio_l3_bitrate
+V4L2_MPEG_AUDIO_L3_BITRATE_224K	libhdmi/include/videodev2.h	/^	V4L2_MPEG_AUDIO_L3_BITRATE_224K = 11,$/;"	e	enum:v4l2_mpeg_audio_l3_bitrate
+V4L2_MPEG_AUDIO_L3_BITRATE_256K	libhdmi/include/videodev2.h	/^	V4L2_MPEG_AUDIO_L3_BITRATE_256K = 12,$/;"	e	enum:v4l2_mpeg_audio_l3_bitrate
+V4L2_MPEG_AUDIO_L3_BITRATE_320K	libhdmi/include/videodev2.h	/^	V4L2_MPEG_AUDIO_L3_BITRATE_320K = 13,$/;"	e	enum:v4l2_mpeg_audio_l3_bitrate
+V4L2_MPEG_AUDIO_L3_BITRATE_32K	libhdmi/include/videodev2.h	/^	V4L2_MPEG_AUDIO_L3_BITRATE_32K  = 0,$/;"	e	enum:v4l2_mpeg_audio_l3_bitrate
+V4L2_MPEG_AUDIO_L3_BITRATE_40K	libhdmi/include/videodev2.h	/^	V4L2_MPEG_AUDIO_L3_BITRATE_40K  = 1,$/;"	e	enum:v4l2_mpeg_audio_l3_bitrate
+V4L2_MPEG_AUDIO_L3_BITRATE_48K	libhdmi/include/videodev2.h	/^	V4L2_MPEG_AUDIO_L3_BITRATE_48K  = 2,$/;"	e	enum:v4l2_mpeg_audio_l3_bitrate
+V4L2_MPEG_AUDIO_L3_BITRATE_56K	libhdmi/include/videodev2.h	/^	V4L2_MPEG_AUDIO_L3_BITRATE_56K  = 3,$/;"	e	enum:v4l2_mpeg_audio_l3_bitrate
+V4L2_MPEG_AUDIO_L3_BITRATE_64K	libhdmi/include/videodev2.h	/^	V4L2_MPEG_AUDIO_L3_BITRATE_64K  = 4,$/;"	e	enum:v4l2_mpeg_audio_l3_bitrate
+V4L2_MPEG_AUDIO_L3_BITRATE_80K	libhdmi/include/videodev2.h	/^	V4L2_MPEG_AUDIO_L3_BITRATE_80K  = 5,$/;"	e	enum:v4l2_mpeg_audio_l3_bitrate
+V4L2_MPEG_AUDIO_L3_BITRATE_96K	libhdmi/include/videodev2.h	/^	V4L2_MPEG_AUDIO_L3_BITRATE_96K  = 6,$/;"	e	enum:v4l2_mpeg_audio_l3_bitrate
+V4L2_MPEG_AUDIO_MODE_DUAL	libhdmi/include/videodev2.h	/^	V4L2_MPEG_AUDIO_MODE_DUAL         = 2,$/;"	e	enum:v4l2_mpeg_audio_mode
+V4L2_MPEG_AUDIO_MODE_EXTENSION_BOUND_12	libhdmi/include/videodev2.h	/^	V4L2_MPEG_AUDIO_MODE_EXTENSION_BOUND_12 = 2,$/;"	e	enum:v4l2_mpeg_audio_mode_extension
+V4L2_MPEG_AUDIO_MODE_EXTENSION_BOUND_16	libhdmi/include/videodev2.h	/^	V4L2_MPEG_AUDIO_MODE_EXTENSION_BOUND_16 = 3,$/;"	e	enum:v4l2_mpeg_audio_mode_extension
+V4L2_MPEG_AUDIO_MODE_EXTENSION_BOUND_4	libhdmi/include/videodev2.h	/^	V4L2_MPEG_AUDIO_MODE_EXTENSION_BOUND_4  = 0,$/;"	e	enum:v4l2_mpeg_audio_mode_extension
+V4L2_MPEG_AUDIO_MODE_EXTENSION_BOUND_8	libhdmi/include/videodev2.h	/^	V4L2_MPEG_AUDIO_MODE_EXTENSION_BOUND_8  = 1,$/;"	e	enum:v4l2_mpeg_audio_mode_extension
+V4L2_MPEG_AUDIO_MODE_JOINT_STEREO	libhdmi/include/videodev2.h	/^	V4L2_MPEG_AUDIO_MODE_JOINT_STEREO = 1,$/;"	e	enum:v4l2_mpeg_audio_mode
+V4L2_MPEG_AUDIO_MODE_MONO	libhdmi/include/videodev2.h	/^	V4L2_MPEG_AUDIO_MODE_MONO         = 3,$/;"	e	enum:v4l2_mpeg_audio_mode
+V4L2_MPEG_AUDIO_MODE_STEREO	libhdmi/include/videodev2.h	/^	V4L2_MPEG_AUDIO_MODE_STEREO       = 0,$/;"	e	enum:v4l2_mpeg_audio_mode
+V4L2_MPEG_AUDIO_SAMPLING_FREQ_32000	libhdmi/include/videodev2.h	/^	V4L2_MPEG_AUDIO_SAMPLING_FREQ_32000 = 2,$/;"	e	enum:v4l2_mpeg_audio_sampling_freq
+V4L2_MPEG_AUDIO_SAMPLING_FREQ_44100	libhdmi/include/videodev2.h	/^	V4L2_MPEG_AUDIO_SAMPLING_FREQ_44100 = 0,$/;"	e	enum:v4l2_mpeg_audio_sampling_freq
+V4L2_MPEG_AUDIO_SAMPLING_FREQ_48000	libhdmi/include/videodev2.h	/^	V4L2_MPEG_AUDIO_SAMPLING_FREQ_48000 = 1,$/;"	e	enum:v4l2_mpeg_audio_sampling_freq
+V4L2_MPEG_CX2341X_VIDEO_CHROMA_SPATIAL_FILTER_TYPE_1D_HOR	libhdmi/include/videodev2.h	/^	V4L2_MPEG_CX2341X_VIDEO_CHROMA_SPATIAL_FILTER_TYPE_1D_HOR = 1,$/;"	e	enum:v4l2_mpeg_cx2341x_video_chroma_spatial_filter_type
+V4L2_MPEG_CX2341X_VIDEO_CHROMA_SPATIAL_FILTER_TYPE_OFF	libhdmi/include/videodev2.h	/^	V4L2_MPEG_CX2341X_VIDEO_CHROMA_SPATIAL_FILTER_TYPE_OFF    = 0,$/;"	e	enum:v4l2_mpeg_cx2341x_video_chroma_spatial_filter_type
+V4L2_MPEG_CX2341X_VIDEO_LUMA_SPATIAL_FILTER_TYPE_1D_HOR	libhdmi/include/videodev2.h	/^	V4L2_MPEG_CX2341X_VIDEO_LUMA_SPATIAL_FILTER_TYPE_1D_HOR               = 1,$/;"	e	enum:v4l2_mpeg_cx2341x_video_luma_spatial_filter_type
+V4L2_MPEG_CX2341X_VIDEO_LUMA_SPATIAL_FILTER_TYPE_1D_VERT	libhdmi/include/videodev2.h	/^	V4L2_MPEG_CX2341X_VIDEO_LUMA_SPATIAL_FILTER_TYPE_1D_VERT              = 2,$/;"	e	enum:v4l2_mpeg_cx2341x_video_luma_spatial_filter_type
+V4L2_MPEG_CX2341X_VIDEO_LUMA_SPATIAL_FILTER_TYPE_2D_HV_SEPARABLE	libhdmi/include/videodev2.h	/^	V4L2_MPEG_CX2341X_VIDEO_LUMA_SPATIAL_FILTER_TYPE_2D_HV_SEPARABLE      = 3,$/;"	e	enum:v4l2_mpeg_cx2341x_video_luma_spatial_filter_type
+V4L2_MPEG_CX2341X_VIDEO_LUMA_SPATIAL_FILTER_TYPE_2D_SYM_NON_SEPARABLE	libhdmi/include/videodev2.h	/^	V4L2_MPEG_CX2341X_VIDEO_LUMA_SPATIAL_FILTER_TYPE_2D_SYM_NON_SEPARABLE = 4,$/;"	e	enum:v4l2_mpeg_cx2341x_video_luma_spatial_filter_type
+V4L2_MPEG_CX2341X_VIDEO_LUMA_SPATIAL_FILTER_TYPE_OFF	libhdmi/include/videodev2.h	/^	V4L2_MPEG_CX2341X_VIDEO_LUMA_SPATIAL_FILTER_TYPE_OFF                  = 0,$/;"	e	enum:v4l2_mpeg_cx2341x_video_luma_spatial_filter_type
+V4L2_MPEG_CX2341X_VIDEO_MEDIAN_FILTER_TYPE_DIAG	libhdmi/include/videodev2.h	/^	V4L2_MPEG_CX2341X_VIDEO_MEDIAN_FILTER_TYPE_DIAG     = 4,$/;"	e	enum:v4l2_mpeg_cx2341x_video_median_filter_type
+V4L2_MPEG_CX2341X_VIDEO_MEDIAN_FILTER_TYPE_HOR	libhdmi/include/videodev2.h	/^	V4L2_MPEG_CX2341X_VIDEO_MEDIAN_FILTER_TYPE_HOR      = 1,$/;"	e	enum:v4l2_mpeg_cx2341x_video_median_filter_type
+V4L2_MPEG_CX2341X_VIDEO_MEDIAN_FILTER_TYPE_HOR_VERT	libhdmi/include/videodev2.h	/^	V4L2_MPEG_CX2341X_VIDEO_MEDIAN_FILTER_TYPE_HOR_VERT = 3,$/;"	e	enum:v4l2_mpeg_cx2341x_video_median_filter_type
+V4L2_MPEG_CX2341X_VIDEO_MEDIAN_FILTER_TYPE_OFF	libhdmi/include/videodev2.h	/^	V4L2_MPEG_CX2341X_VIDEO_MEDIAN_FILTER_TYPE_OFF      = 0,$/;"	e	enum:v4l2_mpeg_cx2341x_video_median_filter_type
+V4L2_MPEG_CX2341X_VIDEO_MEDIAN_FILTER_TYPE_VERT	libhdmi/include/videodev2.h	/^	V4L2_MPEG_CX2341X_VIDEO_MEDIAN_FILTER_TYPE_VERT     = 2,$/;"	e	enum:v4l2_mpeg_cx2341x_video_median_filter_type
+V4L2_MPEG_CX2341X_VIDEO_SPATIAL_FILTER_MODE_AUTO	libhdmi/include/videodev2.h	/^	V4L2_MPEG_CX2341X_VIDEO_SPATIAL_FILTER_MODE_AUTO   = 1,$/;"	e	enum:v4l2_mpeg_cx2341x_video_spatial_filter_mode
+V4L2_MPEG_CX2341X_VIDEO_SPATIAL_FILTER_MODE_MANUAL	libhdmi/include/videodev2.h	/^	V4L2_MPEG_CX2341X_VIDEO_SPATIAL_FILTER_MODE_MANUAL = 0,$/;"	e	enum:v4l2_mpeg_cx2341x_video_spatial_filter_mode
+V4L2_MPEG_CX2341X_VIDEO_TEMPORAL_FILTER_MODE_AUTO	libhdmi/include/videodev2.h	/^	V4L2_MPEG_CX2341X_VIDEO_TEMPORAL_FILTER_MODE_AUTO   = 1,$/;"	e	enum:v4l2_mpeg_cx2341x_video_temporal_filter_mode
+V4L2_MPEG_CX2341X_VIDEO_TEMPORAL_FILTER_MODE_MANUAL	libhdmi/include/videodev2.h	/^	V4L2_MPEG_CX2341X_VIDEO_TEMPORAL_FILTER_MODE_MANUAL = 0,$/;"	e	enum:v4l2_mpeg_cx2341x_video_temporal_filter_mode
+V4L2_MPEG_STREAM_TYPE_MPEG1_SS	libhdmi/include/videodev2.h	/^	V4L2_MPEG_STREAM_TYPE_MPEG1_SS   = 2, \/* MPEG-1 system stream *\/$/;"	e	enum:v4l2_mpeg_stream_type
+V4L2_MPEG_STREAM_TYPE_MPEG1_VCD	libhdmi/include/videodev2.h	/^	V4L2_MPEG_STREAM_TYPE_MPEG1_VCD  = 4, \/* MPEG-1 VCD-compatible stream *\/$/;"	e	enum:v4l2_mpeg_stream_type
+V4L2_MPEG_STREAM_TYPE_MPEG2_DVD	libhdmi/include/videodev2.h	/^	V4L2_MPEG_STREAM_TYPE_MPEG2_DVD  = 3, \/* MPEG-2 DVD-compatible stream *\/$/;"	e	enum:v4l2_mpeg_stream_type
+V4L2_MPEG_STREAM_TYPE_MPEG2_PS	libhdmi/include/videodev2.h	/^	V4L2_MPEG_STREAM_TYPE_MPEG2_PS   = 0, \/* MPEG-2 program stream *\/$/;"	e	enum:v4l2_mpeg_stream_type
+V4L2_MPEG_STREAM_TYPE_MPEG2_SVCD	libhdmi/include/videodev2.h	/^	V4L2_MPEG_STREAM_TYPE_MPEG2_SVCD = 5, \/* MPEG-2 SVCD-compatible stream *\/$/;"	e	enum:v4l2_mpeg_stream_type
+V4L2_MPEG_STREAM_TYPE_MPEG2_TS	libhdmi/include/videodev2.h	/^	V4L2_MPEG_STREAM_TYPE_MPEG2_TS   = 1, \/* MPEG-2 transport stream *\/$/;"	e	enum:v4l2_mpeg_stream_type
+V4L2_MPEG_STREAM_VBI_FMT_IVTV	libhdmi/include/videodev2.h	/^	V4L2_MPEG_STREAM_VBI_FMT_IVTV = 1,  \/* VBI in private packets, IVTV format *\/$/;"	e	enum:v4l2_mpeg_stream_vbi_fmt
+V4L2_MPEG_STREAM_VBI_FMT_NONE	libhdmi/include/videodev2.h	/^	V4L2_MPEG_STREAM_VBI_FMT_NONE = 0,  \/* No VBI in the MPEG stream *\/$/;"	e	enum:v4l2_mpeg_stream_vbi_fmt
+V4L2_MPEG_VIDEO_ASPECT_16x9	libhdmi/include/videodev2.h	/^	V4L2_MPEG_VIDEO_ASPECT_16x9    = 2,$/;"	e	enum:v4l2_mpeg_video_aspect
+V4L2_MPEG_VIDEO_ASPECT_1x1	libhdmi/include/videodev2.h	/^	V4L2_MPEG_VIDEO_ASPECT_1x1     = 0,$/;"	e	enum:v4l2_mpeg_video_aspect
+V4L2_MPEG_VIDEO_ASPECT_221x100	libhdmi/include/videodev2.h	/^	V4L2_MPEG_VIDEO_ASPECT_221x100 = 3,$/;"	e	enum:v4l2_mpeg_video_aspect
+V4L2_MPEG_VIDEO_ASPECT_4x3	libhdmi/include/videodev2.h	/^	V4L2_MPEG_VIDEO_ASPECT_4x3     = 1,$/;"	e	enum:v4l2_mpeg_video_aspect
+V4L2_MPEG_VIDEO_BITRATE_MODE_CBR	libhdmi/include/videodev2.h	/^	V4L2_MPEG_VIDEO_BITRATE_MODE_CBR = 1,$/;"	e	enum:v4l2_mpeg_video_bitrate_mode
+V4L2_MPEG_VIDEO_BITRATE_MODE_VBR	libhdmi/include/videodev2.h	/^	V4L2_MPEG_VIDEO_BITRATE_MODE_VBR = 0,$/;"	e	enum:v4l2_mpeg_video_bitrate_mode
+V4L2_MPEG_VIDEO_ENCODING_MPEG_1	libhdmi/include/videodev2.h	/^	V4L2_MPEG_VIDEO_ENCODING_MPEG_1 = 0,$/;"	e	enum:v4l2_mpeg_video_encoding
+V4L2_MPEG_VIDEO_ENCODING_MPEG_2	libhdmi/include/videodev2.h	/^	V4L2_MPEG_VIDEO_ENCODING_MPEG_2 = 1,$/;"	e	enum:v4l2_mpeg_video_encoding
+V4L2_OUTPUT_TYPE_ANALOG	libhdmi/include/videodev2.h	758;"	d
+V4L2_OUTPUT_TYPE_ANALOGVGAOVERLAY	libhdmi/include/videodev2.h	759;"	d
+V4L2_OUTPUT_TYPE_COMPOSITE	libhdmi/include/videodev2_s5p.h	29;"	d
+V4L2_OUTPUT_TYPE_DIGITAL	libhdmi/include/videodev2_s5p.h	34;"	d
+V4L2_OUTPUT_TYPE_DVI	libhdmi/include/videodev2_s5p.h	36;"	d
+V4L2_OUTPUT_TYPE_HDMI	libhdmi/hdmi_api.c	56;"	d	file:
+V4L2_OUTPUT_TYPE_HDMI_RGB	libhdmi/include/videodev2_s5p.h	35;"	d
+V4L2_OUTPUT_TYPE_MODULATOR	libhdmi/include/videodev2.h	757;"	d
+V4L2_OUTPUT_TYPE_MSDMA	libhdmi/include/videodev2_s5p.h	28;"	d
+V4L2_OUTPUT_TYPE_RGB_PROGRESSIVE	libhdmi/include/videodev2_s5p.h	33;"	d
+V4L2_OUTPUT_TYPE_SVIDEO	libhdmi/include/videodev2_s5p.h	30;"	d
+V4L2_OUTPUT_TYPE_YPBPR_INERLACED	libhdmi/include/videodev2_s5p.h	31;"	d
+V4L2_OUTPUT_TYPE_YPBPR_PROGRESSIVE	libhdmi/include/videodev2_s5p.h	32;"	d
+V4L2_PIX_FMT_BGR24	libhdmi/include/videodev2.h	285;"	d
+V4L2_PIX_FMT_BGR32	libhdmi/include/videodev2.h	287;"	d
+V4L2_PIX_FMT_DV	libhdmi/include/videodev2.h	323;"	d
+V4L2_PIX_FMT_ET61X251	libhdmi/include/videodev2.h	331;"	d
+V4L2_PIX_FMT_GREY	libhdmi/include/videodev2.h	289;"	d
+V4L2_PIX_FMT_HI240	libhdmi/include/videodev2.h	312;"	d
+V4L2_PIX_FMT_HM12	libhdmi/include/videodev2.h	313;"	d
+V4L2_PIX_FMT_JPEG	libhdmi/include/videodev2.h	322;"	d
+V4L2_PIX_FMT_MJPEG	libhdmi/include/videodev2.h	321;"	d
+V4L2_PIX_FMT_MPEG	libhdmi/include/videodev2.h	324;"	d
+V4L2_PIX_FMT_NV12	libhdmi/include/videodev2.h	305;"	d
+V4L2_PIX_FMT_NV12T	libhdmi/fimc_lib.c	579;"	d	file:
+V4L2_PIX_FMT_NV12T	libhdmi/hdmi_api.c	50;"	d	file:
+V4L2_PIX_FMT_NV12T	libhdmi/include/s5p_fimc.h	65;"	d
+V4L2_PIX_FMT_NV12X	libhdmi/include/s5p_fimc.h	57;"	d
+V4L2_PIX_FMT_NV16	libhdmi/include/s5p_fimc.h	60;"	d
+V4L2_PIX_FMT_NV16X	libhdmi/include/s5p_fimc.h	62;"	d
+V4L2_PIX_FMT_NV21	libhdmi/include/videodev2.h	306;"	d
+V4L2_PIX_FMT_NV21X	libhdmi/include/s5p_fimc.h	58;"	d
+V4L2_PIX_FMT_NV61	libhdmi/include/s5p_fimc.h	61;"	d
+V4L2_PIX_FMT_NV61X	libhdmi/include/s5p_fimc.h	63;"	d
+V4L2_PIX_FMT_PAC207	libhdmi/include/videodev2.h	336;"	d
+V4L2_PIX_FMT_PAL8	libhdmi/include/videodev2.h	291;"	d
+V4L2_PIX_FMT_PJPG	libhdmi/include/videodev2.h	337;"	d
+V4L2_PIX_FMT_PWC1	libhdmi/include/videodev2.h	329;"	d
+V4L2_PIX_FMT_PWC2	libhdmi/include/videodev2.h	330;"	d
+V4L2_PIX_FMT_RGB24	libhdmi/include/videodev2.h	286;"	d
+V4L2_PIX_FMT_RGB32	libhdmi/include/videodev2.h	288;"	d
+V4L2_PIX_FMT_RGB332	libhdmi/include/videodev2.h	279;"	d
+V4L2_PIX_FMT_RGB444	libhdmi/include/videodev2.h	280;"	d
+V4L2_PIX_FMT_RGB555	libhdmi/include/videodev2.h	281;"	d
+V4L2_PIX_FMT_RGB555X	libhdmi/include/videodev2.h	283;"	d
+V4L2_PIX_FMT_RGB565	libhdmi/include/videodev2.h	282;"	d
+V4L2_PIX_FMT_RGB565X	libhdmi/include/videodev2.h	284;"	d
+V4L2_PIX_FMT_SBGGR16	libhdmi/include/videodev2.h	318;"	d
+V4L2_PIX_FMT_SBGGR8	libhdmi/include/videodev2.h	316;"	d
+V4L2_PIX_FMT_SGBRG8	libhdmi/include/videodev2.h	317;"	d
+V4L2_PIX_FMT_SN9C10X	libhdmi/include/videodev2.h	328;"	d
+V4L2_PIX_FMT_SPCA501	libhdmi/include/videodev2.h	332;"	d
+V4L2_PIX_FMT_SPCA505	libhdmi/include/videodev2.h	333;"	d
+V4L2_PIX_FMT_SPCA508	libhdmi/include/videodev2.h	334;"	d
+V4L2_PIX_FMT_SPCA561	libhdmi/include/videodev2.h	335;"	d
+V4L2_PIX_FMT_UYVY	libhdmi/include/videodev2.h	295;"	d
+V4L2_PIX_FMT_VYUY	libhdmi/include/s5p_fimc.h	59;"	d
+V4L2_PIX_FMT_WNVA	libhdmi/include/videodev2.h	327;"	d
+V4L2_PIX_FMT_Y16	libhdmi/include/videodev2.h	290;"	d
+V4L2_PIX_FMT_Y41P	libhdmi/include/videodev2.h	298;"	d
+V4L2_PIX_FMT_YUV32	libhdmi/include/videodev2.h	302;"	d
+V4L2_PIX_FMT_YUV410	libhdmi/include/videodev2.h	309;"	d
+V4L2_PIX_FMT_YUV411P	libhdmi/include/videodev2.h	297;"	d
+V4L2_PIX_FMT_YUV420	libhdmi/include/videodev2.h	310;"	d
+V4L2_PIX_FMT_YUV422P	libhdmi/include/videodev2.h	296;"	d
+V4L2_PIX_FMT_YUV444	libhdmi/include/videodev2.h	299;"	d
+V4L2_PIX_FMT_YUV555	libhdmi/include/videodev2.h	300;"	d
+V4L2_PIX_FMT_YUV565	libhdmi/include/videodev2.h	301;"	d
+V4L2_PIX_FMT_YUYV	libhdmi/include/videodev2.h	294;"	d
+V4L2_PIX_FMT_YVU410	libhdmi/include/videodev2.h	292;"	d
+V4L2_PIX_FMT_YVU420	libhdmi/include/videodev2.h	293;"	d
+V4L2_PIX_FMT_YVYU	libhdmi/include/s5p_fimc.h	54;"	d
+V4L2_PIX_FMT_YVYU	libhdmi/include/videodev2.h	338;"	d
+V4L2_PIX_FMT_YYUV	libhdmi/include/videodev2.h	311;"	d
+V4L2_PRIORITY_BACKGROUND	libhdmi/include/videodev2.h	/^	V4L2_PRIORITY_BACKGROUND  = 1,$/;"	e	enum:v4l2_priority
+V4L2_PRIORITY_DEFAULT	libhdmi/include/videodev2.h	/^	V4L2_PRIORITY_DEFAULT     = V4L2_PRIORITY_INTERACTIVE,$/;"	e	enum:v4l2_priority
+V4L2_PRIORITY_INTERACTIVE	libhdmi/include/videodev2.h	/^	V4L2_PRIORITY_INTERACTIVE = 2,$/;"	e	enum:v4l2_priority
+V4L2_PRIORITY_RECORD	libhdmi/include/videodev2.h	/^	V4L2_PRIORITY_RECORD      = 3,$/;"	e	enum:v4l2_priority
+V4L2_PRIORITY_UNSET	libhdmi/include/videodev2.h	/^	V4L2_PRIORITY_UNSET       = 0,  \/* not initialized *\/$/;"	e	enum:v4l2_priority
+V4L2_SLICED_CAPTION_525	libhdmi/include/videodev2.h	1275;"	d
+V4L2_SLICED_TELETEXT_B	libhdmi/include/videodev2.h	1271;"	d
+V4L2_SLICED_VBI_525	libhdmi/include/videodev2.h	1279;"	d
+V4L2_SLICED_VBI_625	libhdmi/include/videodev2.h	1280;"	d
+V4L2_SLICED_VPS	libhdmi/include/videodev2.h	1273;"	d
+V4L2_SLICED_WSS_625	libhdmi/include/videodev2.h	1277;"	d
+V4L2_STD_1080I_50	libhdmi/include/videodev2_s5p.h	53;"	d
+V4L2_STD_1080I_60	libhdmi/include/videodev2_s5p.h	52;"	d
+V4L2_STD_1080P_30	libhdmi/include/videodev2_s5p.h	51;"	d
+V4L2_STD_1080P_50	libhdmi/include/videodev2_s5p.h	50;"	d
+V4L2_STD_1080P_59	libhdmi/include/videodev2_s5p.h	54;"	d
+V4L2_STD_1080P_60	libhdmi/include/videodev2_s5p.h	49;"	d
+V4L2_STD_480P_60_16_9	libhdmi/include/videodev2_s5p.h	42;"	d
+V4L2_STD_480P_60_4_3	libhdmi/include/videodev2_s5p.h	43;"	d
+V4L2_STD_525_60	libhdmi/include/videodev2.h	683;"	d
+V4L2_STD_576P_50_16_9	libhdmi/include/videodev2_s5p.h	44;"	d
+V4L2_STD_576P_50_4_3	libhdmi/include/videodev2_s5p.h	45;"	d
+V4L2_STD_625_50	libhdmi/include/videodev2.h	687;"	d
+V4L2_STD_720P_50	libhdmi/include/videodev2_s5p.h	47;"	d
+V4L2_STD_720P_59	libhdmi/include/videodev2_s5p.h	48;"	d
+V4L2_STD_720P_60	libhdmi/include/videodev2_s5p.h	46;"	d
+V4L2_STD_ALL	libhdmi/include/videodev2.h	695;"	d
+V4L2_STD_ATSC	libhdmi/include/videodev2.h	691;"	d
+V4L2_STD_ATSC_16_VSB	libhdmi/include/videodev2.h	642;"	d
+V4L2_STD_ATSC_8_VSB	libhdmi/include/videodev2.h	641;"	d
+V4L2_STD_B	libhdmi/include/videodev2.h	655;"	d
+V4L2_STD_DK	libhdmi/include/videodev2.h	657;"	d
+V4L2_STD_GH	libhdmi/include/videodev2.h	656;"	d
+V4L2_STD_MN	libhdmi/include/videodev2.h	654;"	d
+V4L2_STD_NTSC	libhdmi/include/videodev2.h	670;"	d
+V4L2_STD_NTSC_443	libhdmi/include/videodev2.h	628;"	d
+V4L2_STD_NTSC_M	libhdmi/include/videodev2.h	626;"	d
+V4L2_STD_NTSC_M_JP	libhdmi/include/videodev2.h	627;"	d
+V4L2_STD_NTSC_M_KR	libhdmi/include/videodev2.h	629;"	d
+V4L2_STD_PAL	libhdmi/include/videodev2.h	666;"	d
+V4L2_STD_PAL_60	libhdmi/include/videodev2.h	624;"	d
+V4L2_STD_PAL_B	libhdmi/include/videodev2.h	612;"	d
+V4L2_STD_PAL_B1	libhdmi/include/videodev2.h	613;"	d
+V4L2_STD_PAL_BDGHI	libhdmi/include/videodev2_s5p.h	40;"	d
+V4L2_STD_PAL_BG	libhdmi/include/videodev2.h	660;"	d
+V4L2_STD_PAL_D	libhdmi/include/videodev2.h	617;"	d
+V4L2_STD_PAL_D1	libhdmi/include/videodev2.h	618;"	d
+V4L2_STD_PAL_DK	libhdmi/include/videodev2.h	663;"	d
+V4L2_STD_PAL_G	libhdmi/include/videodev2.h	614;"	d
+V4L2_STD_PAL_H	libhdmi/include/videodev2.h	615;"	d
+V4L2_STD_PAL_I	libhdmi/include/videodev2.h	616;"	d
+V4L2_STD_PAL_K	libhdmi/include/videodev2.h	619;"	d
+V4L2_STD_PAL_M	libhdmi/include/videodev2.h	621;"	d
+V4L2_STD_PAL_N	libhdmi/include/videodev2.h	622;"	d
+V4L2_STD_PAL_Nc	libhdmi/include/videodev2.h	623;"	d
+V4L2_STD_SECAM	libhdmi/include/videodev2.h	676;"	d
+V4L2_STD_SECAM_B	libhdmi/include/videodev2.h	631;"	d
+V4L2_STD_SECAM_D	libhdmi/include/videodev2.h	632;"	d
+V4L2_STD_SECAM_DK	libhdmi/include/videodev2.h	673;"	d
+V4L2_STD_SECAM_G	libhdmi/include/videodev2.h	633;"	d
+V4L2_STD_SECAM_H	libhdmi/include/videodev2.h	634;"	d
+V4L2_STD_SECAM_K	libhdmi/include/videodev2.h	635;"	d
+V4L2_STD_SECAM_K1	libhdmi/include/videodev2.h	636;"	d
+V4L2_STD_SECAM_L	libhdmi/include/videodev2.h	637;"	d
+V4L2_STD_SECAM_LC	libhdmi/include/videodev2.h	638;"	d
+V4L2_STD_UNKNOWN	libhdmi/include/videodev2.h	694;"	d
+V4L2_TC_FLAG_COLORFRAME	libhdmi/include/videodev2.h	445;"	d
+V4L2_TC_FLAG_DROPFRAME	libhdmi/include/videodev2.h	444;"	d
+V4L2_TC_TYPE_24FPS	libhdmi/include/videodev2.h	437;"	d
+V4L2_TC_TYPE_25FPS	libhdmi/include/videodev2.h	438;"	d
+V4L2_TC_TYPE_30FPS	libhdmi/include/videodev2.h	439;"	d
+V4L2_TC_TYPE_50FPS	libhdmi/include/videodev2.h	440;"	d
+V4L2_TC_TYPE_60FPS	libhdmi/include/videodev2.h	441;"	d
+V4L2_TC_USERBITS_8BITCHARS	libhdmi/include/videodev2.h	448;"	d
+V4L2_TC_USERBITS_USERDEFINED	libhdmi/include/videodev2.h	447;"	d
+V4L2_TC_USERBITS_field	libhdmi/include/videodev2.h	446;"	d
+V4L2_TUNER_ANALOG_TV	libhdmi/include/videodev2.h	/^	V4L2_TUNER_ANALOG_TV	     = 2,$/;"	e	enum:v4l2_tuner_type
+V4L2_TUNER_CAP_LANG1	libhdmi/include/videodev2.h	1122;"	d
+V4L2_TUNER_CAP_LANG2	libhdmi/include/videodev2.h	1120;"	d
+V4L2_TUNER_CAP_LOW	libhdmi/include/videodev2.h	1117;"	d
+V4L2_TUNER_CAP_NORM	libhdmi/include/videodev2.h	1118;"	d
+V4L2_TUNER_CAP_SAP	libhdmi/include/videodev2.h	1121;"	d
+V4L2_TUNER_CAP_STEREO	libhdmi/include/videodev2.h	1119;"	d
+V4L2_TUNER_DIGITAL_TV	libhdmi/include/videodev2.h	/^	V4L2_TUNER_DIGITAL_TV	     = 3,$/;"	e	enum:v4l2_tuner_type
+V4L2_TUNER_MODE_LANG1	libhdmi/include/videodev2.h	1136;"	d
+V4L2_TUNER_MODE_LANG1_LANG2	libhdmi/include/videodev2.h	1137;"	d
+V4L2_TUNER_MODE_LANG2	libhdmi/include/videodev2.h	1134;"	d
+V4L2_TUNER_MODE_MONO	libhdmi/include/videodev2.h	1132;"	d
+V4L2_TUNER_MODE_SAP	libhdmi/include/videodev2.h	1135;"	d
+V4L2_TUNER_MODE_STEREO	libhdmi/include/videodev2.h	1133;"	d
+V4L2_TUNER_RADIO	libhdmi/include/videodev2.h	/^	V4L2_TUNER_RADIO	     = 1,$/;"	e	enum:v4l2_tuner_type
+V4L2_TUNER_SUB_LANG1	libhdmi/include/videodev2.h	1129;"	d
+V4L2_TUNER_SUB_LANG2	libhdmi/include/videodev2.h	1127;"	d
+V4L2_TUNER_SUB_MONO	libhdmi/include/videodev2.h	1125;"	d
+V4L2_TUNER_SUB_SAP	libhdmi/include/videodev2.h	1128;"	d
+V4L2_TUNER_SUB_STEREO	libhdmi/include/videodev2.h	1126;"	d
+V4L2_VBI_INTERLACED	libhdmi/include/videodev2.h	1249;"	d
+V4L2_VBI_UNSYNC	libhdmi/include/videodev2.h	1248;"	d
+VBUF_TYPE	libhdmi/fimc_lib.c	580;"	d	file:
+VIC	libhdmi/libedid.c	/^    unsigned char  VIC;$/;"	m	struct:edid_params	file:
+VIC16_9	libhdmi/libedid.c	/^    unsigned char  VIC16_9;$/;"	m	struct:edid_params	file:
+VIDEO_MAX_FRAME	libhdmi/include/videodev2.h	72;"	d
+VIDIOC_AV_MUTE	libhdmi/hdmi_api.c	53;"	d	file:
+VIDIOC_CROPCAP	libhdmi/include/videodev2.h	1400;"	d
+VIDIOC_CROPCAP_OLD	libhdmi/include/videodev2.h	1438;"	d
+VIDIOC_DBG_G_REGISTER	libhdmi/include/videodev2.h	1425;"	d
+VIDIOC_DBG_S_REGISTER	libhdmi/include/videodev2.h	1424;"	d
+VIDIOC_DQBUF	libhdmi/include/videodev2.h	1372;"	d
+VIDIOC_ENCODER_CMD	libhdmi/include/videodev2.h	1420;"	d
+VIDIOC_ENUMAUDIO	libhdmi/include/videodev2.h	1407;"	d
+VIDIOC_ENUMAUDOUT	libhdmi/include/videodev2.h	1408;"	d
+VIDIOC_ENUMINPUT	libhdmi/include/videodev2.h	1380;"	d
+VIDIOC_ENUMOUTPUT	libhdmi/include/videodev2.h	1393;"	d
+VIDIOC_ENUMSTD	libhdmi/include/videodev2.h	1379;"	d
+VIDIOC_ENUM_FMT	libhdmi/include/videodev2.h	1363;"	d
+VIDIOC_ENUM_FRAMEINTERVALS	libhdmi/include/videodev2.h	1418;"	d
+VIDIOC_ENUM_FRAMESIZES	libhdmi/include/videodev2.h	1417;"	d
+VIDIOC_G_AUDIO	libhdmi/include/videodev2.h	1385;"	d
+VIDIOC_G_AUDIO_OLD	libhdmi/include/videodev2.h	1436;"	d
+VIDIOC_G_AUDOUT	libhdmi/include/videodev2.h	1394;"	d
+VIDIOC_G_AUDOUT_OLD	libhdmi/include/videodev2.h	1437;"	d
+VIDIOC_G_AVMUTE	libhdmi/hdmi_api.c	54;"	d	file:
+VIDIOC_G_CHIP_IDENT	libhdmi/include/videodev2.h	1427;"	d
+VIDIOC_G_CROP	libhdmi/include/videodev2.h	1401;"	d
+VIDIOC_G_CTRL	libhdmi/include/videodev2.h	1381;"	d
+VIDIOC_G_ENC_INDEX	libhdmi/include/videodev2.h	1419;"	d
+VIDIOC_G_EXT_CTRLS	libhdmi/include/videodev2.h	1413;"	d
+VIDIOC_G_FBUF	libhdmi/include/videodev2.h	1368;"	d
+VIDIOC_G_FMT	libhdmi/include/videodev2.h	1364;"	d
+VIDIOC_G_FREQUENCY	libhdmi/include/videodev2.h	1398;"	d
+VIDIOC_G_INPUT	libhdmi/include/videodev2.h	1389;"	d
+VIDIOC_G_JPEGCOMP	libhdmi/include/videodev2.h	1403;"	d
+VIDIOC_G_MODULATOR	libhdmi/include/videodev2.h	1396;"	d
+VIDIOC_G_OUTPUT	libhdmi/include/videodev2.h	1391;"	d
+VIDIOC_G_PARM	libhdmi/include/videodev2.h	1375;"	d
+VIDIOC_G_PRIORITY	libhdmi/include/videodev2.h	1409;"	d
+VIDIOC_G_SLICED_VBI_CAP	libhdmi/include/videodev2.h	1411;"	d
+VIDIOC_G_STD	libhdmi/include/videodev2.h	1377;"	d
+VIDIOC_G_TUNER	libhdmi/include/videodev2.h	1383;"	d
+VIDIOC_HDCP_ENABLE	libhdmi/include/videodev2_s5p.h	61;"	d
+VIDIOC_HDCP_STATUS	libhdmi/hdmi_api.c	51;"	d	file:
+VIDIOC_INIT_AUDIO	libhdmi/hdmi_api.c	52;"	d	file:
+VIDIOC_LOG_STATUS	libhdmi/include/videodev2.h	1412;"	d
+VIDIOC_OVERLAY	libhdmi/include/videodev2.h	1370;"	d
+VIDIOC_OVERLAY_OLD	libhdmi/include/videodev2.h	1433;"	d
+VIDIOC_QBUF	libhdmi/include/videodev2.h	1371;"	d
+VIDIOC_QUERYBUF	libhdmi/include/videodev2.h	1367;"	d
+VIDIOC_QUERYCAP	libhdmi/include/videodev2.h	1361;"	d
+VIDIOC_QUERYCTRL	libhdmi/include/videodev2.h	1387;"	d
+VIDIOC_QUERYMENU	libhdmi/include/videodev2.h	1388;"	d
+VIDIOC_QUERYSTD	libhdmi/include/videodev2.h	1405;"	d
+VIDIOC_REQBUFS	libhdmi/include/videodev2.h	1366;"	d
+VIDIOC_RESERVED	libhdmi/include/videodev2.h	1362;"	d
+VIDIOC_STREAMOFF	libhdmi/include/videodev2.h	1374;"	d
+VIDIOC_STREAMON	libhdmi/include/videodev2.h	1373;"	d
+VIDIOC_S_AUDIO	libhdmi/include/videodev2.h	1386;"	d
+VIDIOC_S_AUDOUT	libhdmi/include/videodev2.h	1395;"	d
+VIDIOC_S_CROP	libhdmi/include/videodev2.h	1402;"	d
+VIDIOC_S_CTRL	libhdmi/include/videodev2.h	1382;"	d
+VIDIOC_S_CTRL_OLD	libhdmi/include/videodev2.h	1435;"	d
+VIDIOC_S_EXT_CTRLS	libhdmi/include/videodev2.h	1414;"	d
+VIDIOC_S_FBUF	libhdmi/include/videodev2.h	1369;"	d
+VIDIOC_S_FMT	libhdmi/include/videodev2.h	1365;"	d
+VIDIOC_S_FREQUENCY	libhdmi/include/videodev2.h	1399;"	d
+VIDIOC_S_HW_FREQ_SEEK	libhdmi/include/videodev2.h	1429;"	d
+VIDIOC_S_INPUT	libhdmi/include/videodev2.h	1390;"	d
+VIDIOC_S_JPEGCOMP	libhdmi/include/videodev2.h	1404;"	d
+VIDIOC_S_MODULATOR	libhdmi/include/videodev2.h	1397;"	d
+VIDIOC_S_OUTPUT	libhdmi/include/videodev2.h	1392;"	d
+VIDIOC_S_PARM	libhdmi/include/videodev2.h	1376;"	d
+VIDIOC_S_PARM_OLD	libhdmi/include/videodev2.h	1434;"	d
+VIDIOC_S_PRIORITY	libhdmi/include/videodev2.h	1410;"	d
+VIDIOC_S_STD	libhdmi/include/videodev2.h	1378;"	d
+VIDIOC_S_TUNER	libhdmi/include/videodev2.h	1384;"	d
+VIDIOC_TRY_ENCODER_CMD	libhdmi/include/videodev2.h	1421;"	d
+VIDIOC_TRY_EXT_CTRLS	libhdmi/include/videodev2.h	1415;"	d
+VIDIOC_TRY_FMT	libhdmi/include/videodev2.h	1406;"	d
+VID_TYPE_CAPTURE	libhdmi/include/videodev2.h	79;"	d
+VID_TYPE_CHROMAKEY	libhdmi/include/videodev2.h	83;"	d
+VID_TYPE_CLIPPING	libhdmi/include/videodev2.h	84;"	d
+VID_TYPE_FRAMERAM	libhdmi/include/videodev2.h	85;"	d
+VID_TYPE_MJPEG_DECODER	libhdmi/include/videodev2.h	91;"	d
+VID_TYPE_MJPEG_ENCODER	libhdmi/include/videodev2.h	92;"	d
+VID_TYPE_MONOCHROME	libhdmi/include/videodev2.h	87;"	d
+VID_TYPE_MPEG_DECODER	libhdmi/include/videodev2.h	89;"	d
+VID_TYPE_MPEG_ENCODER	libhdmi/include/videodev2.h	90;"	d
+VID_TYPE_OVERLAY	libhdmi/include/videodev2.h	82;"	d
+VID_TYPE_SCALES	libhdmi/include/videodev2.h	86;"	d
+VID_TYPE_SUBCAPTURE	libhdmi/include/videodev2.h	88;"	d
+VID_TYPE_TELETEXT	libhdmi/include/videodev2.h	81;"	d
+VID_TYPE_TUNER	libhdmi/include/videodev2.h	80;"	d
+VPROC_SRC_COLOR_NV12	libhdmi/include/hdmi_lib.h	/^	VPROC_SRC_COLOR_NV12  = 0,$/;"	e	enum:__anon22
+VPROC_SRC_COLOR_NV12IW	libhdmi/include/hdmi_lib.h	/^	VPROC_SRC_COLOR_NV12IW  = 1,$/;"	e	enum:__anon22
+VPROC_SRC_COLOR_TILE_NV12	libhdmi/include/hdmi_lib.h	/^	VPROC_SRC_COLOR_TILE_NV12  = 2,$/;"	e	enum:__anon22
+VPROC_SRC_COLOR_TILE_NV12IW	libhdmi/include/hdmi_lib.h	/^	VPROC_SRC_COLOR_TILE_NV12IW  = 3$/;"	e	enum:__anon22
+VideoFormat	libhdmi/include/video.h	/^enum VideoFormat$/;"	g
+WAM_Pro_FORMAT	libhdmi/include/audio.h	/^    WAM_Pro_FORMAT$/;"	e	enum:AudioFormat
+WORD_16	libhdmi/include/audio.h	/^    WORD_16 = 0,$/;"	e	enum:LPCM_WordLen
+WORD_17	libhdmi/include/audio.h	/^    WORD_17,$/;"	e	enum:LPCM_WordLen
+WORD_18	libhdmi/include/audio.h	/^    WORD_18,$/;"	e	enum:LPCM_WordLen
+WORD_19	libhdmi/include/audio.h	/^    WORD_19,$/;"	e	enum:LPCM_WordLen
+WORD_20	libhdmi/include/audio.h	/^    WORD_20,$/;"	e	enum:LPCM_WordLen
+WORD_21	libhdmi/include/audio.h	/^    WORD_21,$/;"	e	enum:LPCM_WordLen
+WORD_22	libhdmi/include/audio.h	/^    WORD_22,$/;"	e	enum:LPCM_WordLen
+WORD_23	libhdmi/include/audio.h	/^    WORD_23,$/;"	e	enum:LPCM_WordLen
+WORD_24	libhdmi/include/audio.h	/^    WORD_24$/;"	e	enum:LPCM_WordLen
+YC420	libhdmi/include/s3c_pp.h	/^	YC420, YC422, \/\/ Non-interleave$/;"	e	enum:__anon24
+YC422	libhdmi/include/s3c_pp.h	/^	YC420, YC422, \/\/ Non-interleave$/;"	e	enum:__anon24
+YCBYCR	libhdmi/include/s3c_pp.h	/^	CRYCBY, CBYCRY, YCRYCB, YCBYCR, YUV444 \/\/ Interleave$/;"	e	enum:__anon24
+YCRYCB	libhdmi/include/s3c_pp.h	/^	CRYCBY, CBYCRY, YCRYCB, YCBYCR, YUV444 \/\/ Interleave$/;"	e	enum:__anon24
+YUV444	libhdmi/include/s3c_pp.h	/^	CRYCBY, CBYCRY, YCRYCB, YCBYCR, YUV444 \/\/ Interleave$/;"	e	enum:__anon24
+_ANDROID_PMEM_S5P_H_	libhdmi/include/android_pmem_s5p.h	14;"	d
+_AUDIO_H_	libhdmi/include/audio.h	2;"	d
+_EDID_H_	libhdmi/edid.h	2;"	d
+_LIBCEC_H_	libhdmi/libcec.h	2;"	d
+_LIBDDC_H_	libhdmi/libddc.h	2;"	d
+_LIBEDID_H_	libhdmi/libedid.h	2;"	d
+_LINUX_CEC_H_	libhdmi/cec.h	2;"	d
+_S3CFB_LCD_	libhdmi/include/s3c_lcd.h	18;"	d
+_S3C_MEM_COMMON_H_	libhdmi/include/s3c_mem.h	18;"	d
+_S3C_PP_H_	libhdmi/include/s3c_pp.h	18;"	d
+_S5P_FIMC_H_	libhdmi/include/s5p_fimc.h	13;"	d
+_SEC_G2D_DRIVER_H_	libhdmi/include/sec_g2d.h	11;"	d
+_VIDEO_H_	libhdmi/include/video.h	2;"	d
+__CMM_DRIVER_H__	libhdmi/include/s3c-cmm.h	18;"	d
+__FBAPI_H__	libhdmi/fbapi.h	2;"	d
+__HDMI_API_H__	libhdmi/hdmi_api.h	18;"	d
+__HDMI_AUDIO_AUDIOFORMAT__	libhdmi/include/audio.h	26;"	d
+__HDMI_AUDIO_AUDIOSAMPLEPACKETTYPE__	libhdmi/include/audio.h	145;"	d
+__HDMI_AUDIO_CHANNELNUMBER__	libhdmi/include/audio.h	119;"	d
+__HDMI_AUDIO_HDMIAUDIOPORT__	libhdmi/include/audio.h	9;"	d
+__HDMI_AUDIO_I2S_BITS_PER_CHANNEL__	libhdmi/include/audio.h	273;"	d
+__HDMI_AUDIO_I2S_CLOCK_PER_FRAME__	libhdmi/include/audio.h	311;"	d
+__HDMI_AUDIO_I2S_CUV_AUDIO_CODING_TYPE__	libhdmi/include/audio.h	164;"	d
+__HDMI_AUDIO_I2S_CUV_CHANNEL_NUMBER__	libhdmi/include/audio.h	194;"	d
+__HDMI_AUDIO_I2S_CUV_WORD_LENGTH__	libhdmi/include/audio.h	237;"	d
+__HDMI_AUDIO_I2S_DATA_FORMAT__	libhdmi/include/audio.h	292;"	d
+__HDMI_AUDIO_I2S_PARAMETER__	libhdmi/include/audio.h	330;"	d
+__HDMI_AUDIO_LPCMWORDLENGTH__	libhdmi/include/audio.h	65;"	d
+__HDMI_AUDIO_SAMPLINGFREQUENCY__	libhdmi/include/audio.h	94;"	d
+__HDMI_AUDIO_SPDIF_AUDIO_CODING_TYPE__	libhdmi/include/audio.h	179;"	d
+__HDMI_VIDEO_COLORDEPTH__	libhdmi/include/video.h	110;"	d
+__HDMI_VIDEO_COLORIMETRY__	libhdmi/include/video.h	159;"	d
+__HDMI_VIDEO_COLORSPACE__	libhdmi/include/video.h	93;"	d
+__HDMI_VIDEO_HDMIMODE__	libhdmi/include/video.h	127;"	d
+__HDMI_VIDEO_PIXELASPECTRATIO__	libhdmi/include/video.h	180;"	d
+__HDMI_VIDEO_PIXELFREQUENCY__	libhdmi/include/video.h	195;"	d
+__HDMI_VIDEO_PIXELLIMIT__	libhdmi/include/video.h	142;"	d
+__HDMI_VIDEO_VIDEOFORMAT__	libhdmi/include/video.h	9;"	d
+__LINUX_VIDEODEV2_H	libhdmi/include/videodev2.h	57;"	d
+__S3C_BC_H__	libhdmi/include/s3c_bc.h	36;"	d
+__SAMSUNG_SYSLSI_APDEV_FIMCLIB_H__	libhdmi/include/fimc_lib.h	2;"	d
+__SAMSUNG_SYSLSI_APDEV_HDMILIB_H__	libhdmi/include/hdmi_lib.h	2;"	d
+__SAMSUNG_SYSLSI_DISPLIB_H__	libhdmi/include/disp_lib.h	2;"	d
+__VIDEODEV2_S5P_H__	libhdmi/include/videodev2_s5p.h	18;"	d
+__user	libhdmi/include/videodev2.h	548;"	d
+_s3c_mem_t	libhdmi/include/s3c_mem.h	/^typedef struct _s3c_mem_t{$/;"	s
+_s5p_fimc_t	libhdmi/include/s5p_fimc.h	/^typedef struct _s5p_fimc_t {$/;"	s
+_sec_g2d_t	libhdmi/include/sec_g2d.h	/^typedef struct _sec_g2d_t$/;"	s
+aVideoParams	libhdmi/libedid.c	/^} aVideoParams[] =$/;"	v	typeref:struct:edid_params	file:
+addr	libhdmi/include/sec_g2d.h	/^	unsigned long addr;$/;"	m	struct:g2d_dma_info
+afc	libhdmi/include/videodev2.h	/^	__s32			afc;$/;"	m	struct:v4l2_tuner
+alpha_val	libhdmi/include/sec_g2d.h	/^	unsigned int    alpha_val;$/;"	m	struct:__anon12
+audioset	libhdmi/include/videodev2.h	/^	__u32	     audioset;		\/*  Associated audios (bitfield) *\/$/;"	m	struct:v4l2_input
+audioset	libhdmi/include/videodev2.h	/^	__u32	     audioset;		\/*  Associated audios (bitfield) *\/$/;"	m	struct:v4l2_output
+audmode	libhdmi/include/videodev2.h	/^	__u32			audmode;$/;"	m	struct:v4l2_tuner
+b_win_blending	libhdmi/hdmi_api.c	/^	unsigned short b_win_blending;$/;"	m	struct:v4l2_s5p_video_param	file:
+base	libhdmi/include/gralloc_priv.h	/^    gralloc_module_t base;$/;"	m	struct:private_module_t
+base	libhdmi/include/gralloc_priv.h	/^    int     base;$/;"	m	struct:private_handle_t
+base	libhdmi/include/s5p_fimc.h	/^	dma_addr_t	base[3];$/;"	m	struct:fimc_buf
+base	libhdmi/include/videodev2.h	/^	void                    *base;$/;"	m	struct:v4l2_framebuffer
+base_c	libhdmi/include/videodev2_s5p.h	/^	void *base_c;$/;"	m	struct:v4l2_pix_format_s5p_tvout
+base_y	libhdmi/include/videodev2_s5p.h	/^	void *base_y;$/;"	m	struct:v4l2_pix_format_s5p_tvout
+bitmap	libhdmi/include/videodev2.h	/^	void			__user *bitmap;$/;"	m	struct:v4l2_window
+blue	libhdmi/include/s3c_lcd.h	/^	unsigned char	blue;$/;"	m	struct:s3cfb_user_chroma
+blue	libhdmi/include/s3c_lcd.h	/^	unsigned char	blue;$/;"	m	struct:s3cfb_user_plane_alpha
+blue_screen_mode	libhdmi/include/sec_g2d.h	/^	unsigned int    blue_screen_mode;     \/\/true : enable, false : disable$/;"	m	struct:__anon12
+bounds	libhdmi/include/videodev2.h	/^	struct v4l2_rect        bounds;$/;"	m	struct:v4l2_cropcap	typeref:struct:v4l2_cropcap::v4l2_rect
+bpc	libhdmi/include/audio.h	/^    enum I2SBitsPerChannel bpc;$/;"	m	struct:I2SParameter	typeref:enum:I2SParameter::I2SBitsPerChannel
+bpp	libhdmi/include/s5p_fimc.h	/^	int				bpp;$/;"	m	struct:yuv_fmt_list
+buf_addr_phy_cb	libhdmi/include/s5p_fimc.h	/^	unsigned int buf_addr_phy_cb;		\/\/ Base Address of the Source Image (CB Component) : Physical Address$/;"	m	struct:__anon32
+buf_addr_phy_cr	libhdmi/include/s5p_fimc.h	/^	unsigned int buf_addr_phy_cr;		\/\/ Base Address of the Source Image (CR Component) : Physical Address$/;"	m	struct:__anon32
+buf_addr_phy_rgb_y	libhdmi/include/s5p_fimc.h	/^	unsigned int buf_addr_phy_rgb_y;	\/\/ Base Address of the Source Image (RGB or Y): Physical Address$/;"	m	struct:__anon32
+buffSize	libhdmi/include/s3c-cmm.h	/^	int				buffSize;$/;"	m	struct:tagCODEC_MEM_ALLOC_ARG
+bufferMask	libhdmi/include/gralloc_priv.h	/^    uint32_t bufferMask;$/;"	m	struct:private_module_t
+bus_info	libhdmi/include/videodev2.h	/^	__u8	bus_info[32];	\/* "PCI:" + pci_name(pci_dev) *\/$/;"	m	struct:v4l2_capability
+bytesperline	libhdmi/include/videodev2.h	/^	__u32            	bytesperline;	\/* for padding, zero if unused *\/$/;"	m	struct:v4l2_pix_format
+bytesused	libhdmi/include/videodev2.h	/^	__u32			bytesused;$/;"	m	struct:v4l2_buffer
+c	libhdmi/include/videodev2.h	/^	struct v4l2_rect        c;$/;"	m	struct:v4l2_clip	typeref:struct:v4l2_clip::v4l2_rect
+c	libhdmi/include/videodev2.h	/^	struct v4l2_rect        c;$/;"	m	struct:v4l2_crop	typeref:struct:v4l2_crop::v4l2_rect
+cacheFlag	libhdmi/include/s3c-cmm.h	/^	char					cacheFlag;$/;"	m	struct:tagALLOC_MEM_T
+cacheFlag	libhdmi/include/s3c-cmm.h	/^	char					cacheFlag;$/;"	m	struct:tagCMM_ALLOC_PRAM_T
+cacheFlag	libhdmi/include/s3c-cmm.h	/^	char					cacheFlag;$/;"	m	struct:tagFREE_MEM_T
+cacheFlag	libhdmi/include/s3c-cmm.h	/^	char			cacheFlag;$/;"	m	struct:tagCODEC_MEM_ALLOC_ARG
+cached_mapped_addr	libhdmi/include/s3c-cmm.h	/^	unsigned int	cached_mapped_addr;$/;"	m	struct:tagCODEC_MEM_ALLOC_ARG
+cached_p_addr	libhdmi/include/s3c-cmm.h	/^		unsigned int	cached_p_addr;  \/\/ physical address of cacheable area$/;"	m	union:tagALLOC_MEM_T::__anon34
+callerProcess	libhdmi/include/s3c-cmm.h	/^	int			callerProcess;$/;"	m	struct:tagCODEC_MEM_CTX
+capabilities	libhdmi/include/videodev2.h	/^	__u32	capabilities;	\/* Device capabilities *\/$/;"	m	struct:v4l2_capability
+capability	libhdmi/include/videodev2.h	/^	__u32			capability;$/;"	m	struct:v4l2_framebuffer
+capability	libhdmi/include/videodev2.h	/^	__u32			capability;$/;"	m	struct:v4l2_modulator
+capability	libhdmi/include/videodev2.h	/^	__u32			capability;$/;"	m	struct:v4l2_tuner
+capability	libhdmi/include/videodev2.h	/^	__u32		   capability;	  \/*  Supported modes *\/$/;"	m	struct:v4l2_captureparm
+capability	libhdmi/include/videodev2.h	/^	__u32		   capability;	 \/*  Supported modes *\/$/;"	m	struct:v4l2_outputparm
+capability	libhdmi/include/videodev2.h	/^	__u32	capability;$/;"	m	struct:v4l2_audio
+capability	libhdmi/include/videodev2.h	/^	__u32	capability;$/;"	m	struct:v4l2_audioout
+capability	libhdmi/include/videodev2_s5p.h	/^	__u32			capability;$/;"	m	struct:v4l2_window_s5p_tvout
+capture	libhdmi/include/videodev2.h	/^		struct v4l2_captureparm	capture;$/;"	m	union:v4l2_streamparm::__anon21	typeref:struct:v4l2_streamparm::__anon21::v4l2_captureparm
+capturemode	libhdmi/include/videodev2.h	/^	__u32		   capturemode;	  \/*  Current mode *\/$/;"	m	struct:v4l2_captureparm
+card	libhdmi/include/videodev2.h	/^	__u8	card[32];	\/* i.e. "Hauppauge WinTV" *\/$/;"	m	struct:v4l2_capability
+cb_h	libhdmi/include/s5p_fimc.h	/^    int cb_h;$/;"	m	struct:img_offset
+cb_v	libhdmi/include/s5p_fimc.h	/^    int cb_v;$/;"	m	struct:img_offset
+cfg	libhdmi/include/s3c_mem.h	/^	int		cfg;$/;"	m	struct:s3c_mem_dma_param
+channel	libhdmi/include/s3c_lcd.h	/^	int 		channel;$/;"	m	struct:s3cfb_user_plane_alpha
+channelNum	libhdmi/include/audio.h	/^    enum ChannelNum channelNum;$/;"	m	struct:HDMIAudioParameter	typeref:enum:HDMIAudioParameter::ChannelNum
+chromakey	libhdmi/include/videodev2.h	/^	__u32			chromakey;$/;"	m	struct:v4l2_window
+clipcount	libhdmi/include/videodev2.h	/^	__u32			clipcount;$/;"	m	struct:v4l2_window
+clips	libhdmi/include/videodev2.h	/^	struct v4l2_clip	__user *clips;$/;"	m	struct:v4l2_window	typeref:struct:v4l2_window::__user
+clk	libhdmi/include/audio.h	/^    enum I2SClockPerFrame clk;$/;"	m	struct:I2SParameter	typeref:enum:I2SParameter::I2SClockPerFrame
+cmd	libhdmi/include/videodev2.h	/^	__u32 cmd;$/;"	m	struct:v4l2_encoder_cmd
+colorDepth	libhdmi/include/video.h	/^    enum ColorDepth colorDepth;$/;"	m	struct:HDMIVideoParameter	typeref:enum:HDMIVideoParameter::ColorDepth
+colorFormatCopybit2G2D	libhdmi/hdmi_api.c	/^static inline int colorFormatCopybit2G2D(int format)$/;"	f	file:
+colorSpace	libhdmi/include/video.h	/^    enum ColorSpace colorSpace;$/;"	m	struct:HDMIVideoParameter	typeref:enum:HDMIVideoParameter::ColorSpace
+color_format	libhdmi/include/sec_g2d.h	/^	int             color_format;$/;"	m	struct:__anon11
+color_key_val	libhdmi/include/sec_g2d.h	/^	unsigned int    color_key_val;        \/\/screen color value$/;"	m	struct:__anon12
+color_space	libhdmi/include/s5p_fimc.h	/^	unsigned int color_space;			\/\/ Color Space of the Source Image$/;"	m	struct:__anon32
+color_switch_val	libhdmi/include/sec_g2d.h	/^	unsigned int    color_switch_val;     \/\/one color$/;"	m	struct:__anon12
+colorimetry	libhdmi/include/video.h	/^    enum HDMIColorimetry colorimetry;$/;"	m	struct:HDMIVideoParameter	typeref:enum:HDMIVideoParameter::HDMIColorimetry
+colorspace	libhdmi/include/videodev2.h	/^	enum v4l2_colorspace	colorspace;$/;"	m	struct:v4l2_pix_format	typeref:enum:v4l2_pix_format::v4l2_colorspace
+controls	libhdmi/include/videodev2.h	/^	struct v4l2_ext_control *controls;$/;"	m	struct:v4l2_ext_controls	typeref:struct:v4l2_ext_controls::v4l2_ext_control
+count	libhdmi/include/videodev2.h	/^	__u32			count;$/;"	m	struct:v4l2_requestbuffers
+count	libhdmi/include/videodev2.h	/^	__u32	count[2];$/;"	m	struct:v4l2_vbi_format
+count	libhdmi/include/videodev2.h	/^	__u32 count;$/;"	m	struct:v4l2_ext_controls
+cr_h	libhdmi/include/s5p_fimc.h	/^    int cr_h;$/;"	m	struct:img_offset
+cr_v	libhdmi/include/s5p_fimc.h	/^    int cr_v;$/;"	m	struct:img_offset
+createG2D	libhdmi/hdmi_api.c	/^static int createG2D(sec_g2d_t *t_g2d)$/;"	f	file:
+createPP	libhdmi/fimc_lib.c	/^static int createPP(void)$/;"	f	file:
+ctrl_class	libhdmi/include/videodev2.h	/^	__u32 ctrl_class;$/;"	m	struct:v4l2_ext_controls
+currentBuffer	libhdmi/include/gralloc_priv.h	/^    buffer_handle_t currentBuffer;$/;"	m	struct:private_module_t
+data	libhdmi/include/videodev2.h	/^			__u32 data[8];$/;"	m	struct:v4l2_encoder_cmd::__anon18::__anon19
+data	libhdmi/include/videodev2.h	/^	__u8    data[48];$/;"	m	struct:v4l2_sliced_vbi_data
+ddc_fd	libhdmi/libddc.c	/^static int ddc_fd = -1;$/;"	v	file:
+default_value	libhdmi/include/videodev2.h	/^	__s32		     default_value;$/;"	m	struct:v4l2_queryctrl
+defrect	libhdmi/include/videodev2.h	/^	struct v4l2_rect        defrect;$/;"	m	struct:v4l2_cropcap	typeref:struct:v4l2_cropcap::v4l2_rect
+deinitCEC	libhdmi/hdmi_api.c	/^int deinitCEC(void)$/;"	f
+denominator	libhdmi/include/videodev2.h	/^	__u32   denominator;$/;"	m	struct:v4l2_fract
+desc	libhdmi/include/s5p_fimc.h	/^	const char 		*desc;$/;"	m	struct:yuv_fmt_list
+description	libhdmi/include/videodev2.h	/^	__u8		    description[32];   \/* Description string *\/$/;"	m	struct:v4l2_fmtdesc
+destroyG2D	libhdmi/hdmi_api.c	/^static int destroyG2D(sec_g2d_t *sec_g2d)$/;"	f	file:
+destroyPP	libhdmi/fimc_lib.c	/^static int destroyPP(void)$/;"	f	file:
+dev_fd	libhdmi/include/s3c_mem.h	/^     int     dev_fd;$/;"	m	struct:_s3c_mem_t
+dev_fd	libhdmi/include/s5p_fimc.h	/^    int                dev_fd;$/;"	m	struct:_s5p_fimc_t
+dev_fd	libhdmi/include/sec_g2d.h	/^	    int dev_fd;$/;"	m	struct:_sec_g2d_t
+devtype	libhdmi/libcec.c	/^    enum CECDeviceType devtype;$/;"	m	struct:__anon1	typeref:enum:__anon1::CECDeviceType	file:
+discrete	libhdmi/include/videodev2.h	/^		struct v4l2_fract		discrete;$/;"	m	union:v4l2_frmivalenum::__anon15	typeref:struct:v4l2_frmivalenum::__anon15::v4l2_fract
+discrete	libhdmi/include/videodev2.h	/^		struct v4l2_frmsize_discrete	discrete;$/;"	m	union:v4l2_frmsizeenum::__anon14	typeref:struct:v4l2_frmsizeenum::__anon14::v4l2_frmsize_discrete
+dma_addr_t	libhdmi/include/s5p_fimc.h	/^typedef unsigned int dma_addr_t;$/;"	t
+doG2D	libhdmi/hdmi_api.c	/^int doG2D(g2d_rect *src_rect, g2d_rect *dst_rect, g2d_flag *flag)$/;"	f
+draw_dot	libhdmi/fbapi.c	/^void draw_dot(int x, int y, unsigned int color){$/;"	f
+draw_line	libhdmi/fbapi.c	/^int draw_line(point_t *a, point_t *b, unsigned int color){$/;"	f
+driver	libhdmi/include/videodev2.h	/^	__u8	driver[16];	\/* i.e. "bttv" *\/$/;"	m	struct:v4l2_capability
+dst	libhdmi/include/s5p_fimc.h	/^	s5p_fimc_img_info	dst;$/;"	m	struct:__anon33
+dst_addr	libhdmi/include/s3c_mem.h	/^	unsigned int 	dst_addr;$/;"	m	struct:s3c_mem_dma_param
+dst_buf_addr_phy_cb	libhdmi/include/s3c_pp.h	/^	unsigned int dst_buf_addr_phy_cb;		\/\/ Base Address of the Destination Image (CB Component) : Physical Address$/;"	m	struct:__anon26
+dst_buf_addr_phy_cr	libhdmi/include/s3c_pp.h	/^	unsigned int dst_buf_addr_phy_cr;		\/\/ Base Address of the Destination Image (CR Component) : Physical Address$/;"	m	struct:__anon26
+dst_buf_addr_phy_rgb_y	libhdmi/include/s3c_pp.h	/^	unsigned int dst_buf_addr_phy_rgb_y;		\/\/ Base Address of the Destination Image (RGB or Y) : Physical Address$/;"	m	struct:__anon26
+dst_color_space	libhdmi/include/s3c_pp.h	/^	s3c_color_space_t dst_color_space;		\/\/ Color Space of the Destination Image$/;"	m	struct:__anon26
+dst_full_height	libhdmi/include/s3c_pp.h	/^	unsigned int dst_full_height;			\/\/ Destination Image Full Height (Virtual screen size)$/;"	m	struct:__anon26
+dst_full_width	libhdmi/include/s3c_pp.h	/^	unsigned int dst_full_width;			\/\/ Destination Image Full Width (Virtual screen size)$/;"	m	struct:__anon26
+dst_height	libhdmi/include/s3c_pp.h	/^	unsigned int dst_height;			\/\/ Destination Image Height$/;"	m	struct:__anon26
+dst_rect	libhdmi/include/sec_g2d.h	/^	g2d_rect * dst_rect;$/;"	m	struct:__anon13
+dst_start_x	libhdmi/include/s3c_pp.h	/^	unsigned int dst_start_x;			\/\/ Destination Image Start width offset$/;"	m	struct:__anon26
+dst_start_y	libhdmi/include/s3c_pp.h	/^	unsigned int dst_start_y;			\/\/ Destination Image Start height offset$/;"	m	struct:__anon26
+dst_width	libhdmi/include/s3c_pp.h	/^	unsigned int dst_width;				\/\/ Destination Image Width$/;"	m	struct:__anon26
+dynamicCast	libhdmi/include/gralloc_priv.h	/^    static private_handle_t* dynamicCast(const native_handle* in) {$/;"	f	struct:private_handle_t
+edid_params	libhdmi/libedid.c	/^static const struct edid_params$/;"	s	file:
+enabled	libhdmi/include/s3c_lcd.h	/^	int 		enabled;$/;"	m	struct:s3cfb_user_chroma
+entries	libhdmi/include/videodev2.h	/^	__u32 entries;$/;"	m	struct:v4l2_enc_idx
+entries_cap	libhdmi/include/videodev2.h	/^	__u32 entries_cap;$/;"	m	struct:v4l2_enc_idx
+entry	libhdmi/include/videodev2.h	/^	struct v4l2_enc_idx_entry entry[V4L2_ENC_IDX_ENTRIES];$/;"	m	struct:v4l2_enc_idx	typeref:struct:v4l2_enc_idx::v4l2_enc_idx_entry
+error_idx	libhdmi/include/videodev2.h	/^	__u32 error_idx;$/;"	m	struct:v4l2_ext_controls
+extendedmode	libhdmi/include/videodev2.h	/^	__u32		   extendedmode;  \/*  Driver-specific extensions *\/$/;"	m	struct:v4l2_captureparm
+extendedmode	libhdmi/include/videodev2.h	/^	__u32		   extendedmode; \/*  Driver-specific extensions *\/$/;"	m	struct:v4l2_outputparm
+f_grp0_stream_on	libhdmi/hdmi_api.c	/^static int f_grp0_stream_on = 0;$/;"	v	file:
+f_grp1_stream_on	libhdmi/hdmi_api.c	/^static int f_grp1_stream_on = 0;$/;"	v	file:
+f_vp_stream_on	libhdmi/hdmi_api.c	/^static int f_vp_stream_on = 0;$/;"	v	file:
+fb_close	libhdmi/fbapi.c	/^void fb_close(FrameBuffer *fb){$/;"	f
+fb_close	test.c	/^void fb_close(FrameBuffer *fb){$/;"	f
+fb_open	libhdmi/fbapi.c	/^int fb_open(FrameBuffer *fb){$/;"	f
+fb_open	test.c	/^int fb_open(FrameBuffer *fb){$/;"	f
+fd	libhdmi/fbapi.h	/^	int         fd;$/;"	m	struct:FrameBuffer
+fd	libhdmi/include/gralloc_priv.h	/^    int     fd;$/;"	m	struct:private_handle_t
+fd	libhdmi/libcec.c	/^static int fd = -1;$/;"	v	file:
+fd	test.c	/^	int         fd;$/;"	m	struct:FrameBuffer	file:
+field	libhdmi/include/videodev2.h	/^	__u32   field;          \/* 0: first field, 1: second field *\/$/;"	m	struct:v4l2_sliced_vbi_data
+field	libhdmi/include/videodev2.h	/^	enum v4l2_field		field;$/;"	m	struct:v4l2_buffer	typeref:enum:v4l2_buffer::v4l2_field
+field	libhdmi/include/videodev2.h	/^	enum v4l2_field  	field;$/;"	m	struct:v4l2_pix_format	typeref:enum:v4l2_pix_format::v4l2_field
+field	libhdmi/include/videodev2.h	/^	enum v4l2_field  	field;$/;"	m	struct:v4l2_window	typeref:enum:v4l2_window::v4l2_field
+fimc_buf	libhdmi/include/s5p_fimc.h	/^struct fimc_buf {$/;"	s
+fimc_buffer	libhdmi/include/s5p_fimc.h	/^struct fimc_buffer {$/;"	s
+fimc_deinitialize	libhdmi/fimc_lib.c	/^void fimc_deinitialize()$/;"	f
+fimc_get_output_phybuf	libhdmi/fimc_lib.c	/^void *fimc_get_output_phybuf() $/;"	f
+fimc_handle_oneshot	libhdmi/fimc_lib.c	/^int fimc_handle_oneshot(int fd, struct fimc_buf *fimc_buf)$/;"	f
+fimc_hdmi_path_disable_flag	libhdmi/fimc_lib.c	/^int		fimc_hdmi_path_disable_flag = 0;$/;"	v
+fimc_hdmi_ui_layer_status	libhdmi/fimc_lib.c	/^unsigned int	fimc_hdmi_ui_layer_status = 0;$/;"	v
+fimc_initialize	libhdmi/fimc_lib.c	/^void fimc_initialize()$/;"	f
+fimc_pp_overlay_process	libhdmi/fimc_lib.c	/^void fimc_pp_overlay_process(s5p_fimc_params_t 	*params, void *dst_phy_addr )$/;"	f
+fimc_pp_video_process	libhdmi/fimc_lib.c	/^void fimc_pp_video_process(s5p_fimc_params_t *params, void *dst_phy_y, void *dst_phy_cb )$/;"	f
+fimc_resume	libhdmi/fimc_lib.c	/^void fimc_resume()$/;"	f
+fimc_stop	libhdmi/fimc_lib.c	/^void fimc_stop()$/;"	f
+fimc_suspend	libhdmi/fimc_lib.c	/^void fimc_suspend()$/;"	f
+fimc_v4l2_clr_buf	libhdmi/fimc_lib.c	/^int fimc_v4l2_clr_buf(int fd)$/;"	f
+fimc_v4l2_dequeue	libhdmi/fimc_lib.c	/^int fimc_v4l2_dequeue(int fd)$/;"	f
+fimc_v4l2_queue	libhdmi/fimc_lib.c	/^int fimc_v4l2_queue(int fd, struct fimc_buf *fimc_buf)$/;"	f
+fimc_v4l2_s_ctrl	libhdmi/fimc_lib.c	/^static int fimc_v4l2_s_ctrl(int fp, unsigned int id, unsigned int value)$/;"	f	file:
+fimc_v4l2_set_dst	libhdmi/fimc_lib.c	/^int fimc_v4l2_set_dst(int fd, s5p_fimc_img_info *dst, int rotation, unsigned int addr)$/;"	f
+fimc_v4l2_set_dst_vout	libhdmi/fimc_lib.c	/^int fimc_v4l2_set_dst_vout(int fd, s5p_fimc_img_info *dst, int rotation, unsigned int addr_y, unsigned int addr_cb )$/;"	f
+fimc_v4l2_set_src	libhdmi/fimc_lib.c	/^int fimc_v4l2_set_src(int fd, unsigned int hw_ver, s5p_fimc_img_info *src)$/;"	f
+fimc_v4l2_stream_off	libhdmi/fimc_lib.c	/^int fimc_v4l2_stream_off(int fd)$/;"	f
+fimc_v4l2_stream_on	libhdmi/fimc_lib.c	/^int fimc_v4l2_stream_on(int fd, enum v4l2_buf_type type)$/;"	f
+finfo	libhdmi/include/gralloc_priv.h	/^    struct fb_fix_screeninfo finfo;$/;"	m	struct:private_module_t	typeref:struct:private_module_t::fb_fix_screeninfo
+fix	libhdmi/fbapi.h	/^	struct fb_fix_screeninfo fix;$/;"	m	struct:FrameBuffer	typeref:struct:FrameBuffer::fb_fix_screeninfo
+fix	test.c	/^	struct fb_fix_screeninfo fix;$/;"	m	struct:FrameBuffer	typeref:struct:FrameBuffer::fb_fix_screeninfo	file:
+flag	libhdmi/include/sec_g2d.h	/^	g2d_flag * flag;$/;"	m	struct:__anon13
+flags	libhdmi/include/gralloc_priv.h	/^    int     flags;$/;"	m	struct:private_handle_t
+flags	libhdmi/include/gralloc_priv.h	/^    uint32_t flags;$/;"	m	struct:private_module_t
+flags	libhdmi/include/videodev2.h	/^	__u32			flags;$/;"	m	struct:v4l2_buffer
+flags	libhdmi/include/videodev2.h	/^	__u32			flags;$/;"	m	struct:v4l2_framebuffer
+flags	libhdmi/include/videodev2.h	/^	__u32	flags;			\/* V4L2_VBI_* *\/$/;"	m	struct:v4l2_vbi_format
+flags	libhdmi/include/videodev2.h	/^	__u32	flags;$/;"	m	struct:v4l2_timecode
+flags	libhdmi/include/videodev2.h	/^	__u32                flags;$/;"	m	struct:v4l2_queryctrl
+flags	libhdmi/include/videodev2.h	/^	__u32               flags;$/;"	m	struct:v4l2_fmtdesc
+flags	libhdmi/include/videodev2.h	/^	__u32 flags;$/;"	m	struct:v4l2_enc_idx_entry
+flags	libhdmi/include/videodev2.h	/^	__u32 flags;$/;"	m	struct:v4l2_encoder_cmd
+flags	libhdmi/include/videodev2_s5p.h	/^	__u32			flags;$/;"	m	struct:v4l2_window_s5p_tvout
+fmt	libhdmi/include/s5p_fimc.h	/^	unsigned int 	fmt;$/;"	m	struct:yuv_fmt_list
+fmt	libhdmi/include/videodev2.h	/^	struct v4l2_pix_format	fmt;$/;"	m	struct:v4l2_framebuffer	typeref:struct:v4l2_framebuffer::v4l2_pix_format
+fmt	libhdmi/include/videodev2.h	/^	} fmt;$/;"	m	struct:v4l2_format	typeref:union:v4l2_format::__anon20
+format	libhdmi/include/audio.h	/^    enum I2SDataFormat format;$/;"	m	struct:I2SParameter	typeref:enum:I2SParameter::I2SDataFormat
+formatCode	libhdmi/include/audio.h	/^    enum AudioFormat formatCode;$/;"	m	struct:HDMIAudioParameter	typeref:enum:HDMIAudioParameter::AudioFormat
+fp_tvout	libhdmi/hdmi_api.c	/^static int fp_tvout 	= -1;$/;"	v	file:
+fp_tvout_g0	libhdmi/hdmi_api.c	/^static int fp_tvout_g0	= -1;$/;"	v	file:
+fp_tvout_g1	libhdmi/hdmi_api.c	/^static int fp_tvout_g1	= -1;$/;"	v	file:
+fps	libhdmi/include/gralloc_priv.h	/^    float fps;$/;"	m	struct:private_module_t
+framebuffer	libhdmi/include/gralloc_priv.h	/^    private_handle_t* framebuffer;$/;"	m	struct:private_module_t
+framebuffer	libhdmi/include/gralloc_priv.h	/^    struct private_handle_t* framebuffer;$/;"	m	struct:private_module_t	typeref:struct:private_module_t::private_handle_t
+framelines	libhdmi/include/videodev2.h	/^	__u32		     framelines;$/;"	m	struct:v4l2_standard
+frameperiod	libhdmi/include/videodev2.h	/^	struct v4l2_fract    frameperiod; \/* Frames, not fields *\/$/;"	m	struct:v4l2_standard	typeref:struct:v4l2_standard::v4l2_fract
+frames	libhdmi/include/videodev2.h	/^	__u8	frames;$/;"	m	struct:v4l2_timecode
+frequency	libhdmi/include/videodev2.h	/^	__u32		      frequency;$/;"	m	struct:v4l2_frequency
+full_h	libhdmi/include/sec_g2d.h	/^	unsigned int    full_h;$/;"	m	struct:__anon11
+full_height	libhdmi/include/s5p_fimc.h	/^	unsigned int full_height;			\/\/ Source Image Full Height (Virtual screen size)$/;"	m	struct:__anon32
+full_w	libhdmi/include/sec_g2d.h	/^	unsigned int    full_w;$/;"	m	struct:__anon11
+full_width	libhdmi/include/s5p_fimc.h	/^	unsigned int full_width;			\/\/ Source Image Full Width (Virtual screen size)$/;"	m	struct:__anon32
+g2d_dma_info	libhdmi/include/sec_g2d.h	/^struct g2d_dma_info {$/;"	s
+g2d_flag	libhdmi/include/sec_g2d.h	/^} g2d_flag;$/;"	t	typeref:struct:__anon12
+g2d_params	libhdmi/include/sec_g2d.h	/^} g2d_params;$/;"	t	typeref:struct:__anon13
+g2d_rect	libhdmi/include/sec_g2d.h	/^} g2d_rect;$/;"	t	typeref:struct:__anon11
+g2d_reserved_memory	libhdmi/hdmi_api.c	/^static int g2d_reserved_memory = 0;$/;"	v	file:
+gEdidData	libhdmi/libedid.c	/^static unsigned char* gEdidData;$/;"	v	file:
+gExtensions	libhdmi/libedid.c	/^static int gExtensions;$/;"	v	file:
+getG2D_memory	libhdmi/hdmi_api.c	/^static int getG2D_memory(sec_g2d_t *t_g2d)$/;"	f	file:
+getPhyAddrC	libhdmi/fimc_lib.c	/^unsigned int getPhyAddrC(int fp, int index)$/;"	f
+getPhyAddrY	libhdmi/fimc_lib.c	/^unsigned int getPhyAddrY(int fp, int index)$/;"	f
+get_color	libhdmi/fbapi.c	/^unsigned int get_color(int r, int g, int b){$/;"	f
+gfb	libhdmi/fbapi.h	/^FrameBuffer gfb;$/;"	v
+global_alpha	libhdmi/include/videodev2.h	/^	__u8                    global_alpha;$/;"	m	struct:v4l2_window
+green	libhdmi/include/s3c_lcd.h	/^	unsigned char	green;$/;"	m	struct:s3cfb_user_chroma
+green	libhdmi/include/s3c_lcd.h	/^	unsigned char	green;$/;"	m	struct:s3cfb_user_plane_alpha
+h	libhdmi/fbapi.h	/^	int x, y, w, h;$/;"	m	struct:Rectangle
+h	libhdmi/include/sec_g2d.h	/^	unsigned int    h;$/;"	m	struct:__anon11
+hdmi_audio_init	libhdmi/hdmi_api.c	/^int hdmi_audio_init( int fp )$/;"	f
+hdmi_cable_status	libhdmi/hdmi_api.c	/^int hdmi_cable_status()$/;"	f
+hdmi_deinitialize	libhdmi/hdmi_api.c	/^int hdmi_deinitialize()$/;"	f
+hdmi_gl_deinitialize	libhdmi/hdmi_api.c	/^int hdmi_gl_deinitialize(int layer)$/;"	f
+hdmi_gl_initialize	libhdmi/hdmi_api.c	/^int hdmi_gl_initialize(int layer)$/;"	f
+hdmi_gl_set_mode	libhdmi/hdmi_api.c	/^void hdmi_gl_set_mode(unsigned int mode)$/;"	f
+hdmi_gl_set_param	libhdmi/hdmi_api.c	/^int hdmi_gl_set_param(int layer, unsigned int ui_base_address, int i_width, int i_height, int chromakey_enable, int chromakey, int alpha_enable, int alpha_value, int pixel_blend)$/;"	f
+hdmi_gl_set_param_dst	libhdmi/hdmi_api.c	/^int hdmi_gl_set_param_dst(int layer, unsigned int ui_base_address, int i_width, int i_height, int destLeft, int destTop, int destWidth, int destHeight)$/;"	f
+hdmi_gl_streamoff	libhdmi/hdmi_api.c	/^int hdmi_gl_streamoff(int layer)$/;"	f
+hdmi_gl_streamon	libhdmi/hdmi_api.c	/^int hdmi_gl_streamon(int layer)$/;"	f
+hdmi_initialize	libhdmi/hdmi_api.c	/^int hdmi_initialize()$/;"	f
+hdmi_rotate	libhdmi/hdmi_api.c	/^int hdmi_rotate = 0;$/;"	v
+hdmi_set_v_param	libhdmi/hdmi_api.c	/^int hdmi_set_v_param(unsigned int ui_top_y_address, unsigned int ui_top_c_address, int i_width, int i_height)$/;"	f
+hdmi_set_v_param_dst	libhdmi/hdmi_api.c	/^int hdmi_set_v_param_dst(unsigned int ui_top_y_address, unsigned int ui_top_c_address, int i_width, int i_height, int dst_left, int dst_top, int dst_width, int dst_height)$/;"	f
+hdmi_v_streamoff	libhdmi/hdmi_api.c	/^int hdmi_v_streamoff()$/;"	f
+hdmi_v_streamon	libhdmi/hdmi_api.c	/^int hdmi_v_streamon()$/;"	f
+height	libhdmi/include/s5p_fimc.h	/^	unsigned int height;				\/\/ Source Image Height$/;"	m	struct:__anon32
+height	libhdmi/include/videodev2.h	/^	__s32   height;$/;"	m	struct:v4l2_rect
+height	libhdmi/include/videodev2.h	/^	__u32			height;		\/* Frame height *\/$/;"	m	struct:v4l2_frmivalenum
+height	libhdmi/include/videodev2.h	/^	__u32			height;		\/* Frame height [pixel] *\/$/;"	m	struct:v4l2_frmsize_discrete
+height	libhdmi/include/videodev2.h	/^	__u32			height;$/;"	m	struct:v4l2_pix_format
+hours	libhdmi/include/videodev2.h	/^	__u8	hours;$/;"	m	struct:v4l2_timecode
+hw_ver	libhdmi/include/s5p_fimc.h	/^    unsigned int        hw_ver;$/;"	m	struct:_s5p_fimc_t
+i2sParam	libhdmi/include/audio.h	/^    struct I2SParameter i2sParam;$/;"	m	struct:HDMIAudioParameter	typeref:struct:HDMIAudioParameter::I2SParameter
+id	libhdmi/include/videodev2.h	/^	__u32		     id;$/;"	m	struct:v4l2_control
+id	libhdmi/include/videodev2.h	/^	__u32		     id;$/;"	m	struct:v4l2_queryctrl
+id	libhdmi/include/videodev2.h	/^	__u32		id;$/;"	m	struct:v4l2_querymenu
+id	libhdmi/include/videodev2.h	/^	__u32   id;$/;"	m	struct:v4l2_sliced_vbi_data
+id	libhdmi/include/videodev2.h	/^	__u32 id;$/;"	m	struct:v4l2_ext_control
+id	libhdmi/include/videodev2.h	/^	v4l2_std_id          id;$/;"	m	struct:v4l2_standard
+ident	libhdmi/include/videodev2.h	/^	__u32 ident;       \/* chip identifier as specified in <media\/v4l2-chip-ident.h> *\/$/;"	m	struct:v4l2_chip_ident
+img_offset	libhdmi/include/s5p_fimc.h	/^struct img_offset {$/;"	s
+index	libhdmi/include/videodev2.h	/^	__u32			index;		\/* Frame format index *\/$/;"	m	struct:v4l2_frmivalenum
+index	libhdmi/include/videodev2.h	/^	__u32			index;		\/* Frame size number *\/$/;"	m	struct:v4l2_frmsizeenum
+index	libhdmi/include/videodev2.h	/^	__u32			index;$/;"	m	struct:v4l2_buffer
+index	libhdmi/include/videodev2.h	/^	__u32			index;$/;"	m	struct:v4l2_modulator
+index	libhdmi/include/videodev2.h	/^	__u32		     index;$/;"	m	struct:v4l2_standard
+index	libhdmi/include/videodev2.h	/^	__u32		    index;             \/* Format number      *\/$/;"	m	struct:v4l2_fmtdesc
+index	libhdmi/include/videodev2.h	/^	__u32		index;$/;"	m	struct:v4l2_querymenu
+index	libhdmi/include/videodev2.h	/^	__u32	     index;		\/*  Which input *\/$/;"	m	struct:v4l2_input
+index	libhdmi/include/videodev2.h	/^	__u32	     index;		\/*  Which output *\/$/;"	m	struct:v4l2_output
+index	libhdmi/include/videodev2.h	/^	__u32	index;$/;"	m	struct:v4l2_audio
+index	libhdmi/include/videodev2.h	/^	__u32	index;$/;"	m	struct:v4l2_audioout
+index	libhdmi/include/videodev2.h	/^	__u32                   index;$/;"	m	struct:v4l2_tuner
+info	libhdmi/include/gralloc_priv.h	/^    struct fb_var_screeninfo info;$/;"	m	struct:private_module_t	typeref:struct:private_module_t::fb_var_screeninfo
+initCEC	libhdmi/hdmi_api.c	/^int initCEC(void)$/;"	f
+init_tv	libhdmi/hdmi_api.c	/^unsigned int init_tv(void)$/;"	f
+input	libhdmi/include/videodev2.h	/^	__u32			input;$/;"	m	struct:v4l2_buffer
+inputPort	libhdmi/include/audio.h	/^    enum HDMIAudioPort inputPort;$/;"	m	struct:HDMIAudioParameter	typeref:enum:HDMIAudioParameter::HDMIAudioPort
+inputparam	libhdmi/include/s3c_bc.h	/^	int inputparam;$/;"	m	struct:S3C_BC_ioctl_package_TAG
+inst_no	libhdmi/include/s3c-cmm.h	/^	int						inst_no;$/;"	m	struct:tagALLOC_MEM_T
+inst_no	libhdmi/include/s3c-cmm.h	/^	int			inst_no;$/;"	m	struct:tagCODEC_MEM_CTX
+interlaced	libhdmi/libedid.c	/^    unsigned char  interlaced;$/;"	m	struct:edid_params	file:
+io_size	libhdmi/include/videodev2.h	/^	__u32   io_size;$/;"	m	struct:v4l2_sliced_vbi_format
+isCECFirst	libhdmi/hdmi_api.c	/^int isCECFirst = FALSE;$/;"	v
+isCECInit	libhdmi/hdmi_api.c	/^int isCECInit = FALSE;$/;"	v
+jpeg_markers	libhdmi/include/videodev2.h	/^	__u32 jpeg_markers;     \/* Which markers should go into the JPEG$/;"	m	struct:v4l2_jpegcompression
+kbhit	test.c	/^static int kbhit(void)$/;"	f	file:
+laddr	libhdmi/libcec.c	/^    unsigned char laddr;$/;"	m	struct:__anon1	file:
+laddresses	libhdmi/libcec.c	/^} laddresses[] = {$/;"	v	typeref:struct:__anon1	file:
+lcd_height	libhdmi/hdmi_api.c	/^static int lcd_height = 0;$/;"	v	file:
+lcd_offset_x	libhdmi/include/s3c_lcd.h	/^	unsigned int lcd_offset_x;$/;"	m	struct:__anon31
+lcd_offset_y	libhdmi/include/s3c_lcd.h	/^	unsigned int lcd_offset_y;$/;"	m	struct:__anon31
+lcd_width	libhdmi/hdmi_api.c	/^static int lcd_width = 0;$/;"	v	file:
+left	libhdmi/include/videodev2.h	/^	__s32   left;$/;"	m	struct:v4l2_rect
+length	libhdmi/fbapi.h	/^	size_t      length;$/;"	m	struct:FrameBuffer
+length	libhdmi/include/s5p_fimc.h	/^	size_t	length;$/;"	m	struct:fimc_buffer
+length	libhdmi/include/s5p_fimc.h	/^ 	size_t		length[3];$/;"	m	struct:fimc_buf
+length	libhdmi/include/videodev2.h	/^	__u32			length;$/;"	m	struct:v4l2_buffer
+length	libhdmi/include/videodev2.h	/^	__u32 length;$/;"	m	struct:v4l2_enc_idx_entry
+length	test.c	/^	size_t      length;$/;"	m	struct:FrameBuffer	file:
+line	libhdmi/include/videodev2.h	/^	__u32   line;           \/* 1-23 *\/$/;"	m	struct:v4l2_sliced_vbi_data
+lock	libhdmi/include/gralloc_priv.h	/^    pthread_mutex_t lock;$/;"	m	struct:private_module_t
+lockState	libhdmi/include/gralloc_priv.h	/^    int     lockState;$/;"	m	struct:private_handle_t
+m	libhdmi/include/videodev2.h	/^	} m;$/;"	m	struct:v4l2_buffer	typeref:union:v4l2_buffer::__anon16
+mCecBuffer	libhdmi/hdmi_api.c	/^unsigned char mCecBuffer[CEC_MAX_FRAME_SIZE];$/;"	v
+mCecDeviceType	libhdmi/hdmi_api.c	/^enum CECDeviceType mCecDeviceType = CEC_DEVICE_PLAYER;$/;"	v	typeref:enum:CECDeviceType
+mCecLAddr	libhdmi/hdmi_api.c	/^int mCecLAddr;$/;"	v
+mCecPAddr	libhdmi/hdmi_api.c	/^int mCecPAddr;$/;"	v
+magic	libhdmi/include/gralloc_priv.h	/^    int     magic;$/;"	m	struct:private_handle_t
+main	test.c	/^int main()$/;"	f
+mask_mode	libhdmi/include/sec_g2d.h	/^	unsigned int    mask_mode;$/;"	m	struct:__anon12
+match_chip	libhdmi/include/videodev2.h	/^	__u32 match_chip;  \/* Match this chip, meaning determined by match_type *\/$/;"	m	struct:v4l2_chip_ident
+match_chip	libhdmi/include/videodev2.h	/^	__u32 match_chip; \/* Match this chip, meaning determined by match_type *\/$/;"	m	struct:v4l2_register
+match_type	libhdmi/include/videodev2.h	/^	__u32 match_type;  \/* Match type *\/$/;"	m	struct:v4l2_chip_ident
+match_type	libhdmi/include/videodev2.h	/^	__u32 match_type; \/* Match type *\/$/;"	m	struct:v4l2_register
+max	libhdmi/include/videodev2.h	/^	struct v4l2_fract	max;		\/* Maximum frame interval [s] *\/$/;"	m	struct:v4l2_frmival_stepwise	typeref:struct:v4l2_frmival_stepwise::v4l2_fract
+max_height	libhdmi/include/videodev2.h	/^	__u32			max_height;	\/* Maximum frame height [pixel] *\/$/;"	m	struct:v4l2_frmsize_stepwise
+max_width	libhdmi/include/videodev2.h	/^	__u32			max_width;	\/* Maximum frame width [pixel] *\/$/;"	m	struct:v4l2_frmsize_stepwise
+maximum	libhdmi/include/videodev2.h	/^	__s32		     maximum;$/;"	m	struct:v4l2_queryctrl
+mem_alloc_info	libhdmi/include/s3c_mem.h	/^     struct  s3c_mem_alloc       mem_alloc_info;$/;"	m	struct:_s3c_mem_t	typeref:struct:_s3c_mem_t::s3c_mem_alloc
+memory	libhdmi/include/videodev2.h	/^	enum v4l2_memory        memory;$/;"	m	struct:v4l2_buffer	typeref:enum:v4l2_buffer::v4l2_memory
+memory	libhdmi/include/videodev2.h	/^	enum v4l2_memory        memory;$/;"	m	struct:v4l2_requestbuffers	typeref:enum:v4l2_requestbuffers::v4l2_memory
+min	libhdmi/include/videodev2.h	/^	struct v4l2_fract	min;		\/* Minimum frame interval [s] *\/$/;"	m	struct:v4l2_frmival_stepwise	typeref:struct:v4l2_frmival_stepwise::v4l2_fract
+min_height	libhdmi/include/videodev2.h	/^	__u32			min_height;	\/* Minimum frame height [pixel] *\/$/;"	m	struct:v4l2_frmsize_stepwise
+min_width	libhdmi/include/videodev2.h	/^	__u32			min_width;	\/* Minimum frame width [pixel] *\/$/;"	m	struct:v4l2_frmsize_stepwise
+minimum	libhdmi/include/videodev2.h	/^	__s32		     minimum;	\/* Note signedness *\/$/;"	m	struct:v4l2_queryctrl
+minutes	libhdmi/include/videodev2.h	/^	__u8	minutes;$/;"	m	struct:v4l2_timecode
+mode	libhdmi/include/video.h	/^    enum HDMIMode mode;$/;"	m	struct:HDMIVideoParameter	typeref:enum:HDMIVideoParameter::HDMIMode
+mode	libhdmi/include/videodev2.h	/^	__u32	mode;$/;"	m	struct:v4l2_audio
+mode	libhdmi/include/videodev2.h	/^	__u32	mode;$/;"	m	struct:v4l2_audioout
+modulator	libhdmi/include/videodev2.h	/^	__u32	     modulator;         \/*  Associated modulator *\/$/;"	m	struct:v4l2_output
+name	libhdmi/include/s5p_fimc.h	/^	const char 		*name;$/;"	m	struct:yuv_fmt_list
+name	libhdmi/include/videodev2.h	/^	__u8			name[32];$/;"	m	struct:v4l2_modulator
+name	libhdmi/include/videodev2.h	/^	__u8			name[32];$/;"	m	struct:v4l2_tuner
+name	libhdmi/include/videodev2.h	/^	__u8		     name[24];$/;"	m	struct:v4l2_standard
+name	libhdmi/include/videodev2.h	/^	__u8		     name[32];	\/* Whatever *\/$/;"	m	struct:v4l2_queryctrl
+name	libhdmi/include/videodev2.h	/^	__u8		name[32];	\/* Whatever *\/$/;"	m	struct:v4l2_querymenu
+name	libhdmi/include/videodev2.h	/^	__u8	     name[32];		\/*  Label *\/$/;"	m	struct:v4l2_input
+name	libhdmi/include/videodev2.h	/^	__u8	     name[32];		\/*  Label *\/$/;"	m	struct:v4l2_output
+name	libhdmi/include/videodev2.h	/^	__u8	name[32];$/;"	m	struct:v4l2_audio
+name	libhdmi/include/videodev2.h	/^	__u8	name[32];$/;"	m	struct:v4l2_audioout
+next	libhdmi/include/s3c-cmm.h	/^	struct tagALLOC_MEM_T	*next;$/;"	m	struct:tagALLOC_MEM_T	typeref:struct:tagALLOC_MEM_T::tagALLOC_MEM_T
+next	libhdmi/include/s3c-cmm.h	/^	struct tagFREE_MEM_T	*next;$/;"	m	struct:tagFREE_MEM_T	typeref:struct:tagFREE_MEM_T::tagFREE_MEM_T
+next	libhdmi/include/videodev2.h	/^	struct v4l2_clip	__user *next;$/;"	m	struct:v4l2_clip	typeref:struct:v4l2_clip::__user
+non_cached_mapped_addr	libhdmi/include/s3c-cmm.h	/^	unsigned int	non_cached_mapped_addr;$/;"	m	struct:tagCODEC_MEM_ALLOC_ARG
+numBuffers	libhdmi/include/gralloc_priv.h	/^    uint32_t numBuffers;$/;"	m	struct:private_module_t
+numerator	libhdmi/include/videodev2.h	/^	__u32   numerator;$/;"	m	struct:v4l2_fract
+offset	libhdmi/include/gralloc_priv.h	/^    int     offset;$/;"	m	struct:private_handle_t
+offset	libhdmi/include/videodev2.h	/^		__u32           offset;$/;"	m	union:v4l2_buffer::__anon16
+offset	libhdmi/include/videodev2.h	/^	__u32	offset;$/;"	m	struct:v4l2_vbi_format
+offset	libhdmi/include/videodev2.h	/^	__u64 offset;$/;"	m	struct:v4l2_enc_idx_entry
+open_tvout	libhdmi/hdmi_api.c	/^static int open_tvout(char *fp_name)$/;"	f	file:
+outPacket	libhdmi/include/audio.h	/^    enum HDMIASPType outPacket;$/;"	m	struct:HDMIAudioParameter	typeref:enum:HDMIAudioParameter::HDMIASPType
+out_addr	libhdmi/include/s3c-cmm.h	/^	unsigned int	out_addr;$/;"	m	struct:tagCODEC_MEM_ALLOC_ARG
+out_buf	libhdmi/include/s5p_fimc.h	/^    struct fimc_buffer  out_buf;$/;"	m	struct:_s5p_fimc_t	typeref:struct:_s5p_fimc_t::fimc_buffer
+out_path	libhdmi/include/s3c_pp.h	/^	s3c_pp_out_path_t out_path;			\/\/ output and run mode (DMA_ONESHOT or FIFO_FREERUN)$/;"	m	struct:__anon26
+output	libhdmi/include/videodev2.h	/^		struct v4l2_outputparm	output;$/;"	m	union:v4l2_streamparm::__anon21	typeref:struct:v4l2_streamparm::__anon21::v4l2_outputparm
+output_type	libhdmi/hdmi_api.c	/^unsigned int output_type = V4L2_OUTPUT_TYPE_DVI;$/;"	v
+outputmode	libhdmi/include/videodev2.h	/^	__u32		   outputmode;	 \/*  Current mode *\/$/;"	m	struct:v4l2_outputparm
+outputparam	libhdmi/include/s3c_bc.h	/^	int outputparam;$/;"	m	struct:S3C_BC_ioctl_package_TAG
+overlay_dst	libhdmi/hdmi_api.c	/^	struct v4l2_rect				overlay_dst;	$/;"	m	struct:overlay_param	typeref:struct:overlay_param::v4l2_rect	file:
+overlay_frame	libhdmi/hdmi_api.c	/^	struct v4l2_framebuffer 		overlay_frame;$/;"	m	struct:overlay_param	typeref:struct:overlay_param::v4l2_framebuffer	file:
+overlay_param	libhdmi/hdmi_api.c	/^struct overlay_param {$/;"	s	file:
+overlay_rect	libhdmi/hdmi_api.c	/^	struct v4l2_window_s5p_tvout 	overlay_rect;$/;"	m	struct:overlay_param	typeref:struct:overlay_param::v4l2_window_s5p_tvout	file:
+p_addr	libhdmi/include/s3c-cmm.h	/^	unsigned int	p_addr;$/;"	m	struct:tagCODEC_GET_PHY_ADDR_ARG
+params	libhdmi/include/s5p_fimc.h	/^    s5p_fimc_params_t   params;$/;"	m	struct:_s5p_fimc_t
+params	libhdmi/include/sec_g2d.h	/^		g2d_params     params;$/;"	m	struct:_sec_g2d_t
+parm	libhdmi/include/videodev2.h	/^	} parm;$/;"	m	struct:v4l2_streamparm	typeref:union:v4l2_streamparm::__anon21
+phy_addr	libhdmi/include/s3c_mem.h	/^	unsigned int 	phy_addr;$/;"	m	struct:s3c_mem_alloc
+phy_addr	libhdmi/include/s3c_pp.h	/^	unsigned int	phy_addr;$/;"	m	struct:__anon27
+phy_start_addr	libhdmi/include/s3c_lcd.h	/^	unsigned int phy_start_addr;$/;"	m	struct:__anon31
+phys_addr	libhdmi/include/s5p_fimc.h	/^	void	*phys_addr;$/;"	m	struct:fimc_buffer
+phys_addr	libhdmi/include/sec_g2d.h	/^	unsigned int    phys_addr;$/;"	m	struct:__anon11
+pid	libhdmi/include/gralloc_priv.h	/^    int     pid;$/;"	m	struct:private_handle_t
+pix	libhdmi/include/videodev2.h	/^		struct v4l2_pix_format		pix;     \/* V4L2_BUF_TYPE_VIDEO_CAPTURE *\/$/;"	m	union:v4l2_format::__anon20	typeref:struct:v4l2_format::__anon20::v4l2_pix_format
+pix_fmt	libhdmi/include/videodev2_s5p.h	/^	struct v4l2_pix_format	pix_fmt;$/;"	m	struct:v4l2_pix_format_s5p_tvout	typeref:struct:v4l2_pix_format_s5p_tvout::v4l2_pix_format
+pixelAspectRatio	libhdmi/include/video.h	/^    enum PixelAspectRatio pixelAspectRatio;$/;"	m	struct:HDMIVideoParameter	typeref:enum:HDMIVideoParameter::PixelAspectRatio
+pixel_format	libhdmi/include/videodev2.h	/^	__u32			pixel_format;	\/* Pixel format *\/$/;"	m	struct:v4l2_frmivalenum
+pixel_format	libhdmi/include/videodev2.h	/^	__u32			pixel_format;	\/* Pixel format *\/$/;"	m	struct:v4l2_frmsizeenum
+pixelaspect	libhdmi/include/videodev2.h	/^	struct v4l2_fract       pixelaspect;$/;"	m	struct:v4l2_cropcap	typeref:struct:v4l2_cropcap::v4l2_fract
+pixelformat	libhdmi/include/videodev2.h	/^	__u32			pixelformat;$/;"	m	struct:v4l2_pix_format
+pixelformat	libhdmi/include/videodev2.h	/^	__u32		    pixelformat;       \/* Format fourcc      *\/$/;"	m	struct:v4l2_fmtdesc
+planes	libhdmi/include/s5p_fimc.h	/^	int				planes;$/;"	m	struct:yuv_fmt_list
+pmem_master	libhdmi/include/gralloc_priv.h	/^    int pmem_master;$/;"	m	struct:private_module_t
+pmem_master_base	libhdmi/include/gralloc_priv.h	/^    void* pmem_master_base;$/;"	m	struct:private_module_t
+point_t	libhdmi/fbapi.h	/^}point_t;$/;"	t	typeref:struct:Point
+prev	libhdmi/include/s3c-cmm.h	/^	struct tagALLOC_MEM_T	*prev;$/;"	m	struct:tagALLOC_MEM_T	typeref:struct:tagALLOC_MEM_T::tagALLOC_MEM_T
+prev	libhdmi/include/s3c-cmm.h	/^	struct tagFREE_MEM_T	*prev;$/;"	m	struct:tagFREE_MEM_T	typeref:struct:tagFREE_MEM_T::tagFREE_MEM_T
+prev_phy_lcd_addr	libhdmi/hdmi_api.c	/^static int prev_phy_lcd_addr = 0;$/;"	v	file:
+priority	libhdmi/include/videodev2_s5p.h	/^	unsigned int		priority;$/;"	m	struct:v4l2_window_s5p_tvout
+priv	libhdmi/include/videodev2.h	/^	__u32			priv;		\/* private data, depends on pixelformat *\/$/;"	m	struct:v4l2_pix_format
+private_handle_t	libhdmi/include/gralloc_priv.h	/^    private_handle_t(int fd, int size, int flags) :$/;"	f	struct:private_handle_t
+private_handle_t	libhdmi/include/gralloc_priv.h	/^struct private_handle_t : public native_handle {$/;"	s
+private_module_t	libhdmi/include/gralloc_priv.h	/^struct private_module_t {$/;"	s
+pts	libhdmi/include/videodev2.h	/^	__u64 pts;$/;"	m	struct:v4l2_enc_idx_entry
+quality	libhdmi/include/videodev2.h	/^	int quality;$/;"	m	struct:v4l2_jpegcompression
+rangehigh	libhdmi/include/videodev2.h	/^	__u32			rangehigh;$/;"	m	struct:v4l2_modulator
+rangehigh	libhdmi/include/videodev2.h	/^	__u32			rangehigh;$/;"	m	struct:v4l2_tuner
+rangelow	libhdmi/include/videodev2.h	/^	__u32			rangelow;$/;"	m	struct:v4l2_modulator
+rangelow	libhdmi/include/videodev2.h	/^	__u32			rangelow;$/;"	m	struct:v4l2_tuner
+raw	libhdmi/include/videodev2.h	/^		} raw;$/;"	m	union:v4l2_encoder_cmd::__anon18	typeref:struct:v4l2_encoder_cmd::__anon18::__anon19
+raw_data	libhdmi/include/videodev2.h	/^		__u8	raw_data[200];                   \/* user-defined *\/$/;"	m	union:v4l2_format::__anon20
+raw_data	libhdmi/include/videodev2.h	/^		__u8	raw_data[200];  \/* user-defined *\/$/;"	m	union:v4l2_streamparm::__anon21
+readbuffers	libhdmi/include/videodev2.h	/^	__u32              readbuffers;   \/*  # of buffers for read *\/$/;"	m	struct:v4l2_captureparm
+rec_t	libhdmi/fbapi.h	/^}rec_t;$/;"	t	typeref:struct:Rectangle
+rect_src	libhdmi/hdmi_api.c	/^	struct v4l2_rect rect_src;$/;"	m	struct:v4l2_s5p_video_param	typeref:struct:v4l2_s5p_video_param::v4l2_rect	file:
+red	libhdmi/include/s3c_lcd.h	/^	unsigned char	red;$/;"	m	struct:s3cfb_user_chroma
+red	libhdmi/include/s3c_lcd.h	/^	unsigned char	red;$/;"	m	struct:s3cfb_user_plane_alpha
+ref_cnt	libhdmi/libddc.c	/^static unsigned int ref_cnt = 0;$/;"	v	file:
+reg	libhdmi/include/videodev2.h	/^	__u64 reg;$/;"	m	struct:v4l2_register
+reserved	libhdmi/include/videodev2.h	/^		void *reserved;$/;"	m	union:v4l2_ext_control::__anon17
+reserved	libhdmi/include/videodev2.h	/^	__u32			reserved;$/;"	m	struct:v4l2_buffer
+reserved	libhdmi/include/videodev2.h	/^	__u32			reserved[2];$/;"	m	struct:v4l2_requestbuffers
+reserved	libhdmi/include/videodev2.h	/^	__u32			reserved[4];$/;"	m	struct:v4l2_modulator
+reserved	libhdmi/include/videodev2.h	/^	__u32			reserved[4];$/;"	m	struct:v4l2_tuner
+reserved	libhdmi/include/videodev2.h	/^	__u32		      reserved[8];$/;"	m	struct:v4l2_frequency
+reserved	libhdmi/include/videodev2.h	/^	__u32		      reserved[8];$/;"	m	struct:v4l2_hw_freq_seek
+reserved	libhdmi/include/videodev2.h	/^	__u32		     reserved[2];$/;"	m	struct:v4l2_queryctrl
+reserved	libhdmi/include/videodev2.h	/^	__u32		     reserved[4];$/;"	m	struct:v4l2_standard
+reserved	libhdmi/include/videodev2.h	/^	__u32		    reserved[4];$/;"	m	struct:v4l2_fmtdesc
+reserved	libhdmi/include/videodev2.h	/^	__u32		   reserved[4];$/;"	m	struct:v4l2_captureparm
+reserved	libhdmi/include/videodev2.h	/^	__u32		   reserved[4];$/;"	m	struct:v4l2_outputparm
+reserved	libhdmi/include/videodev2.h	/^	__u32		reserved;$/;"	m	struct:v4l2_querymenu
+reserved	libhdmi/include/videodev2.h	/^	__u32	     reserved[4];$/;"	m	struct:v4l2_input
+reserved	libhdmi/include/videodev2.h	/^	__u32	     reserved[4];$/;"	m	struct:v4l2_output
+reserved	libhdmi/include/videodev2.h	/^	__u32	reserved[2];			\/* Reserved space for future use *\/$/;"	m	struct:v4l2_frmivalenum
+reserved	libhdmi/include/videodev2.h	/^	__u32	reserved[2];		\/* must be zero *\/$/;"	m	struct:v4l2_vbi_format
+reserved	libhdmi/include/videodev2.h	/^	__u32	reserved[2];$/;"	m	struct:v4l2_audio
+reserved	libhdmi/include/videodev2.h	/^	__u32	reserved[2];$/;"	m	struct:v4l2_audioout
+reserved	libhdmi/include/videodev2.h	/^	__u32	reserved[4];$/;"	m	struct:v4l2_capability
+reserved	libhdmi/include/videodev2.h	/^	__u32   reserved;       \/* must be 0 *\/$/;"	m	struct:v4l2_sliced_vbi_data
+reserved	libhdmi/include/videodev2.h	/^	__u32   reserved[2];			\/* Reserved space for future use *\/$/;"	m	struct:v4l2_frmsizeenum
+reserved	libhdmi/include/videodev2.h	/^	__u32   reserved[2];            \/* must be zero *\/$/;"	m	struct:v4l2_sliced_vbi_format
+reserved	libhdmi/include/videodev2.h	/^	__u32   reserved[3];    \/* must be 0 *\/$/;"	m	struct:v4l2_sliced_vbi_cap
+reserved	libhdmi/include/videodev2.h	/^	__u32 reserved[2];$/;"	m	struct:v4l2_enc_idx_entry
+reserved	libhdmi/include/videodev2.h	/^	__u32 reserved[2];$/;"	m	struct:v4l2_ext_controls
+reserved	libhdmi/include/videodev2.h	/^	__u32 reserved[4];$/;"	m	struct:v4l2_enc_idx
+reserved2	libhdmi/include/videodev2.h	/^	__u32 reserved2[2];$/;"	m	struct:v4l2_ext_control
+resolution	libhdmi/include/video.h	/^    enum VideoFormat resolution;$/;"	m	struct:HDMIVideoParameter	typeref:enum:HDMIVideoParameter::VideoFormat
+revision	libhdmi/include/videodev2.h	/^	__u32 revision;    \/* chip revision, chip specific *\/$/;"	m	struct:v4l2_chip_ident
+rop_mode	libhdmi/include/sec_g2d.h	/^	unsigned int    rop_mode;$/;"	m	struct:__anon12
+rotate_val	libhdmi/include/sec_g2d.h	/^	unsigned int    rotate_val;$/;"	m	struct:__anon12
+rxsubchans	libhdmi/include/videodev2.h	/^	__u32			rxsubchans;$/;"	m	struct:v4l2_tuner
+s3c_color_space_t	libhdmi/include/s3c_pp.h	/^} s3c_color_space_t;$/;"	t	typeref:enum:__anon24
+s3c_fb_next_info_t	libhdmi/include/s3c_lcd.h	/^} s3c_fb_next_info_t;$/;"	t	typeref:struct:__anon31
+s3c_mem_alloc	libhdmi/include/s3c_mem.h	/^struct s3c_mem_alloc {$/;"	s
+s3c_mem_dma_param	libhdmi/include/s3c_mem.h	/^struct s3c_mem_dma_param {$/;"	s
+s3c_mem_t	libhdmi/include/s3c_mem.h	/^}s3c_mem_t;$/;"	t	typeref:struct:_s3c_mem_t
+s3c_pp_mem_alloc_t	libhdmi/include/s3c_pp.h	/^} s3c_pp_mem_alloc_t;$/;"	t	typeref:struct:__anon27
+s3c_pp_out_path_t	libhdmi/include/s3c_pp.h	/^} s3c_pp_out_path_t;$/;"	t	typeref:enum:__anon23
+s3c_pp_params_t	libhdmi/include/s3c_pp.h	/^} s3c_pp_params_t;$/;"	t	typeref:struct:__anon26
+s3c_pp_scan_mode_t	libhdmi/include/s3c_pp.h	/^} s3c_pp_scan_mode_t;$/;"	t	typeref:enum:__anon25
+s3cfb_user_chroma	libhdmi/include/s3c_lcd.h	/^struct s3cfb_user_chroma {$/;"	s
+s3cfb_user_plane_alpha	libhdmi/include/s3c_lcd.h	/^struct s3cfb_user_plane_alpha {$/;"	s
+s3cfb_user_window	libhdmi/include/s3c_lcd.h	/^struct s3cfb_user_window {$/;"	s
+s5p_fimc	libhdmi/fimc_lib.c	/^static s5p_fimc_t	s5p_fimc;$/;"	v	file:
+s5p_fimc_img_info	libhdmi/include/s5p_fimc.h	/^} s5p_fimc_img_info;$/;"	t	typeref:struct:__anon32
+s5p_fimc_params_t	libhdmi/include/s5p_fimc.h	/^} s5p_fimc_params_t;$/;"	t	typeref:struct:__anon33
+s5p_fimc_t	libhdmi/include/s5p_fimc.h	/^}s5p_fimc_t;$/;"	t	typeref:struct:_s5p_fimc_t
+s5p_g2d	libhdmi/hdmi_api.c	/^static sec_g2d_t s5p_g2d;$/;"	v	file:
+s5p_hdmi_audio_type	libhdmi/hdmi_api.h	/^enum s5p_hdmi_audio_type {$/;"	g
+s5p_vp_src_color	libhdmi/include/hdmi_lib.h	/^}s5p_vp_src_color;$/;"	t	typeref:enum:__anon22
+sMagic	libhdmi/include/gralloc_priv.h	/^    static const int sMagic = 0x3141592;$/;"	m	struct:private_handle_t
+sNumFds	libhdmi/include/gralloc_priv.h	/^    static const int sNumFds = 1;$/;"	m	struct:private_handle_t
+sNumInts	libhdmi/include/gralloc_priv.h	/^    static const int sNumInts = 8;$/;"	m	struct:private_handle_t
+sampleFreq	libhdmi/include/audio.h	/^    enum SamplingFreq sampleFreq;$/;"	m	struct:HDMIAudioParameter	typeref:enum:HDMIAudioParameter::SamplingFreq
+sample_format	libhdmi/include/videodev2.h	/^	__u32	sample_format;		\/* V4L2_PIX_FMT_* *\/$/;"	m	struct:v4l2_vbi_format
+samples_per_line	libhdmi/include/videodev2.h	/^	__u32	samples_per_line;$/;"	m	struct:v4l2_vbi_format
+sampling_rate	libhdmi/include/videodev2.h	/^	__u32	sampling_rate;		\/* in 1 Hz *\/$/;"	m	struct:v4l2_vbi_format
+scan_mode	libhdmi/include/s3c_pp.h	/^	s3c_pp_scan_mode_t scan_mode;			\/\/ INTERLACE_MODE, PROGRESSIVE_MODE$/;"	m	struct:__anon26
+sec_g2d_t	libhdmi/include/sec_g2d.h	/^}sec_g2d_t;$/;"	t	typeref:struct:_sec_g2d_t
+seconds	libhdmi/include/videodev2.h	/^	__u8	seconds;$/;"	m	struct:v4l2_timecode
+seek_upward	libhdmi/include/videodev2.h	/^	__u32		      seek_upward;$/;"	m	struct:v4l2_hw_freq_seek
+sequence	libhdmi/include/videodev2.h	/^	__u32			sequence;$/;"	m	struct:v4l2_buffer
+service_lines	libhdmi/include/videodev2.h	/^	__u16   service_lines[2][24];$/;"	m	struct:v4l2_sliced_vbi_cap
+service_lines	libhdmi/include/videodev2.h	/^	__u16   service_lines[2][24];$/;"	m	struct:v4l2_sliced_vbi_format
+service_set	libhdmi/include/videodev2.h	/^	__u16   service_set;$/;"	m	struct:v4l2_sliced_vbi_cap
+service_set	libhdmi/include/videodev2.h	/^	__u16   service_set;$/;"	m	struct:v4l2_sliced_vbi_format
+set_overlay_param	libhdmi/hdmi_api.c	/^static int set_overlay_param(int layer, void *param)$/;"	f	file:
+signal	libhdmi/include/videodev2.h	/^	__s32			signal;$/;"	m	struct:v4l2_tuner
+size	libhdmi/include/gralloc_priv.h	/^    int     size;$/;"	m	struct:private_handle_t
+size	libhdmi/include/s3c-cmm.h	/^	int						size;       \/\/ memory size	$/;"	m	struct:tagALLOC_MEM_T
+size	libhdmi/include/s3c-cmm.h	/^	int				size;$/;"	m	struct:tagCODEC_CACHE_FLUSH_ARG
+size	libhdmi/include/s3c-cmm.h	/^	int			size;       \/\/ memory size$/;"	m	struct:tagCMM_ALLOC_PRAM_T
+size	libhdmi/include/s3c-cmm.h	/^	unsigned int			size;$/;"	m	struct:tagFREE_MEM_T
+size	libhdmi/include/s3c_mem.h	/^	int		size;$/;"	m	struct:s3c_mem_alloc
+size	libhdmi/include/s3c_mem.h	/^	int		size;$/;"	m	struct:s3c_mem_dma_param
+size	libhdmi/include/s3c_pp.h	/^	int		size;$/;"	m	struct:__anon27
+size	libhdmi/include/sec_g2d.h	/^	unsigned int  size;$/;"	m	struct:g2d_dma_info
+sizeimage	libhdmi/include/videodev2.h	/^	__u32          		sizeimage;$/;"	m	struct:v4l2_pix_format
+sliced	libhdmi/include/videodev2.h	/^		struct v4l2_sliced_vbi_format	sliced;  \/* V4L2_BUF_TYPE_SLICED_VBI_CAPTURE *\/$/;"	m	union:v4l2_format::__anon20	typeref:struct:v4l2_format::__anon20::v4l2_sliced_vbi_format
+src	libhdmi/include/s5p_fimc.h	/^	s5p_fimc_img_info	src;$/;"	m	struct:__anon33
+src_addr	libhdmi/include/s3c_mem.h	/^	unsigned int 	src_addr;$/;"	m	struct:s3c_mem_dma_param
+src_buf_addr_phy_cb	libhdmi/include/s3c_pp.h	/^	unsigned int src_buf_addr_phy_cb;		\/\/ Base Address of the Source Image (CB Component) : Physical Address$/;"	m	struct:__anon26
+src_buf_addr_phy_cr	libhdmi/include/s3c_pp.h	/^	unsigned int src_buf_addr_phy_cr;		\/\/ Base Address of the Source Image (CR Component) : Physical Address$/;"	m	struct:__anon26
+src_buf_addr_phy_rgb_y	libhdmi/include/s3c_pp.h	/^	unsigned int src_buf_addr_phy_rgb_y;		\/\/ Base Address of the Source Image (RGB or Y): Physical Address$/;"	m	struct:__anon26
+src_color	libhdmi/include/sec_g2d.h	/^	unsigned int    src_color;            \/\/ when set one color on SRC$/;"	m	struct:__anon12
+src_color_space	libhdmi/include/s3c_pp.h	/^	s3c_color_space_t src_color_space;		\/\/ Color Space of the Source Image$/;"	m	struct:__anon26
+src_full_height	libhdmi/include/s3c_pp.h	/^	unsigned int src_full_height;			\/\/ Source Image Full Height (Virtual screen size)$/;"	m	struct:__anon26
+src_full_width	libhdmi/include/s3c_pp.h	/^	unsigned int src_full_width;			\/\/ Source Image Full Width (Virtual screen size)$/;"	m	struct:__anon26
+src_height	libhdmi/include/s3c_pp.h	/^	unsigned int src_height;			\/\/ Source Image Height$/;"	m	struct:__anon26
+src_img_endian	libhdmi/hdmi_api.c	/^	unsigned short src_img_endian;$/;"	m	struct:v4l2_s5p_video_param	file:
+src_img_endian	libhdmi/include/videodev2_s5p.h	/^	unsigned short src_img_endian;$/;"	m	struct:v4l2_pix_format_s5p_tvout
+src_next_buf_addr_phy_cb	libhdmi/include/s3c_pp.h	/^	unsigned int src_next_buf_addr_phy_cb;		\/\/ Base Address of Source Image (CB Component) to be displayed next time in FIFO_FREERUN Mode$/;"	m	struct:__anon26
+src_next_buf_addr_phy_cr	libhdmi/include/s3c_pp.h	/^	unsigned int src_next_buf_addr_phy_cr;		\/\/ Base Address of Source Image (CR Component) to be displayed next time in FIFO_FREERUN Mode$/;"	m	struct:__anon26
+src_next_buf_addr_phy_rgb_y	libhdmi/include/s3c_pp.h	/^	unsigned int src_next_buf_addr_phy_rgb_y;	\/\/ Base Address of Source Image (RGB or Y) to be displayed next time in FIFO_FREERUN Mode$/;"	m	struct:__anon26
+src_rect	libhdmi/include/sec_g2d.h	/^	g2d_rect * src_rect;$/;"	m	struct:__anon13
+src_req_buf_flag	libhdmi/fimc_lib.c	/^int src_req_buf_flag = 0;$/;"	v
+src_start_x	libhdmi/include/s3c_pp.h	/^	unsigned int src_start_x;			\/\/ Source Image Start width offset$/;"	m	struct:__anon26
+src_start_y	libhdmi/include/s3c_pp.h	/^	unsigned int src_start_y;			\/\/ Source Image Start height offset$/;"	m	struct:__anon26
+src_width	libhdmi/include/s3c_pp.h	/^	unsigned int src_width;				\/\/ Source Image Width$/;"	m	struct:__anon26
+start	libhdmi/fbapi.h	/^	void        *start;$/;"	m	struct:FrameBuffer
+start	libhdmi/include/videodev2.h	/^	__s32	start[2];$/;"	m	struct:v4l2_vbi_format
+start	test.c	/^	void        *start;$/;"	m	struct:FrameBuffer	file:
+startAddr	libhdmi/include/s3c-cmm.h	/^	unsigned int			startAddr;$/;"	m	struct:tagFREE_MEM_T
+start_x	libhdmi/include/s5p_fimc.h	/^	unsigned int start_x;				\/\/ Source Image Start width offset$/;"	m	struct:__anon32
+start_y	libhdmi/include/s5p_fimc.h	/^	unsigned int start_y;				\/\/ Source Image Start height offset$/;"	m	struct:__anon32
+status	libhdmi/include/videodev2.h	/^	__u32	     status;$/;"	m	struct:v4l2_input
+std	libhdmi/include/videodev2.h	/^	v4l2_std_id  std;$/;"	m	struct:v4l2_input
+std	libhdmi/include/videodev2.h	/^	v4l2_std_id  std;$/;"	m	struct:v4l2_output
+step	libhdmi/include/videodev2.h	/^	__s32		     step;$/;"	m	struct:v4l2_queryctrl
+step	libhdmi/include/videodev2.h	/^	struct v4l2_fract	step;		\/* Frame interval step size [s] *\/$/;"	m	struct:v4l2_frmival_stepwise	typeref:struct:v4l2_frmival_stepwise::v4l2_fract
+step_height	libhdmi/include/videodev2.h	/^	__u32			step_height;	\/* Frame height step size [pixel] *\/$/;"	m	struct:v4l2_frmsize_stepwise
+step_width	libhdmi/include/videodev2.h	/^	__u32			step_width;	\/* Frame width step size [pixel] *\/$/;"	m	struct:v4l2_frmsize_stepwise
+stepwise	libhdmi/include/videodev2.h	/^		struct v4l2_frmival_stepwise	stepwise;$/;"	m	union:v4l2_frmivalenum::__anon15	typeref:struct:v4l2_frmivalenum::__anon15::v4l2_frmival_stepwise
+stepwise	libhdmi/include/videodev2.h	/^		struct v4l2_frmsize_stepwise	stepwise;$/;"	m	union:v4l2_frmsizeenum::__anon14	typeref:struct:v4l2_frmsizeenum::__anon14::v4l2_frmsize_stepwise
+t_std_id	libhdmi/hdmi_api.c	/^v4l2_std_id t_std_id     = V4L2_STD_720P_60;$/;"	v
+tagALLOC_MEM_T	libhdmi/include/s3c-cmm.h	/^typedef struct tagALLOC_MEM_T{$/;"	s
+tagCMM_ALLOC_PRAM_T	libhdmi/include/s3c-cmm.h	/^typedef struct tagCMM_ALLOC_PRAM_T{$/;"	s
+tagCODEC_CACHE_FLUSH_ARG	libhdmi/include/s3c-cmm.h	/^typedef struct tagCODEC_CACHE_FLUSH_ARG$/;"	s
+tagCODEC_GET_PHY_ADDR_ARG	libhdmi/include/s3c-cmm.h	/^typedef struct tagCODEC_GET_PHY_ADDR_ARG$/;"	s
+tagCODEC_MEM_ALLOC_ARG	libhdmi/include/s3c-cmm.h	/^typedef struct tagCODEC_MEM_ALLOC_ARG$/;"	s
+tagCODEC_MEM_CTX	libhdmi/include/s3c-cmm.h	/^typedef struct tagCODEC_MEM_CTX$/;"	s
+tagCODEC_MEM_FREE_ARG	libhdmi/include/s3c-cmm.h	/^typedef struct tagCODEC_MEM_FREE_ARG$/;"	s
+tagFREE_MEM_T	libhdmi/include/s3c-cmm.h	/^typedef struct tagFREE_MEM_T$/;"	s
+third_op_mode	libhdmi/include/sec_g2d.h	/^	unsigned int    third_op_mode;$/;"	m	struct:__anon12
+timecode	libhdmi/include/videodev2.h	/^	struct v4l2_timecode	timecode;$/;"	m	struct:v4l2_buffer	typeref:struct:v4l2_buffer::v4l2_timecode
+timeperframe	libhdmi/include/videodev2.h	/^	struct v4l2_fract  timeperframe;  \/*  Time per frame in .1us units *\/$/;"	m	struct:v4l2_captureparm	typeref:struct:v4l2_captureparm::v4l2_fract
+timeperframe	libhdmi/include/videodev2.h	/^	struct v4l2_fract  timeperframe; \/*  Time per frame in seconds *\/$/;"	m	struct:v4l2_outputparm	typeref:struct:v4l2_outputparm::v4l2_fract
+timestamp	libhdmi/include/videodev2.h	/^	struct timeval		timestamp;$/;"	m	struct:v4l2_buffer	typeref:struct:v4l2_buffer::timeval
+top	libhdmi/include/videodev2.h	/^	__s32   top;$/;"	m	struct:v4l2_rect
+tuner	libhdmi/include/videodev2.h	/^	__u32		      tuner;$/;"	m	struct:v4l2_frequency
+tuner	libhdmi/include/videodev2.h	/^	__u32		      tuner;$/;"	m	struct:v4l2_hw_freq_seek
+tuner	libhdmi/include/videodev2.h	/^	__u32        tuner;             \/*  Associated tuner *\/$/;"	m	struct:v4l2_input
+tv_param	libhdmi/hdmi_api.c	/^struct tvout_param tv_param;$/;"	v	typeref:struct:tvout_param
+tvout_dst	libhdmi/hdmi_api.c	/^	struct v4l2_rect            tvout_dst;$/;"	m	struct:tvout_param	typeref:struct:tvout_param::v4l2_rect	file:
+tvout_param	libhdmi/hdmi_api.c	/^struct tvout_param {$/;"	s	file:
+tvout_rect	libhdmi/hdmi_api.c	/^	struct v4l2_window_s5p_tvout        tvout_rect;$/;"	m	struct:tvout_param	typeref:struct:tvout_param::v4l2_window_s5p_tvout	file:
+tvout_src	libhdmi/hdmi_api.c	/^	struct v4l2_pix_format_s5p_tvout    tvout_src;$/;"	m	struct:tvout_param	typeref:struct:tvout_param::v4l2_pix_format_s5p_tvout	file:
+tvout_v4l2_cropcap	libhdmi/hdmi_api.c	/^int tvout_v4l2_cropcap(int fp, struct v4l2_cropcap *a)$/;"	f
+tvout_v4l2_enum_fmt	libhdmi/hdmi_api.c	/^int tvout_v4l2_enum_fmt(int fp, struct v4l2_fmtdesc *desc)$/;"	f
+tvout_v4l2_enum_output	libhdmi/hdmi_api.c	/^int tvout_v4l2_enum_output(int fp, struct v4l2_output *output)$/;"	f
+tvout_v4l2_enum_std	libhdmi/hdmi_api.c	/^int tvout_v4l2_enum_std(int fp, struct v4l2_standard *std, v4l2_std_id std_id)$/;"	f
+tvout_v4l2_g_crop	libhdmi/hdmi_api.c	/^int tvout_v4l2_g_crop(int fp, unsigned int type, struct v4l2_rect *rect)$/;"	f
+tvout_v4l2_g_fbuf	libhdmi/hdmi_api.c	/^int tvout_v4l2_g_fbuf(int fp, struct v4l2_framebuffer *frame)$/;"	f
+tvout_v4l2_g_fmt	libhdmi/hdmi_api.c	/^int tvout_v4l2_g_fmt(int fp, int buf_type, void* ptr)$/;"	f
+tvout_v4l2_g_output	libhdmi/hdmi_api.c	/^int tvout_v4l2_g_output(int fp, int *index)$/;"	f
+tvout_v4l2_g_parm	libhdmi/hdmi_api.c	/^int tvout_v4l2_g_parm(int fp, int buf_type, void *ptr)$/;"	f
+tvout_v4l2_g_std	libhdmi/hdmi_api.c	/^int tvout_v4l2_g_std(int fp, v4l2_std_id *std_id)$/;"	f
+tvout_v4l2_querycap	libhdmi/hdmi_api.c	/^int tvout_v4l2_querycap(int fp)$/;"	f
+tvout_v4l2_s_crop	libhdmi/hdmi_api.c	/^int tvout_v4l2_s_crop(int fp, unsigned int type, struct v4l2_rect *rect)$/;"	f
+tvout_v4l2_s_fbuf	libhdmi/hdmi_api.c	/^int tvout_v4l2_s_fbuf(int fp, struct v4l2_framebuffer *frame)$/;"	f
+tvout_v4l2_s_fmt	libhdmi/hdmi_api.c	/^int tvout_v4l2_s_fmt(int fp, int buf_type, void *ptr)$/;"	f
+tvout_v4l2_s_output	libhdmi/hdmi_api.c	/^int tvout_v4l2_s_output(int fp, int index)$/;"	f
+tvout_v4l2_s_parm	libhdmi/hdmi_api.c	/^int tvout_v4l2_s_parm(int fp, int buf_type, void *ptr)$/;"	f
+tvout_v4l2_s_std	libhdmi/hdmi_api.c	/^int tvout_v4l2_s_std(int fp, v4l2_std_id std_id)$/;"	f
+tvout_v4l2_start_overlay	libhdmi/hdmi_api.c	/^int tvout_v4l2_start_overlay(int fp)$/;"	f
+tvout_v4l2_stop_overlay	libhdmi/hdmi_api.c	/^int tvout_v4l2_stop_overlay(int fp)$/;"	f
+tvout_v4l2_streamoff	libhdmi/hdmi_api.c	/^int tvout_v4l2_streamoff(int fp, unsigned int type)$/;"	f
+tvout_v4l2_streamon	libhdmi/hdmi_api.c	/^int tvout_v4l2_streamon(int fp, unsigned int type)$/;"	f
+txsubchans	libhdmi/include/videodev2.h	/^	__u32			txsubchans;$/;"	m	struct:v4l2_modulator
+type	libhdmi/include/videodev2.h	/^	__u32			type;		\/* Frame interval type the device supports. *\/$/;"	m	struct:v4l2_frmivalenum
+type	libhdmi/include/videodev2.h	/^	__u32			type;		\/* Frame size type the device supports. *\/$/;"	m	struct:v4l2_frmsizeenum
+type	libhdmi/include/videodev2.h	/^	__u32	     type;		\/*  Type of input *\/$/;"	m	struct:v4l2_input
+type	libhdmi/include/videodev2.h	/^	__u32	     type;		\/*  Type of output *\/$/;"	m	struct:v4l2_output
+type	libhdmi/include/videodev2.h	/^	__u32	type;$/;"	m	struct:v4l2_timecode
+type	libhdmi/include/videodev2.h	/^	enum v4l2_buf_type      type;$/;"	m	struct:v4l2_buffer	typeref:enum:v4l2_buffer::v4l2_buf_type
+type	libhdmi/include/videodev2.h	/^	enum v4l2_buf_type      type;$/;"	m	struct:v4l2_crop	typeref:enum:v4l2_crop::v4l2_buf_type
+type	libhdmi/include/videodev2.h	/^	enum v4l2_buf_type      type;$/;"	m	struct:v4l2_cropcap	typeref:enum:v4l2_cropcap::v4l2_buf_type
+type	libhdmi/include/videodev2.h	/^	enum v4l2_buf_type      type;$/;"	m	struct:v4l2_requestbuffers	typeref:enum:v4l2_requestbuffers::v4l2_buf_type
+type	libhdmi/include/videodev2.h	/^	enum v4l2_buf_type  type;              \/* buffer type        *\/$/;"	m	struct:v4l2_fmtdesc	typeref:enum:v4l2_fmtdesc::v4l2_buf_type
+type	libhdmi/include/videodev2.h	/^	enum v4l2_buf_type type;$/;"	m	struct:v4l2_format	typeref:enum:v4l2_format::v4l2_buf_type
+type	libhdmi/include/videodev2.h	/^	enum v4l2_buf_type type;$/;"	m	struct:v4l2_sliced_vbi_cap	typeref:enum:v4l2_sliced_vbi_cap::v4l2_buf_type
+type	libhdmi/include/videodev2.h	/^	enum v4l2_buf_type type;$/;"	m	struct:v4l2_streamparm	typeref:enum:v4l2_streamparm::v4l2_buf_type
+type	libhdmi/include/videodev2.h	/^	enum v4l2_ctrl_type  type;$/;"	m	struct:v4l2_queryctrl	typeref:enum:v4l2_queryctrl::v4l2_ctrl_type
+type	libhdmi/include/videodev2.h	/^	enum v4l2_tuner_type    type;$/;"	m	struct:v4l2_tuner	typeref:enum:v4l2_tuner::v4l2_tuner_type
+type	libhdmi/include/videodev2.h	/^	enum v4l2_tuner_type  type;$/;"	m	struct:v4l2_frequency	typeref:enum:v4l2_frequency::v4l2_tuner_type
+type	libhdmi/include/videodev2.h	/^	enum v4l2_tuner_type  type;$/;"	m	struct:v4l2_hw_freq_seek	typeref:enum:v4l2_hw_freq_seek::v4l2_tuner_type
+u_addr	libhdmi/include/s3c-cmm.h	/^	unsigned char			*u_addr;  \/\/ copyed virtual address for user mode process$/;"	m	struct:tagALLOC_MEM_T
+u_addr	libhdmi/include/s3c-cmm.h	/^	unsigned int	u_addr;$/;"	m	struct:tagCODEC_CACHE_FLUSH_ARG
+u_addr	libhdmi/include/s3c-cmm.h	/^	unsigned int	u_addr;$/;"	m	struct:tagCODEC_MEM_FREE_ARG
+u_addr	libhdmi/include/s3c-cmm.h	/^	unsigned int 	u_addr;$/;"	m	struct:tagCODEC_GET_PHY_ADDR_ARG
+ui_alpha	libhdmi/hdmi_api.c	/^	unsigned int ui_alpha;$/;"	m	struct:v4l2_s5p_video_param	file:
+ui_priority	libhdmi/hdmi_api.c	/^	unsigned int ui_priority;$/;"	m	struct:v4l2_s5p_video_param	file:
+ui_top_c_address	libhdmi/hdmi_api.c	/^	unsigned int ui_top_c_address;$/;"	m	struct:v4l2_s5p_video_param	file:
+ui_top_y_address	libhdmi/hdmi_api.c	/^	unsigned int ui_top_y_address;$/;"	m	struct:v4l2_s5p_video_param	file:
+uncached_p_addr	libhdmi/include/s3c-cmm.h	/^		unsigned int	uncached_p_addr;  \/\/ physical address of non-cacheable area$/;"	m	union:tagALLOC_MEM_T::__anon34
+use_ext_out_mem	libhdmi/include/s5p_fimc.h	/^    int                 use_ext_out_mem;$/;"	m	struct:_s5p_fimc_t
+userbits	libhdmi/include/videodev2.h	/^	__u8	userbits[4];$/;"	m	struct:v4l2_timecode
+userptr	libhdmi/include/videodev2.h	/^		unsigned long   userptr;$/;"	m	union:v4l2_buffer::__anon16
+usesPhysicallyContiguousMemory	libhdmi/include/gralloc_priv.h	/^    bool usesPhysicallyContiguousMemory() {$/;"	f	struct:private_handle_t
+v1280x720p_100Hz	libhdmi/include/video.h	/^    v1280x720p_100Hz,$/;"	e	enum:VideoFormat
+v1280x720p_120Hz	libhdmi/include/video.h	/^    v1280x720p_120Hz,$/;"	e	enum:VideoFormat
+v1280x720p_50Hz	libhdmi/include/video.h	/^    v1280x720p_50Hz,$/;"	e	enum:VideoFormat
+v1280x720p_60Hz	libhdmi/include/video.h	/^    v1280x720p_60Hz,$/;"	e	enum:VideoFormat
+v1440x480p_60Hz	libhdmi/include/video.h	/^    v1440x480p_60Hz,$/;"	e	enum:VideoFormat
+v1440x576p_50Hz	libhdmi/include/video.h	/^    v1440x576p_50Hz,$/;"	e	enum:VideoFormat
+v1920x1080i_100Hz	libhdmi/include/video.h	/^    v1920x1080i_100Hz,$/;"	e	enum:VideoFormat
+v1920x1080i_120Hz	libhdmi/include/video.h	/^    v1920x1080i_120Hz,$/;"	e	enum:VideoFormat
+v1920x1080i_50Hz	libhdmi/include/video.h	/^    v1920x1080i_50Hz,$/;"	e	enum:VideoFormat
+v1920x1080i_50Hz_1250	libhdmi/include/video.h	/^    v1920x1080i_50Hz_1250,$/;"	e	enum:VideoFormat
+v1920x1080i_60Hz	libhdmi/include/video.h	/^    v1920x1080i_60Hz,$/;"	e	enum:VideoFormat
+v1920x1080p_24Hz	libhdmi/include/video.h	/^    v1920x1080p_24Hz,$/;"	e	enum:VideoFormat
+v1920x1080p_25Hz	libhdmi/include/video.h	/^    v1920x1080p_25Hz,$/;"	e	enum:VideoFormat
+v1920x1080p_30Hz	libhdmi/include/video.h	/^    v1920x1080p_30Hz,$/;"	e	enum:VideoFormat
+v1920x1080p_50Hz	libhdmi/include/video.h	/^    v1920x1080p_50Hz,$/;"	e	enum:VideoFormat
+v1920x1080p_60Hz	libhdmi/include/video.h	/^    v1920x1080p_60Hz,$/;"	e	enum:VideoFormat
+v2880x240p_60Hz	libhdmi/include/video.h	/^    v2880x240p_60Hz,$/;"	e	enum:VideoFormat
+v2880x288p_50Hz	libhdmi/include/video.h	/^    v2880x288p_50Hz,$/;"	e	enum:VideoFormat
+v2880x480i_60Hz	libhdmi/include/video.h	/^    v2880x480i_60Hz,$/;"	e	enum:VideoFormat
+v2880x480p_60Hz	libhdmi/include/video.h	/^    v2880x480p_60Hz,$/;"	e	enum:VideoFormat
+v2880x576i_50Hz	libhdmi/include/video.h	/^    v2880x576i_50Hz,$/;"	e	enum:VideoFormat
+v2880x576p_50Hz	libhdmi/include/video.h	/^    v2880x576p_50Hz,$/;"	e	enum:VideoFormat
+v4l2_audio	libhdmi/include/videodev2.h	/^struct v4l2_audio {$/;"	s
+v4l2_audioout	libhdmi/include/videodev2.h	/^struct v4l2_audioout {$/;"	s
+v4l2_buf_type	libhdmi/include/videodev2.h	/^enum v4l2_buf_type {$/;"	g
+v4l2_buffer	libhdmi/include/videodev2.h	/^struct v4l2_buffer {$/;"	s
+v4l2_capability	libhdmi/include/videodev2.h	/^struct v4l2_capability {$/;"	s
+v4l2_captureparm	libhdmi/include/videodev2.h	/^struct v4l2_captureparm {$/;"	s
+v4l2_chip_ident	libhdmi/include/videodev2.h	/^struct v4l2_chip_ident {$/;"	s
+v4l2_clip	libhdmi/include/videodev2.h	/^struct v4l2_clip {$/;"	s
+v4l2_colorspace	libhdmi/include/videodev2.h	/^enum v4l2_colorspace {$/;"	g
+v4l2_control	libhdmi/include/videodev2.h	/^struct v4l2_control {$/;"	s
+v4l2_crop	libhdmi/include/videodev2.h	/^struct v4l2_crop {$/;"	s
+v4l2_cropcap	libhdmi/include/videodev2.h	/^struct v4l2_cropcap {$/;"	s
+v4l2_ctrl_type	libhdmi/include/videodev2.h	/^enum v4l2_ctrl_type {$/;"	g
+v4l2_enc_idx	libhdmi/include/videodev2.h	/^struct v4l2_enc_idx {$/;"	s
+v4l2_enc_idx_entry	libhdmi/include/videodev2.h	/^struct v4l2_enc_idx_entry {$/;"	s
+v4l2_encoder_cmd	libhdmi/include/videodev2.h	/^struct v4l2_encoder_cmd {$/;"	s
+v4l2_exposure_auto_type	libhdmi/include/videodev2.h	/^enum  v4l2_exposure_auto_type {$/;"	g
+v4l2_ext_control	libhdmi/include/videodev2.h	/^struct v4l2_ext_control {$/;"	s
+v4l2_ext_controls	libhdmi/include/videodev2.h	/^struct v4l2_ext_controls {$/;"	s
+v4l2_field	libhdmi/include/videodev2.h	/^enum v4l2_field {$/;"	g
+v4l2_fmtdesc	libhdmi/include/videodev2.h	/^struct v4l2_fmtdesc {$/;"	s
+v4l2_format	libhdmi/include/videodev2.h	/^struct v4l2_format {$/;"	s
+v4l2_fourcc	libhdmi/include/videodev2.h	100;"	d
+v4l2_fract	libhdmi/include/videodev2.h	/^struct v4l2_fract {$/;"	s
+v4l2_framebuffer	libhdmi/include/videodev2.h	/^struct v4l2_framebuffer {$/;"	s
+v4l2_frequency	libhdmi/include/videodev2.h	/^struct v4l2_frequency {$/;"	s
+v4l2_frmival_stepwise	libhdmi/include/videodev2.h	/^struct v4l2_frmival_stepwise {$/;"	s
+v4l2_frmivalenum	libhdmi/include/videodev2.h	/^struct v4l2_frmivalenum {$/;"	s
+v4l2_frmivaltypes	libhdmi/include/videodev2.h	/^enum v4l2_frmivaltypes {$/;"	g
+v4l2_frmsize_discrete	libhdmi/include/videodev2.h	/^struct v4l2_frmsize_discrete {$/;"	s
+v4l2_frmsize_stepwise	libhdmi/include/videodev2.h	/^struct v4l2_frmsize_stepwise {$/;"	s
+v4l2_frmsizeenum	libhdmi/include/videodev2.h	/^struct v4l2_frmsizeenum {$/;"	s
+v4l2_frmsizetypes	libhdmi/include/videodev2.h	/^enum v4l2_frmsizetypes {$/;"	g
+v4l2_hw_freq_seek	libhdmi/include/videodev2.h	/^struct v4l2_hw_freq_seek {$/;"	s
+v4l2_input	libhdmi/include/videodev2.h	/^struct v4l2_input {$/;"	s
+v4l2_jpegcompression	libhdmi/include/videodev2.h	/^struct v4l2_jpegcompression {$/;"	s
+v4l2_memory	libhdmi/include/videodev2.h	/^enum v4l2_memory {$/;"	g
+v4l2_modulator	libhdmi/include/videodev2.h	/^struct v4l2_modulator {$/;"	s
+v4l2_mpeg_audio_crc	libhdmi/include/videodev2.h	/^enum v4l2_mpeg_audio_crc {$/;"	g
+v4l2_mpeg_audio_emphasis	libhdmi/include/videodev2.h	/^enum v4l2_mpeg_audio_emphasis {$/;"	g
+v4l2_mpeg_audio_encoding	libhdmi/include/videodev2.h	/^enum v4l2_mpeg_audio_encoding {$/;"	g
+v4l2_mpeg_audio_l1_bitrate	libhdmi/include/videodev2.h	/^enum v4l2_mpeg_audio_l1_bitrate {$/;"	g
+v4l2_mpeg_audio_l2_bitrate	libhdmi/include/videodev2.h	/^enum v4l2_mpeg_audio_l2_bitrate {$/;"	g
+v4l2_mpeg_audio_l3_bitrate	libhdmi/include/videodev2.h	/^enum v4l2_mpeg_audio_l3_bitrate {$/;"	g
+v4l2_mpeg_audio_mode	libhdmi/include/videodev2.h	/^enum v4l2_mpeg_audio_mode {$/;"	g
+v4l2_mpeg_audio_mode_extension	libhdmi/include/videodev2.h	/^enum v4l2_mpeg_audio_mode_extension {$/;"	g
+v4l2_mpeg_audio_sampling_freq	libhdmi/include/videodev2.h	/^enum v4l2_mpeg_audio_sampling_freq {$/;"	g
+v4l2_mpeg_cx2341x_video_chroma_spatial_filter_type	libhdmi/include/videodev2.h	/^enum v4l2_mpeg_cx2341x_video_chroma_spatial_filter_type {$/;"	g
+v4l2_mpeg_cx2341x_video_luma_spatial_filter_type	libhdmi/include/videodev2.h	/^enum v4l2_mpeg_cx2341x_video_luma_spatial_filter_type {$/;"	g
+v4l2_mpeg_cx2341x_video_median_filter_type	libhdmi/include/videodev2.h	/^enum v4l2_mpeg_cx2341x_video_median_filter_type {$/;"	g
+v4l2_mpeg_cx2341x_video_spatial_filter_mode	libhdmi/include/videodev2.h	/^enum v4l2_mpeg_cx2341x_video_spatial_filter_mode {$/;"	g
+v4l2_mpeg_cx2341x_video_temporal_filter_mode	libhdmi/include/videodev2.h	/^enum v4l2_mpeg_cx2341x_video_temporal_filter_mode {$/;"	g
+v4l2_mpeg_stream_type	libhdmi/include/videodev2.h	/^enum v4l2_mpeg_stream_type {$/;"	g
+v4l2_mpeg_stream_vbi_fmt	libhdmi/include/videodev2.h	/^enum v4l2_mpeg_stream_vbi_fmt {$/;"	g
+v4l2_mpeg_video_aspect	libhdmi/include/videodev2.h	/^enum v4l2_mpeg_video_aspect {$/;"	g
+v4l2_mpeg_video_bitrate_mode	libhdmi/include/videodev2.h	/^enum v4l2_mpeg_video_bitrate_mode {$/;"	g
+v4l2_mpeg_video_encoding	libhdmi/include/videodev2.h	/^enum v4l2_mpeg_video_encoding {$/;"	g
+v4l2_output	libhdmi/include/videodev2.h	/^struct v4l2_output {$/;"	s
+v4l2_outputparm	libhdmi/include/videodev2.h	/^struct v4l2_outputparm {$/;"	s
+v4l2_pix_format	libhdmi/include/videodev2.h	/^struct v4l2_pix_format {$/;"	s
+v4l2_pix_format_s5p_tvout	libhdmi/include/videodev2_s5p.h	/^struct v4l2_pix_format_s5p_tvout$/;"	s
+v4l2_power_line_frequency	libhdmi/include/videodev2.h	/^enum v4l2_power_line_frequency {$/;"	g
+v4l2_priority	libhdmi/include/videodev2.h	/^enum v4l2_priority {$/;"	g
+v4l2_queryctrl	libhdmi/include/videodev2.h	/^struct v4l2_queryctrl {$/;"	s
+v4l2_querymenu	libhdmi/include/videodev2.h	/^struct v4l2_querymenu {$/;"	s
+v4l2_rect	libhdmi/include/videodev2.h	/^struct v4l2_rect {$/;"	s
+v4l2_register	libhdmi/include/videodev2.h	/^struct v4l2_register {$/;"	s
+v4l2_requestbuffers	libhdmi/include/videodev2.h	/^struct v4l2_requestbuffers {$/;"	s
+v4l2_s5p_video_param	libhdmi/hdmi_api.c	/^struct v4l2_s5p_video_param$/;"	s	file:
+v4l2_sliced_vbi_cap	libhdmi/include/videodev2.h	/^struct v4l2_sliced_vbi_cap {$/;"	s
+v4l2_sliced_vbi_data	libhdmi/include/videodev2.h	/^struct v4l2_sliced_vbi_data {$/;"	s
+v4l2_sliced_vbi_format	libhdmi/include/videodev2.h	/^struct v4l2_sliced_vbi_format {$/;"	s
+v4l2_standard	libhdmi/include/videodev2.h	/^struct v4l2_standard {$/;"	s
+v4l2_std_id	libhdmi/include/videodev2.h	/^typedef __u64 v4l2_std_id;$/;"	t
+v4l2_streamparm	libhdmi/include/videodev2.h	/^struct v4l2_streamparm {$/;"	s
+v4l2_timecode	libhdmi/include/videodev2.h	/^struct v4l2_timecode {$/;"	s
+v4l2_tuner	libhdmi/include/videodev2.h	/^struct v4l2_tuner {$/;"	s
+v4l2_tuner_type	libhdmi/include/videodev2.h	/^enum v4l2_tuner_type {$/;"	g
+v4l2_vbi_format	libhdmi/include/videodev2.h	/^struct v4l2_vbi_format {$/;"	s
+v4l2_window	libhdmi/include/videodev2.h	/^struct v4l2_window {$/;"	s
+v4l2_window_s5p_tvout	libhdmi/include/videodev2_s5p.h	/^struct v4l2_window_s5p_tvout$/;"	s
+v640x480p_60Hz	libhdmi/include/video.h	/^    v640x480p_60Hz = 0,$/;"	e	enum:VideoFormat
+v720x240p_60Hz	libhdmi/include/video.h	/^    v720x240p_60Hz,$/;"	e	enum:VideoFormat
+v720x288p_50Hz	libhdmi/include/video.h	/^    v720x288p_50Hz,$/;"	e	enum:VideoFormat
+v720x480i_120Hz	libhdmi/include/video.h	/^    v720x480i_120Hz,$/;"	e	enum:VideoFormat
+v720x480i_240Hz	libhdmi/include/video.h	/^    v720x480i_240Hz,$/;"	e	enum:VideoFormat
+v720x480i_60Hz	libhdmi/include/video.h	/^    v720x480i_60Hz,$/;"	e	enum:VideoFormat
+v720x480p_120Hz	libhdmi/include/video.h	/^    v720x480p_120Hz,$/;"	e	enum:VideoFormat
+v720x480p_240Hz	libhdmi/include/video.h	/^    v720x480p_240Hz,$/;"	e	enum:VideoFormat
+v720x480p_60Hz	libhdmi/include/video.h	/^    v720x480p_60Hz,$/;"	e	enum:VideoFormat
+v720x576i_100Hz	libhdmi/include/video.h	/^    v720x576i_100Hz,$/;"	e	enum:VideoFormat
+v720x576i_200Hz	libhdmi/include/video.h	/^    v720x576i_200Hz,$/;"	e	enum:VideoFormat
+v720x576i_50Hz	libhdmi/include/video.h	/^    v720x576i_50Hz,$/;"	e	enum:VideoFormat
+v720x576p_100Hz	libhdmi/include/video.h	/^    v720x576p_100Hz,$/;"	e	enum:VideoFormat
+v720x576p_200Hz	libhdmi/include/video.h	/^    v720x576p_200Hz,$/;"	e	enum:VideoFormat
+v720x576p_50Hz	libhdmi/include/video.h	/^    v720x576p_50Hz,$/;"	e	enum:VideoFormat
+vHBlank	libhdmi/libedid.c	/^    unsigned int vHBlank;$/;"	m	struct:edid_params	file:
+vHVLine	libhdmi/libedid.c	/^    unsigned int vHVLine;$/;"	m	struct:edid_params	file:
+vVBlank	libhdmi/libedid.c	/^    unsigned int vVBlank;$/;"	m	struct:edid_params	file:
+v_addr	libhdmi/include/s3c-cmm.h	/^	unsigned char			*v_addr;  \/\/ virtual address in cached area$/;"	m	struct:tagALLOC_MEM_T
+val	libhdmi/include/videodev2.h	/^	__u64 val;$/;"	m	struct:v4l2_register
+validate	libhdmi/include/gralloc_priv.h	/^    static int validate(const native_handle* h) {$/;"	f	struct:private_handle_t
+value	libhdmi/include/videodev2.h	/^		__s32 value;$/;"	m	union:v4l2_ext_control::__anon17
+value	libhdmi/include/videodev2.h	/^	__s32		     value;$/;"	m	struct:v4l2_control
+value64	libhdmi/include/videodev2.h	/^		__s64 value64;$/;"	m	union:v4l2_ext_control::__anon17
+var	libhdmi/fbapi.h	/^	struct fb_var_screeninfo var;$/;"	m	struct:FrameBuffer	typeref:struct:FrameBuffer::fb_var_screeninfo
+var	test.c	/^	struct fb_var_screeninfo var;$/;"	m	struct:FrameBuffer	typeref:struct:FrameBuffer::fb_var_screeninfo	file:
+vbi	libhdmi/include/videodev2.h	/^		struct v4l2_vbi_format		vbi;     \/* V4L2_BUF_TYPE_VBI_CAPTURE *\/$/;"	m	union:v4l2_format::__anon20	typeref:struct:v4l2_format::__anon20::v4l2_vbi_format
+version	libhdmi/include/videodev2.h	/^	__u32   version;        \/* should use KERNEL_VERSION() *\/$/;"	m	struct:v4l2_capability
+vir_addr	libhdmi/include/s3c_mem.h	/^	unsigned int 	vir_addr;$/;"	m	struct:s3c_mem_alloc
+vir_addr	libhdmi/include/s3c_pp.h	/^	unsigned int	vir_addr;$/;"	m	struct:__anon27
+virt_addr	libhdmi/include/s5p_fimc.h	/^	void	*virt_addr;$/;"	m	struct:fimc_buffer
+virt_addr	libhdmi/include/sec_g2d.h	/^	unsigned char * virt_addr;$/;"	m	struct:__anon11
+w	libhdmi/fbapi.h	/^	int x, y, w, h;$/;"	m	struct:Rectangle
+w	libhdmi/include/sec_g2d.h	/^	unsigned int    w;$/;"	m	struct:__anon11
+w	libhdmi/include/videodev2.h	/^	struct v4l2_rect        w;$/;"	m	struct:v4l2_window	typeref:struct:v4l2_window::v4l2_rect
+width	libhdmi/include/s5p_fimc.h	/^	unsigned int width;					\/\/ Source Image Width$/;"	m	struct:__anon32
+width	libhdmi/include/videodev2.h	/^	__s32   width;$/;"	m	struct:v4l2_rect
+width	libhdmi/include/videodev2.h	/^	__u32			width;		\/* Frame width *\/$/;"	m	struct:v4l2_frmivalenum
+width	libhdmi/include/videodev2.h	/^	__u32			width;		\/* Frame width [pixel] *\/$/;"	m	struct:v4l2_frmsize_discrete
+width	libhdmi/include/videodev2.h	/^	__u32         		width;$/;"	m	struct:v4l2_pix_format
+win	libhdmi/include/videodev2.h	/^		struct v4l2_window		win;     \/* V4L2_BUF_TYPE_VIDEO_OVERLAY *\/$/;"	m	union:v4l2_format::__anon20	typeref:struct:v4l2_format::__anon20::v4l2_window
+win	libhdmi/include/videodev2_s5p.h	/^	struct v4l2_window	win;	$/;"	m	struct:v4l2_window_s5p_tvout	typeref:struct:v4l2_window_s5p_tvout::v4l2_window
+wordLength	libhdmi/include/audio.h	/^    enum LPCM_WordLen wordLength;$/;"	m	struct:HDMIAudioParameter	typeref:enum:HDMIAudioParameter::LPCM_WordLen
+wrap_around	libhdmi/include/videodev2.h	/^	__u32		      wrap_around;$/;"	m	struct:v4l2_hw_freq_seek
+writeOwner	libhdmi/include/gralloc_priv.h	/^    int     writeOwner;$/;"	m	struct:private_handle_t
+writebuffers	libhdmi/include/videodev2.h	/^	__u32              writebuffers; \/*  # of buffers for write *\/$/;"	m	struct:v4l2_outputparm
+x	libhdmi/fbapi.h	/^	int x, y, w, h;$/;"	m	struct:Rectangle
+x	libhdmi/fbapi.h	/^	int x, y;$/;"	m	struct:Point
+x	libhdmi/include/s3c_lcd.h	/^	int x;$/;"	m	struct:s3cfb_user_window
+x	libhdmi/include/sec_g2d.h	/^	unsigned int    x;$/;"	m	struct:__anon11
+xdpi	libhdmi/include/gralloc_priv.h	/^    float xdpi;$/;"	m	struct:private_module_t
+xoffset	libhdmi/include/s3c_lcd.h	/^	unsigned int xoffset;	\/* offset from virtual to visible *\/$/;"	m	struct:__anon31
+xres	libhdmi/include/s3c_lcd.h	/^	unsigned int xres;		\/* visible resolution*\/$/;"	m	struct:__anon31
+xres_virtual	libhdmi/include/s3c_lcd.h	/^	unsigned int xres_virtual;	\/* virtual resolution*\/$/;"	m	struct:__anon31
+y	libhdmi/fbapi.h	/^	int x, y, w, h;$/;"	m	struct:Rectangle
+y	libhdmi/fbapi.h	/^	int x, y;$/;"	m	struct:Point
+y	libhdmi/include/s3c_lcd.h	/^	int y;$/;"	m	struct:s3cfb_user_window
+y	libhdmi/include/sec_g2d.h	/^	unsigned int    y;$/;"	m	struct:__anon11
+y_h	libhdmi/include/s5p_fimc.h	/^    int y_h;$/;"	m	struct:img_offset
+y_v	libhdmi/include/s5p_fimc.h	/^    int y_v;$/;"	m	struct:img_offset
+ydpi	libhdmi/include/gralloc_priv.h	/^    float ydpi;$/;"	m	struct:private_module_t
+yoffset	libhdmi/include/s3c_lcd.h	/^	unsigned int yoffset;	\/* resolution	*\/$/;"	m	struct:__anon31
+yres	libhdmi/include/s3c_lcd.h	/^	unsigned int yres;$/;"	m	struct:__anon31
+yres_virtual	libhdmi/include/s3c_lcd.h	/^	unsigned int yres_virtual;$/;"	m	struct:__anon31
+yuv_fmt_list	libhdmi/include/s5p_fimc.h	/^struct yuv_fmt_list {$/;"	s
+~private_handle_t	libhdmi/include/gralloc_priv.h	/^    ~private_handle_t() {$/;"	f	struct:private_handle_t
