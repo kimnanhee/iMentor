@@ -23,7 +23,7 @@ sudo /etc/init.d/nfs-kernel-server restart
 
 #wsl 속성
 192.168.0.2
-255.255.0.2
+255.255.255.0
 
 # 이더넷, wsl 네트워크 연결 브리지
 ```
