@@ -156,16 +156,36 @@ void play_sine(struct pcm *pcm, unsigned int rate, unsigned int bits, float freq
 
 int main(int argc, char **argv)
 {
-	int i;
 	struct pcm *pcm;
 
 	pcm = pcmInit(16000, 16);
 
 	//==============================
-	//To DO.
-	//Play Midi !!
-	play_sine(pcm, 16000, 16, 400, 1);
-	play_sine(pcm, 16000, 16, 350, 2);
+	// To DO.
+	// Play Midi !!
+	// rate, bits, hz, sec
+	int tones[] = {0, 261, 294, 330, 349, 392, 440, 494, 523, 587, 659, 698, 783, 880, 987, 1046}; // NULL,도,레,레,미, ..., 도
+	int times[] = {500,1000, 1500, 3000}; // 8분읍표, 4분음표, 점4분음표, 점2분음표
+
+	int arr_eum[] = {
+    5,8,7,6, 8,5,3,5, 8,9,10,11,10,9,0,
+    12,11,10,9, 8,7,6,5,3, 5,8,9,9,10,8,0,
+    7,8,9,7, 10,11,12,10, 9,8,7,8,9,0,
+    12,11,10,9, 8,7,6,5,3, 5,8,9,9,10,8,0};
+
+	int arr_time[] = {
+    1,2,0,1, 1,1,1,1, 1,0,0,2,0,3,1,
+    2,0,1,1, 1,0,0,1,1, 1,1,0,0,1,3,1,
+    2,0,1,1, 2,0,1,1, 1,1,1,1,3,1,
+    2,0,1,1, 1,0,0,1,1, 1,1,0,0,1,2,1};
+
+	int numTones = 61;
+
+	int i;
+	for(i=0; i<numTones; i++)
+	{
+    	play_sine(pcm, 16000, 16, tones[arr_eum[i]], times[arr_time[i]]);
+	}
 	//==============================
 
     pcm_close(pcm);
