@@ -30,4 +30,16 @@ sudo /etc/init.d/nfs-kernel-server restart
 
 
 
-비트맵 파일 출력하기
+| 이름        | 내용                               |
+| ----------- | ---------------------------------- |
+| bitbltTest  |                                    |
+| bmpTest     |                                    |
+| bmpTest2    |                                    |
+| hdmiDrawBox | 모니터에 직선, 사각형, 원 출력하기 |
+| fontTest    | 모니터에 글자 출력하기             |
+|             |                                    |
+|             |                                    |
+| tinymidi    |                                    |
+|             |                                    |
+| tinyplay    | .wav 출력하기                      |
+
